@@ -1,5 +1,5 @@
 --
--- File generated with SQLiteStudio v3.4.16 on Thu Feb 13 19:40:49 2025
+-- File generated with SQLiteStudio v3.4.16 on Thu Feb 13 20:05:48 2025
 --
 -- Text encoding used: System
 --
@@ -7,115 +7,152 @@ PRAGMA foreign_keys = off;
 BEGIN TRANSACTION;
 
 -- Table: Country
+DROP TABLE IF EXISTS Country;
 CREATE TABLE IF NOT EXISTS Country (idx INTEGER, Code TEXT PRIMARY KEY, "Long Name" TEXT, "Income Group" TEXT, Region TEXT, "Currency Unit" TEXT, "System of National Accounts" TEXT, "SNA price valuation" TEXT, "System of trade" TEXT, "Government Accounting concept" TEXT, "Table Name" TEXT, "Short Name" TEXT);
 
--- Table: QPSD.BudgetaryCentralGovIndicator
-CREATE TABLE IF NOT EXISTS "QPSD.BudgetaryCentralGovIndicator" (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
+-- Table: QPSDBudgetaryCentralGovIndicator
+DROP TABLE IF EXISTS QPSDBudgetaryCentralGovIndicator;
+CREATE TABLE IF NOT EXISTS QPSDBudgetaryCentralGovIndicator (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
 
--- Table: QPSD.BudgetaryCentralGovRecord
-CREATE TABLE IF NOT EXISTS "QPSD.BudgetaryCentralGovRecord" ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "QPSD.BudgetaryCentralGovIndicator" (SeriesCode), Year REAL, Value REAL);
+-- Table: QPSDBudgetaryCentralGovRecord
+DROP TABLE IF EXISTS QPSDBudgetaryCentralGovRecord;
+CREATE TABLE IF NOT EXISTS QPSDBudgetaryCentralGovRecord ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES QPSDBudgetaryCentralGovIndicator (SeriesCode), Year REAL, Value REAL);
 
--- Table: QPSD.CentralGovIndicator
-CREATE TABLE IF NOT EXISTS "QPSD.CentralGovIndicator" (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
+-- Table: QPSDCentralGovIndicator
+DROP TABLE IF EXISTS QPSDCentralGovIndicator;
+CREATE TABLE IF NOT EXISTS QPSDCentralGovIndicator (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
 
--- Table: QPSD.CentralGovRecord
-CREATE TABLE IF NOT EXISTS "QPSD.CentralGovRecord" ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "QPSD.CentralGovIndicator" (SeriesCode), Year REAL, Value REAL);
+-- Table: QPSDCentralGovRecord
+DROP TABLE IF EXISTS QPSDCentralGovRecord;
+CREATE TABLE IF NOT EXISTS QPSDCentralGovRecord ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES QPSDCentralGovIndicator (SeriesCode), Year REAL, Value REAL);
 
--- Table: QPSD.FiancialPublicCorpRecord
-CREATE TABLE IF NOT EXISTS "QPSD.FiancialPublicCorpRecord" ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "QPSD.FinancialPublicCorpIndicator" (SeriesCode), Year REAL, Value REAL);
+-- Table: QPSDFiancialPublicCorpRecord
+DROP TABLE IF EXISTS QPSDFiancialPublicCorpRecord;
+CREATE TABLE IF NOT EXISTS QPSDFiancialPublicCorpRecord ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES QPSDFinancialPublicCorpIndicator (SeriesCode), Year REAL, Value REAL);
 
--- Table: QPSD.FinancialPublicCorpIndicator
-CREATE TABLE IF NOT EXISTS "QPSD.FinancialPublicCorpIndicator" (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
+-- Table: QPSDFinancialPublicCorpIndicator
+DROP TABLE IF EXISTS QPSDFinancialPublicCorpIndicator;
+CREATE TABLE IF NOT EXISTS QPSDFinancialPublicCorpIndicator (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
 
--- Table: QPSD.GeneralGovIndicator
-CREATE TABLE IF NOT EXISTS "QPSD.GeneralGovIndicator" (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
+-- Table: QPSDGeneralGovIndicator
+DROP TABLE IF EXISTS QPSDGeneralGovIndicator;
+CREATE TABLE IF NOT EXISTS QPSDGeneralGovIndicator (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
 
--- Table: QPSD.GeneralGovRecord
-CREATE TABLE IF NOT EXISTS "QPSD.GeneralGovRecord" ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "QPSD.GeneralGovIndicator" (SeriesCode), Year REAL, Value REAL);
+-- Table: QPSDGeneralGovRecord
+DROP TABLE IF EXISTS QPSDGeneralGovRecord;
+CREATE TABLE IF NOT EXISTS QPSDGeneralGovRecord ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES QPSDGeneralGovIndicator (SeriesCode), Year REAL, Value REAL);
 
--- Table: QPSD.NonfinancialPublicCorpIndicator
-CREATE TABLE IF NOT EXISTS "QPSD.NonfinancialPublicCorpIndicator" (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
+-- Table: QPSDNonfinancialPublicCorpIndicator
+DROP TABLE IF EXISTS QPSDNonfinancialPublicCorpIndicator;
+CREATE TABLE IF NOT EXISTS QPSDNonfinancialPublicCorpIndicator (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
 
--- Table: QPSD.NonfinancialPublicCorpRecord
-CREATE TABLE IF NOT EXISTS "QPSD.NonfinancialPublicCorpRecord" ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "QPSD.NonfinancialPublicCorpIndicator" (SeriesCode), Year REAL, Value REAL);
+-- Table: QPSDNonfinancialPublicCorpRecord
+DROP TABLE IF EXISTS QPSDNonfinancialPublicCorpRecord;
+CREATE TABLE IF NOT EXISTS QPSDNonfinancialPublicCorpRecord ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES QPSDNonfinancialPublicCorpIndicator (SeriesCode), Year REAL, Value REAL);
 
--- Table: QPSD.TotalPublicSectorIndicator
-CREATE TABLE IF NOT EXISTS "QPSD.TotalPublicSectorIndicator" (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
+-- Table: QPSDTotalPublicSectorIndicator
+DROP TABLE IF EXISTS QPSDTotalPublicSectorIndicator;
+CREATE TABLE IF NOT EXISTS QPSDTotalPublicSectorIndicator (SeriesCode TEXT PRIMARY KEY, "Series Name" TEXT);
 
--- Table: QPSD.TotalPublicSectorRecord
-CREATE TABLE IF NOT EXISTS "QPSD.TotalPublicSectorRecord" ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "QPSD.TotalPublicSectorIndicator" (SeriesCode), Year REAL, Value REAL);
+-- Table: QPSDTotalPublicSectorRecord
+DROP TABLE IF EXISTS QPSDTotalPublicSectorRecord;
+CREATE TABLE IF NOT EXISTS QPSDTotalPublicSectorRecord ("Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES QPSDTotalPublicSectorIndicator (SeriesCode), Year REAL, Value REAL);
 
--- Table: SPI.Indicator
-CREATE TABLE IF NOT EXISTS "SPI.Indicator" (Code Text PRIMARY KEY, "License Type" Text, "Indicator Name" Text, "Short definition" Text, "Long definition" Text, Source Text, Topic Text, Periodicity Text, "Statistical concept and methodology" Text, "Development relevance" Text, "License URL" Text);
+-- Table: SPIIndicator
+DROP TABLE IF EXISTS SPIIndicator;
+CREATE TABLE IF NOT EXISTS SPIIndicator (Code Text PRIMARY KEY, "License Type" Text, "Indicator Name" Text, "Short definition" Text, "Long definition" Text, Source Text, Topic Text, Periodicity Text, "Statistical concept and methodology" Text, "Development relevance" Text, "License URL" Text);
 
--- Table: SPI.Record
-CREATE TABLE IF NOT EXISTS "SPI.Record" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "SPI.Indicator" (Code), Year REAL, Value REAL);
+-- Table: SPIRecord
+DROP TABLE IF EXISTS SPIRecord;
+CREATE TABLE IF NOT EXISTS SPIRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES SPIIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.EconomicIndicator
-CREATE TABLE IF NOT EXISTS "WDI.EconomicIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Dataset TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "License URL" TEXT);
+-- Table: WDIEconomicIndicator
+DROP TABLE IF EXISTS WDIEconomicIndicator;
+CREATE TABLE IF NOT EXISTS WDIEconomicIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Dataset TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "License URL" TEXT);
 
--- Table: WDI.EconomicRecord
-CREATE TABLE IF NOT EXISTS "WDI.EconomicRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.EconomicIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIEconomicRecord
+DROP TABLE IF EXISTS WDIEconomicRecord;
+CREATE TABLE IF NOT EXISTS WDIEconomicRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIEconomicIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.EducationIndicator
-CREATE TABLE IF NOT EXISTS "WDI.EducationIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "License URL" TEXT);
+-- Table: WDIEducationIndicator
+DROP TABLE IF EXISTS WDIEducationIndicator;
+CREATE TABLE IF NOT EXISTS WDIEducationIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "License URL" TEXT);
 
--- Table: WDI.EducationRecord
-CREATE TABLE IF NOT EXISTS "WDI.EducationRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.EducationIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIEducationRecord
+DROP TABLE IF EXISTS WDIEducationRecord;
+CREATE TABLE IF NOT EXISTS WDIEducationRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIEducationIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.EnvironmentIndicator
-CREATE TABLE IF NOT EXISTS "WDI.EnvironmentIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Dataset TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "License URL" TEXT);
+-- Table: WDIEnvironmentIndicator
+DROP TABLE IF EXISTS WDIEnvironmentIndicator;
+CREATE TABLE IF NOT EXISTS WDIEnvironmentIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Dataset TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "License URL" TEXT);
 
--- Table: WDI.EnvironmentRecord
-CREATE TABLE IF NOT EXISTS "WDI.EnvironmentRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.EnvironmentIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIEnvironmentRecord
+DROP TABLE IF EXISTS WDIEnvironmentRecord;
+CREATE TABLE IF NOT EXISTS WDIEnvironmentRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIEnvironmentIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.FinancialSectorIndicator
-CREATE TABLE IF NOT EXISTS "WDI.FinancialSectorIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "License URL" TEXT);
+-- Table: WDIFinancialSectorIndicator
+DROP TABLE IF EXISTS WDIFinancialSectorIndicator;
+CREATE TABLE IF NOT EXISTS WDIFinancialSectorIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "License URL" TEXT);
 
--- Table: WDI.FinancialSectorRecord
-CREATE TABLE IF NOT EXISTS "WDI.FinancialSectorRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.FinancialSectorIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIFinancialSectorRecord
+DROP TABLE IF EXISTS WDIFinancialSectorRecord;
+CREATE TABLE IF NOT EXISTS WDIFinancialSectorRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIFinancialSectorIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.GenderIndicator
-CREATE TABLE IF NOT EXISTS "WDI.GenderIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "License URL" TEXT);
+-- Table: WDIGenderIndicator
+DROP TABLE IF EXISTS WDIGenderIndicator;
+CREATE TABLE IF NOT EXISTS WDIGenderIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "License URL" TEXT);
 
--- Table: WDI.GenderRecord
-CREATE TABLE IF NOT EXISTS "WDI.GenderRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.GenderIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIGenderRecord
+DROP TABLE IF EXISTS WDIGenderRecord;
+CREATE TABLE IF NOT EXISTS WDIGenderRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIGenderIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.HealthIndicator
-CREATE TABLE IF NOT EXISTS "WDI.HealthIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "Notes from original source" TEXT, "Other web links" TEXT, "License URL" TEXT);
+-- Table: WDIHealthIndicator
+DROP TABLE IF EXISTS WDIHealthIndicator;
+CREATE TABLE IF NOT EXISTS WDIHealthIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "Notes from original source" TEXT, "Other web links" TEXT, "License URL" TEXT);
 
--- Table: WDI.HealthRecord
-CREATE TABLE IF NOT EXISTS "WDI.HealthRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.HealthIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIHealthRecord
+DROP TABLE IF EXISTS WDIHealthRecord;
+CREATE TABLE IF NOT EXISTS WDIHealthRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIHealthIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.InfrastructureIndicator
-CREATE TABLE IF NOT EXISTS "WDI.InfrastructureIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Notes from original source" TEXT, "License URL" TEXT);
+-- Table: WDIInfrastructureIndicator
+DROP TABLE IF EXISTS WDIInfrastructureIndicator;
+CREATE TABLE IF NOT EXISTS WDIInfrastructureIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Notes from original source" TEXT, "License URL" TEXT);
 
--- Table: WDI.InfrastructureRecord
-CREATE TABLE IF NOT EXISTS "WDI.InfrastructureRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.InfrastructureIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIInfrastructureRecord
+DROP TABLE IF EXISTS WDIInfrastructureRecord;
+CREATE TABLE IF NOT EXISTS WDIInfrastructureRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIInfrastructureIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.PovertyIndicator
-CREATE TABLE IF NOT EXISTS "WDI.PovertyIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Reference period" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "Related source links" TEXT, "License URL" TEXT);
+-- Table: WDIPovertyIndicator
+DROP TABLE IF EXISTS WDIPovertyIndicator;
+CREATE TABLE IF NOT EXISTS WDIPovertyIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, "Unit of measure" TEXT, Periodicity TEXT, "Reference period" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "Related source links" TEXT, "License URL" TEXT);
 
--- Table: WDI.PovertyRecord
-CREATE TABLE IF NOT EXISTS "WDI.PovertyRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.PovertyIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIPovertyRecord
+DROP TABLE IF EXISTS WDIPovertyRecord;
+CREATE TABLE IF NOT EXISTS WDIPovertyRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIPovertyIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.PrivateSectorIndicator
-CREATE TABLE IF NOT EXISTS "WDI.PrivateSectorIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Dataset TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Notes from original source" TEXT, "License URL" TEXT);
+-- Table: WDIPrivateSectorIndicator
+DROP TABLE IF EXISTS WDIPrivateSectorIndicator;
+CREATE TABLE IF NOT EXISTS WDIPrivateSectorIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Dataset TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Notes from original source" TEXT, "License URL" TEXT);
 
--- Table: WDI.PrivateSectorRecord
-CREATE TABLE IF NOT EXISTS "WDI.PrivateSectorRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.PrivateSectorIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIPrivateSectorRecord
+DROP TABLE IF EXISTS WDIPrivateSectorRecord;
+CREATE TABLE IF NOT EXISTS WDIPrivateSectorRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIPrivateSectorIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.PublicSectorIndicator
-CREATE TABLE IF NOT EXISTS "WDI.PublicSectorIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "Notes from original source" TEXT, "Related source links" TEXT, "Related indicators" TEXT, "License URL" TEXT);
+-- Table: WDIPublicSectorIndicator
+DROP TABLE IF EXISTS WDIPublicSectorIndicator;
+CREATE TABLE IF NOT EXISTS WDIPublicSectorIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Other notes" TEXT, "Notes from original source" TEXT, "Related source links" TEXT, "Related indicators" TEXT, "License URL" TEXT);
 
--- Table: WDI.PublicSectorRecord
-CREATE TABLE IF NOT EXISTS "WDI.PublicSectorRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.PublicSectorIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDIPublicSectorRecord
+DROP TABLE IF EXISTS WDIPublicSectorRecord;
+CREATE TABLE IF NOT EXISTS WDIPublicSectorRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDIPublicSectorIndicator (Code), Year REAL, Value REAL);
 
--- Table: WDI.SocialIndicator
-CREATE TABLE IF NOT EXISTS "WDI.SocialIndicator" (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Notes from original source" TEXT, "License URL" TEXT);
+-- Table: WDISocialIndicator
+DROP TABLE IF EXISTS WDISocialIndicator;
+CREATE TABLE IF NOT EXISTS WDISocialIndicator (Code TEXT PRIMARY KEY, "License Type" TEXT, "Indicator Name" TEXT, "Short definition" TEXT, "Long definition" TEXT, Source TEXT, Topic TEXT, Periodicity TEXT, "Base Period" TEXT, "Aggregation method" TEXT, "Statistical concept and methodology" TEXT, "Development relevance" TEXT, "Limitations and exceptions" TEXT, "General comments" TEXT, "Notes from original source" TEXT, "License URL" TEXT);
 
--- Table: WDI.SocialRecord
-CREATE TABLE IF NOT EXISTS "WDI.SocialRecord" ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES "WDI.SocialIndicator" (Code), Year REAL, Value REAL);
+-- Table: WDISocialRecord
+DROP TABLE IF EXISTS WDISocialRecord;
+CREATE TABLE IF NOT EXISTS WDISocialRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDISocialIndicator (Code), Year REAL, Value REAL);
 
 COMMIT TRANSACTION;
 PRAGMA foreign_keys = on;
