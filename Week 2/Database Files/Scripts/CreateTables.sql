@@ -1,5 +1,5 @@
 --
--- File generated with SQLiteStudio v3.4.16 on Thu Feb 13 20:05:48 2025
+-- File generated with SQLiteStudio v3.4.16 on Sun Feb 16 12:05:47 2025
 --
 -- Text encoding used: System
 --
@@ -153,6 +153,258 @@ CREATE TABLE IF NOT EXISTS WDISocialIndicator (Code TEXT PRIMARY KEY, "License T
 -- Table: WDISocialRecord
 DROP TABLE IF EXISTS WDISocialRecord;
 CREATE TABLE IF NOT EXISTS WDISocialRecord ("Index" INTEGER PRIMARY KEY AUTOINCREMENT, "Country Code" TEXT REFERENCES Country (Code), "Series Code" TEXT REFERENCES WDISocialIndicator (Code), Year REAL, Value REAL);
+
+-- View: AllRecords
+DROP VIEW IF EXISTS AllRecords;
+CREATE VIEW IF NOT EXISTS AllRecords AS -- QPSD Budgetary Central Gov
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Series Name" AS IndicatorName,
+  r.Value
+FROM QPSDBudgetaryCentralGovRecord r
+JOIN QPSDBudgetaryCentralGovIndicator i
+  ON r."Series Code" = i.SeriesCode
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- QPSD Central Gov
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Series Name" AS IndicatorName,
+  r.Value
+FROM QPSDCentralGovRecord r
+JOIN QPSDCentralGovIndicator i
+  ON r."Series Code" = i.SeriesCode
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- QPSD Financial Public Corp
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Series Name" AS IndicatorName,
+  r.Value
+FROM QPSDFiancialPublicCorpRecord r
+JOIN QPSDFinancialPublicCorpIndicator i
+  ON r."Series Code" = i.SeriesCode
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- QPSD General Gov
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Series Name" AS IndicatorName,
+  r.Value
+FROM QPSDGeneralGovRecord r
+JOIN QPSDGeneralGovIndicator i
+  ON r."Series Code" = i.SeriesCode
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- QPSD Nonfinancial Public Corp
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Series Name" AS IndicatorName,
+  r.Value
+FROM QPSDNonfinancialPublicCorpRecord r
+JOIN QPSDNonfinancialPublicCorpIndicator i
+  ON r."Series Code" = i.SeriesCode
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- QPSD Total Public Sector
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Series Name" AS IndicatorName,
+  r.Value
+FROM QPSDTotalPublicSectorRecord r
+JOIN QPSDTotalPublicSectorIndicator i
+  ON r."Series Code" = i.SeriesCode
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- SPI Records
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM SPIRecord r
+JOIN SPIIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Economic
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIEconomicRecord r
+JOIN WDIEconomicIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Education
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIEducationRecord r
+JOIN WDIEducationIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Environment
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIEnvironmentRecord r
+JOIN WDIEnvironmentIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Financial Sector
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIFinancialSectorRecord r
+JOIN WDIFinancialSectorIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Gender
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIGenderRecord r
+JOIN WDIGenderIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Health
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIHealthRecord r
+JOIN WDIHealthIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Infrastructure
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIInfrastructureRecord r
+JOIN WDIInfrastructureIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Poverty
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIPovertyRecord r
+JOIN WDIPovertyIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Private Sector
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIPrivateSectorRecord r
+JOIN WDIPrivateSectorIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Public Sector
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDIPublicSectorRecord r
+JOIN WDIPublicSectorIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code
+
+UNION ALL
+
+-- WDI Social
+SELECT 
+  c."Short Name" AS CountryShortName,
+  r.Year,
+  i."Indicator Name" AS IndicatorName,
+  r.Value
+FROM WDISocialRecord r
+JOIN WDISocialIndicator i
+  ON r."Series Code" = i.Code
+JOIN Country c
+  ON r."Country Code" = c.Code;
 
 COMMIT TRANSACTION;
 PRAGMA foreign_keys = on;
