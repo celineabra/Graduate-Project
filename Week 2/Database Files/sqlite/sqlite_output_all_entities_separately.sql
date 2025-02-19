@@ -45,7 +45,7 @@ SELECT
   r.Year,
   i."Series Name" AS IndicatorName,
   r.Value
-FROM QPSDFiancialPublicCorpRecord r -- yes we know there's a typo in the db
+FROM QPSDFinancialPublicCorpRecord r
 JOIN QPSDFinancialPublicCorpIndicator i
   ON r."Series Code" = i.SeriesCode
 JOIN Country c
