@@ -1,4 +1,4 @@
-The files prefixed with "Group1Data_20years_only_" are extracted from our database BANAGROUP1.db.
+The files prefixed with "Group1Data_20years_only_" are extracted from our database BANA698GROUP1.db.
 Each one includes only the countries in the named region or income group.
 
 The files prefixed with "basic_stats_" are tables of simple statistics about the associated dataset's columns.
