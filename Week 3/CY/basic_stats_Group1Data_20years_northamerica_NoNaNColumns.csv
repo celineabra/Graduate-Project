@@ -1,0 +1,199 @@
+Feature,Dtype,# Count,# NaN,# Unique,# Dupes,Min,Max,% NaN,% Zero,Mean,Median,Std Dev,Kurtosis (3),Skew (0)
+Age dependency ratio (% of working-age population),float64,60,0,60,0,42.897,53.909,0.0,0.0,47.988,48.055,3.2,-1.204,0.169
+"Age dependency ratio, old (% of working-age population)",float64,60,0,60,0,17.281,32.069,0.0,0.0,22.461,21.679,3.822,-0.579,0.63
+"Age dependency ratio, young (% of working-age population)",float64,60,0,60,0,21.282,30.513,0.0,0.0,25.527,24.24,2.725,-1.283,0.266
+Availability of Comparable Poverty headcount ratio at $1.90 a day (5 year moving average),float64,60,0,2,2,0.0,1.0,0.0,33.333,0.667,1.0,0.475,-1.526,-0.725
+"Availability of Mortality rate, under-5 (per 1,000 live births) data meeting quality standards according to UN IGME  (5 year moving average)",float64,60,0,2,2,0.0,1.0,0.0,33.333,0.667,1.0,0.475,-1.526,-0.725
+CRVS (WDI),float64,60,0,2,2,0.0,1.0,0.0,55.0,0.45,0.0,0.502,-2.026,0.206
+Carbon dioxide (CO2) emissions (total) excluding LULUCF (% change from 1990),float64,60,0,60,0,-39.287,41.941,0.0,0.0,13.725,17.913,19.445,0.083,-0.812
+Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e),float64,60,0,60,0,0.153,5888.308,0.0,0.0,1936.576,575.283,2375.395,-1.425,0.727
+Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita),float64,60,0,60,0,2.405,20.082,0.0,0.0,12.374,15.411,6.018,-1.424,-0.592
+Carbon dioxide (CO2) emissions from Building (Energy) (Mt CO2e),float64,60,0,60,0,0.009,646.307,0.0,0.0,224.066,88.031,259.899,-1.484,0.677
+Carbon dioxide (CO2) emissions from Fugitive Emissions (Energy) (Mt CO2e),float64,60,0,41,1,0.0,313.92,0.0,33.333,137.333,118.604,122.459,-1.531,0.242
+Carbon dioxide (CO2) emissions from Industrial Combustion (Energy) (Mt CO2e),float64,60,0,58,2,0.005,511.674,0.0,0.0,173.166,67.255,201.319,-1.474,0.681
+Carbon dioxide (CO2) emissions from Industrial Processes (Mt CO2e),float64,60,0,49,7,0.001,163.513,0.0,0.0,59.211,29.452,64.82,-1.449,0.639
+Carbon dioxide (CO2) emissions from Power Industry (Energy) (Mt CO2e),float64,60,0,60,0,0.082,2522.866,0.0,0.0,717.603,101.498,972.506,-1.142,0.85
+Carbon dioxide (CO2) emissions from Transport (Energy) (Mt CO2e),float64,60,0,60,0,0.055,1807.722,0.0,0.0,622.04,168.373,772.098,-1.495,0.71
+Carbon intensity of GDP (kg CO2e per 2021 PPP $),float64,60,0,60,0,0.024,0.345,0.0,0.0,0.201,0.255,0.119,-1.528,-0.47
+Carbon intensity of GDP (kg CO2e per constant 2021 US$ of GDP),float64,60,0,60,0,0.021,0.44,0.0,0.0,0.239,0.297,0.152,-1.545,-0.399
+"Compulsory education, duration (years)",float64,60,0,3,3,10.0,13.0,0.0,0.0,11.667,12.0,1.258,-1.526,-0.392
+Control of Corruption: Estimate,float64,60,0,60,0,1.019,2.062,0.0,0.0,1.469,1.324,0.305,-1.082,0.621
+Control of Corruption: Number of Sources,float64,60,0,8,8,1.0,13.0,0.0,0.0,7.333,9.5,4.689,-1.554,-0.51
+Control of Corruption: Percentile Rank,float64,60,0,50,8,81.905,96.651,0.0,0.0,89.92,88.625,3.963,-0.93,0.055
+"Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,60,0,55,5,65.566,93.78,0.0,0.0,81.154,81.429,9.167,-1.355,-0.179
+"Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,60,0,46,9,88.571,99.524,0.0,0.0,94.524,95.133,3.023,-0.867,-0.392
+Control of Corruption: Standard Error,float64,60,0,60,0,0.129,0.464,0.0,0.0,0.24,0.162,0.127,-1.395,0.749
+DEC alternative conversion factor (LCU per US$),float64,60,0,21,1,0.989,1.35,0.0,0.0,1.064,1.0,0.117,0.703,1.544
+Dimension 1.5: Data use by international organizations,float64,60,0,7,6,0.0,1.0,0.0,10.0,0.548,0.4,0.328,-1.034,0.113
+Dimension 3.1: Social Statistics,float64,60,0,44,9,0.117,0.856,0.0,0.0,0.444,0.524,0.231,-1.191,-0.218
+Dimension 3.2: Economic Statistics,float64,60,0,44,13,0.117,0.956,0.0,0.0,0.437,0.45,0.228,-0.588,0.316
+Dimension 3.4: Institutional Statistics,float64,60,0,34,10,0.193,0.862,0.0,0.0,0.455,0.492,0.178,-0.554,0.145
+Dimension 4.2: Administrative Data,float64,60,0,2,2,0.0,1.0,0.0,55.0,0.45,0.0,0.502,-2.026,0.206
+Export unit value index (2015 = 100),float64,60,0,54,5,83.6,146.3,0.0,0.0,110.71,107.3,15.675,-0.648,0.483
+"Foreign direct investment, net inflows (% of GDP)",float64,60,0,60,0,-4.085,9.12,0.0,0.0,1.752,1.728,2.227,3.237,0.527
+"Foreign direct investment, net inflows (BoP, current US$)",float64,60,0,60,0,-288109270.997,511434000000.0,0.0,0.0,117308799275.564,48343750971.686,148921724157.784,0.156,1.179
+"Foreign direct investment, net outflows (% of GDP)",float64,60,0,60,0,-5.334,5.711,0.0,0.0,2.042,2.18,1.969,1.955,-0.755
+"Foreign direct investment, net outflows (BoP, current US$)",float64,60,0,60,0,-130720000000.0,523890000000.0,0.0,0.0,126155786552.881,58356541327.726,161547693808.546,-0.523,0.954
+GDP (constant 2015 US$),float64,60,0,60,0,6372686534.512,22062578283266.8,0.0,0.0,6511529282077.806,1524859431523.08,8306681364896.072,-1.314,0.775
+GDP (constant LCU),float64,60,0,60,0,6008974000.0,22062578283266.8,0.0,0.0,6652767599797.335,1949969203500.0,8222729930904.284,-1.31,0.764
+GDP (current LCU),float64,60,0,60,0,4484703000.0,27720709000000.0,0.0,0.0,6689398760533.333,1946345500000.0,8534999717734.885,-0.576,0.979
+GDP (current US$),float64,60,0,60,0,4484703000.0,27720709000000.0,0.0,0.0,6582790817881.322,1652475187122.14,8594118515983.092,-0.586,0.986
+GDP deflator (base year varies by country),float64,60,0,58,1,63.132,126.837,0.0,0.0,99.54,99.54,13.384,0.202,-0.134
+GDP deflator: linked series (base year varies by country),float64,60,0,58,1,71.641,126.837,0.0,0.0,99.833,99.54,12.699,-0.43,0.179
+GDP growth (annual %),float64,60,0,60,0,-6.843,6.431,0.0,0.0,1.304,2.203,2.929,0.635,-0.957
+GDP per capita (constant 2015 US$),float64,60,0,60,0,40108.759,132595.483,0.0,0.0,70906.018,55330.903,31216.16,-1.21,0.706
+GDP per capita (constant LCU),float64,60,0,60,0,51290.527,125027.773,0.0,0.0,72738.222,57542.781,24879.815,-1.051,0.836
+GDP per capita (current LCU),float64,60,0,60,0,41724.641,125841.603,0.0,0.0,72233.282,60911.47,25630.591,-1.125,0.645
+GDP per capita (current US$),float64,60,0,60,0,32145.541,125841.603,0.0,0.0,69320.234,55406.854,27652.409,-1.18,0.644
+GDP per capita growth (annual %),float64,60,0,60,0,-7.241,6.265,0.0,0.0,0.601,1.347,2.872,0.647,-0.752
+"GDP per capita, PPP (constant 2021 international $)",float64,60,0,60,0,51128.983,117742.119,0.0,0.0,73110.474,62640.298,20686.732,-0.968,0.747
+"GDP per capita, PPP (current international $)",float64,60,0,60,0,33927.67,108810.998,0.0,0.0,60826.28,57623.411,17802.119,-0.213,0.637
+"GDP, PPP (constant 2021 international $)",float64,60,0,60,0,5658817336.411,24977117772096.2,0.0,0.0,7443480292022.498,1943827593200.62,9360899430116.484,-1.312,0.771
+"GDP, PPP (current international $)",float64,60,0,60,0,4052955585.104,27720708999999.9,0.0,0.0,6577183172320.02,1574512668428.945,8598911380068.423,-0.587,0.985
+GDP: linked series (current LCU),float64,60,0,60,0,5089118193.483,27720708999999.9,0.0,0.0,6689419768977.644,1946345500000.0,8534982985533.465,-0.576,0.979
+GOAL 10: Reduced Inequality (5 year moving average),float64,60,0,11,7,0.0,1.0,0.0,26.667,0.379,0.4,0.29,-0.235,0.316
+GOAL 11: Sustainable Cities and Communities (5 year moving average),float64,60,0,16,7,0.0,1.0,0.0,46.667,0.256,0.155,0.318,-0.478,0.994
+GOAL 12: Responsible Consumption and Production (5 year moving average),float64,60,0,9,9,0.0,1.0,0.0,36.667,0.365,0.4,0.321,-1.325,0.146
+GOAL 15: Life on Land (5 year moving average),float64,60,0,15,7,0.4,1.0,0.0,0.0,0.803,0.875,0.212,-1.377,-0.582
+GOAL 16: Peace and Justice Strong Institutions (5 year moving average),float64,60,0,15,11,0.125,0.857,0.0,0.0,0.469,0.556,0.207,-0.996,-0.314
+GOAL 17: Partnerships to achieve the Goal (5 year moving average),float64,60,0,25,9,0.0,0.867,0.0,1.667,0.441,0.429,0.178,0.332,0.321
+GOAL 1: No Poverty (5 year moving average),float64,60,0,14,8,0.0,1.0,0.0,20.0,0.433,0.5,0.299,-0.925,-0.026
+GOAL 2: Zero Hunger (5 year moving average),float64,60,0,16,8,0.0,0.9,0.0,26.667,0.483,0.571,0.335,-1.376,-0.505
+GOAL 3: Good Health and Well-being (5 year moving average),float64,60,0,22,14,0.059,0.96,0.0,0.0,0.535,0.677,0.322,-1.501,-0.51
+GOAL 4: Quality Education (5 year moving average),float64,60,0,13,11,0.0,0.833,0.0,11.667,0.302,0.279,0.177,1.582,0.671
+GOAL 5: Gender Equality (5 year moving average),float64,60,0,8,7,0.0,0.8,0.0,33.333,0.312,0.375,0.248,-0.929,0.028
+GOAL 6: Clean Water and Sanitation (5 year moving average),float64,60,0,11,9,0.333,0.875,0.0,0.0,0.598,0.6,0.163,-1.056,0.001
+GOAL 7: Affordable and Clean Energy (5 year moving average),float64,60,0,6,6,0.4,0.833,0.0,0.0,0.661,0.6,0.112,-0.726,0.055
+GOAL 8: Decent Work and Economic Growth (5 year moving average),float64,60,0,19,13,0.1,1.0,0.0,0.0,0.469,0.545,0.26,-0.534,0.252
+"GOAL 9: Industry, Innovation and Infrastructure (5 year moving average)",float64,60,0,15,11,0.0,1.0,0.0,5.0,0.492,0.5,0.284,-0.794,-0.044
+Government Effectiveness: Estimate,float64,60,0,60,0,0.948,1.901,0.0,0.0,1.451,1.515,0.283,-1.026,-0.343
+Government Effectiveness: Number of Sources,float64,60,0,4,4,1.0,7.0,0.0,0.0,4.733,6.0,2.718,-1.561,-0.61
+Government Effectiveness: Percentile Rank,float64,60,0,48,9,77.404,97.561,0.0,0.0,89.734,90.627,5.5,-0.699,-0.619
+"Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,60,0,52,8,59.615,91.176,0.0,0.0,78.779,82.464,9.818,-1.036,-0.643
+"Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,60,0,43,9,89.706,100.0,0.0,0.0,97.446,98.104,2.278,0.868,-1.142
+Government Effectiveness: Standard Error,float64,60,0,40,20,0.192,0.513,0.0,0.0,0.299,0.229,0.107,-1.158,0.798
+Import unit value index (2015 = 100),float64,60,0,56,2,82.6,117.0,0.0,0.0,102.473,102.05,8.827,-0.526,-0.159
+"Incidence of tuberculosis (per 100,000 people)",float64,60,0,28,13,0.0,11.0,0.0,5.0,4.267,4.65,1.816,2.788,0.25
+"Inflation, GDP deflator (annual %)",float64,60,0,60,0,-2.325,19.579,0.0,0.0,2.798,2.15,3.029,15.326,3.059
+"Inflation, GDP deflator: linked series (annual %)",float64,60,0,60,0,-2.325,7.665,0.0,0.0,2.562,2.15,2.112,0.555,0.613
+Labor Force Survey (Availability score over 10 years),float64,60,0,3,3,0.0,1.0,0.0,16.667,0.722,1.0,0.408,-1.009,-0.9
+Labor force participation rate by sex and age (%),float64,60,0,3,2,0.0,1.0,0.0,43.333,0.558,1.0,0.497,-1.991,-0.241
+Lower secondary school starting age (years),float64,60,0,2,2,11.0,12.0,0.0,0.0,11.667,12.0,0.475,-1.526,-0.725
+Merchandise exports (current US$),float64,60,0,54,5,11000000.0,2065157000000.0,0.0,0.0,624821666666.667,434755000000.0,638830078055.95,-0.81,0.736
+Merchandise imports (current US$),float64,60,0,59,1,900000000.0,3371751000000.0,0.0,0.0,917363533333.333,436887500000.0,1049466992307.652,-0.84,0.846
+Merchandise trade (% of GDP),float64,60,0,60,0,13.402,58.212,0.0,0.0,29.985,21.073,16.631,-1.424,0.681
+Methane (CH4) emissions (total) excluding LULUCF (% change from 1990),float64,60,0,56,3,-12.033,37.54,0.0,0.0,8.131,1.754,17.29,-1.315,0.591
+Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e),float64,60,0,56,3,0.022,861.361,0.0,0.0,312.355,128.012,358.989,-1.512,0.661
+Methane (CH4) emissions from Agriculture (Mt CO2e),float64,60,0,44,3,0.002,263.07,0.0,0.0,93.994,31.136,112.493,-1.511,0.687
+Methane (CH4) emissions from Building (Energy) (Mt CO2e),float64,60,0,42,2,0.0,9.878,0.0,15.0,3.168,1.003,3.859,-1.412,0.728
+Methane (CH4) emissions from Fugitive Emissions (Energy) (Mt CO2e),float64,60,0,42,2,0.0,442.062,0.0,26.667,154.873,71.932,172.636,-1.485,0.644
+Methane (CH4) emissions from Industrial Combustion (Energy) (Mt CO2e),float64,60,0,41,1,0.0,1.823,0.0,33.333,0.621,0.286,0.684,-1.461,0.637
+Methane (CH4) emissions from Power Industry (Energy) (Mt CO2e),float64,60,0,41,3,0.0,1.942,0.0,0.0,0.648,0.144,0.828,-1.476,0.726
+Methane (CH4) emissions from Transport (Energy) (Mt CO2e),float64,60,0,44,3,0.0,10.037,0.0,0.0,2.038,0.673,2.681,1.107,1.402
+Methane (CH4) emissions from Waste (Mt CO2e),float64,60,0,55,4,0.019,176.423,0.0,0.0,56.709,21.233,66.427,-1.424,0.7
+Net migration,float64,60,0,56,2,-237.0,1889129.0,0.0,5.0,576081.067,238948.0,673018.824,-1.026,0.84
+Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990),float64,60,0,54,4,-36.709,6.792,0.0,0.0,-6.587,-4.45,9.716,0.771,-1.053
+Nitrous oxide (N2O) emissions (total) excluding LULUCF (Mt CO2e),float64,60,0,54,4,0.005,235.982,0.0,0.0,84.219,30.166,99.721,-1.508,0.682
+Nitrous oxide (N2O) emissions from Agriculture (Mt CO2e),float64,60,0,42,1,0.001,137.556,0.0,0.0,51.373,21.846,58.856,-1.519,0.655
+Nitrous oxide (N2O) emissions from Building (Energy) (Mt CO2e),float64,60,0,43,3,0.0,7.215,0.0,5.0,2.484,1.131,2.813,-1.404,0.681
+Nitrous oxide (N2O) emissions from Fugitive Emissions (Energy) (Mt CO2e),float64,60,0,39,3,0.0,0.366,0.0,33.333,0.127,0.097,0.121,-1.251,0.5
+Nitrous oxide (N2O) emissions from Industrial Combustion (Energy) (Mt CO2e),float64,60,0,41,1,0.0,2.45,0.0,33.333,0.82,0.376,0.905,-1.437,0.647
+Nitrous oxide (N2O) emissions from Industrial Processes (Mt CO2e),float64,60,0,54,6,0.002,42.831,0.0,0.0,13.185,3.412,16.419,-1.387,0.742
+Nitrous oxide (N2O) emissions from Power Industry (Energy) (Mt CO2e),float64,60,0,43,3,0.0,15.288,0.0,0.0,3.885,0.364,5.562,-0.749,0.999
+Nitrous oxide (N2O) emissions from Transport (Energy) (Mt CO2e),float64,60,0,48,5,0.001,31.273,0.0,0.0,9.216,2.188,11.818,-1.228,0.805
+Nitrous oxide (N2O) emissions from Waste (Mt CO2e),float64,60,0,50,4,0.001,9.537,0.0,0.0,3.13,0.902,3.841,-1.452,0.718
+"Official exchange rate (LCU per US$, period average)",float64,60,0,21,1,0.989,1.35,0.0,0.0,1.064,1.0,0.117,0.708,1.545
+"PPP conversion factor, GDP (LCU per international $)",float64,60,0,41,1,1.0,1.449,0.0,0.0,1.181,1.21,0.149,-1.168,0.087
+Pillar 1  - Data Use - Score,float64,60,0,7,6,0.0,100.0,0.0,10.0,54.833,40.0,32.754,-1.034,0.113
+Political Stability and Absence of Violence/Terrorism: Estimate,float64,60,0,60,0,-0.233,1.262,0.0,0.0,0.756,0.903,0.368,0.265,-1.07
+Political Stability and Absence of Violence/Terrorism: Number of Sources,float64,60,0,5,5,2.0,10.0,0.0,0.0,6.183,8.0,3.061,-1.522,-0.564
+Political Stability and Absence of Violence/Terrorism: Percentile Rank,float64,60,0,53,7,37.379,94.286,0.0,0.0,73.51,77.644,14.03,-0.263,-0.771
+"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,60,0,57,3,23.301,79.524,0.0,0.0,57.01,60.285,12.191,0.285,-0.705
+"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,60,0,45,10,52.913,99.528,0.0,0.0,88.032,96.658,14.761,0.011,-1.188
+Political Stability and Absence of Violence/Terrorism: Standard Error,float64,60,0,47,13,0.192,0.374,0.0,0.0,0.257,0.24,0.051,-0.498,0.764
+Population ages 0-14 (% of total population),float64,60,0,60,0,13.878,20.548,0.0,0.0,17.25,16.895,1.799,-1.042,0.082
+"Population ages 0-14, female",float64,60,0,60,0,4373.0,29974283.0,0.0,0.0,10804870.217,2810517.0,13435366.98,-1.524,0.702
+"Population ages 0-14, female (% of female population)",float64,60,0,60,0,13.244,19.917,0.0,0.0,16.672,16.24,1.842,-1.073,0.035
+"Population ages 0-14, male",float64,60,0,60,0,4606.0,31626556.0,0.0,0.0,11386592.483,2946794.0,14168911.461,-1.524,0.702
+"Population ages 0-14, male (% of male population)",float64,60,0,60,0,14.539,21.185,0.0,0.0,17.835,17.579,1.759,-1.009,0.128
+"Population ages 0-14, total",float64,60,0,60,0,8979.0,61600838.0,0.0,0.0,22191462.55,5757311.0,27604271.742,-1.524,0.702
+"Population ages 00-04, female (% of female population)",float64,60,0,60,0,4.046,6.563,0.0,0.0,5.382,5.293,0.675,-0.58,0.12
+"Population ages 00-04, male (% of male population)",float64,60,0,60,0,4.377,6.922,0.0,0.0,5.722,5.673,0.679,-0.49,0.057
+"Population ages 05-09, female (% of female population)",float64,60,0,60,0,4.414,6.443,0.0,0.0,5.562,5.381,0.599,-1.258,0.083
+"Population ages 05-09, male (% of male population)",float64,60,0,60,0,4.8,6.81,0.0,0.0,5.956,5.789,0.57,-1.015,0.014
+"Population ages 10-14, female (% of female population)",float64,60,0,60,0,4.706,6.954,0.0,0.0,5.729,5.68,0.635,-1.364,-0.017
+"Population ages 10-14, male (% of male population)",float64,60,0,60,0,5.363,7.452,0.0,0.0,6.157,6.14,0.601,-1.429,0.194
+"Population ages 15-19, female (% of female population)",float64,60,0,60,0,4.733,7.013,0.0,0.0,5.915,5.903,0.681,-1.227,-0.145
+"Population ages 15-19, male (% of male population)",float64,60,0,60,0,5.125,7.558,0.0,0.0,6.334,6.378,0.722,-1.215,-0.024
+Population ages 15-64 (% of total population),float64,60,0,60,0,64.974,69.98,0.0,0.0,67.604,67.542,1.457,-1.23,-0.119
+"Population ages 15-64, female",float64,60,0,58,2,20907.0,106256922.0,0.0,0.0,38465059.567,11985033.5,46608116.45,-1.516,0.693
+"Population ages 15-64, female (% of female population)",float64,60,0,60,0,63.321,68.935,0.0,0.0,66.498,66.472,1.515,-1.052,-0.188
+"Population ages 15-64, male",float64,60,0,60,0,21282.0,111349151.0,0.0,0.0,39741139.867,12101831.0,48348287.36,-1.509,0.697
+"Population ages 15-64, male (% of male population)",float64,60,0,60,0,66.166,71.038,0.0,0.0,68.724,68.667,1.434,-1.215,-0.127
+"Population ages 15-64, total",float64,60,0,60,0,42190.0,217606073.0,0.0,0.0,78206199.417,24086864.5,94954990.985,-1.513,0.695
+"Population ages 20-24, female (% of female population)",float64,60,0,60,0,4.716,6.99,0.0,0.0,6.109,6.357,0.721,-1.203,-0.568
+"Population ages 20-24, male (% of male population)",float64,60,0,60,0,4.926,7.509,0.0,0.0,6.518,6.889,0.844,-1.148,-0.643
+"Population ages 25-29, female (% of female population)",float64,60,0,60,0,4.725,6.992,0.0,0.0,6.267,6.624,0.692,-0.748,-0.935
+"Population ages 25-29, male (% of male population)",float64,60,0,60,0,4.953,7.441,0.0,0.0,6.578,6.981,0.832,-1.017,-0.821
+"Population ages 30-34, female (% of female population)",float64,60,0,60,0,5.389,7.425,0.0,0.0,6.601,6.719,0.363,2.66,-1.401
+"Population ages 30-34, male (% of male population)",float64,60,0,60,0,5.38,7.707,0.0,0.0,6.853,6.938,0.44,3.087,-1.534
+"Population ages 35-39, female (% of female population)",float64,60,0,60,0,6.151,8.352,0.0,0.0,6.869,6.796,0.452,2.234,1.326
+"Population ages 35-39, male (% of male population)",float64,60,0,60,0,6.452,9.038,0.0,0.0,7.173,7.031,0.583,1.7,1.393
+"Population ages 40-44, female (% of female population)",float64,60,0,60,0,6.003,9.333,0.0,0.0,7.101,6.878,0.811,0.558,1.053
+"Population ages 40-44, male (% of male population)",float64,60,0,60,0,6.251,10.033,0.0,0.0,7.478,7.224,1.012,-0.096,0.846
+"Population ages 45-49, female (% of female population)",float64,60,0,60,0,5.856,9.033,0.0,0.0,7.299,7.31,0.894,-0.894,0.264
+"Population ages 45-49, male (% of male population)",float64,60,0,60,0,6.066,9.286,0.0,0.0,7.621,7.687,1.003,-1.173,0.002
+"Population ages 50-54, female (% of female population)",float64,60,0,60,0,6.052,8.748,0.0,0.0,7.289,7.212,0.709,-0.38,0.295
+"Population ages 50-54, male (% of male population)",float64,60,0,60,0,6.185,8.863,0.0,0.0,7.418,7.353,0.749,-0.941,0.069
+"Population ages 55-59, female (% of female population)",float64,60,0,60,0,5.738,8.47,0.0,0.0,6.936,6.77,0.701,-0.229,0.757
+"Population ages 55-59, male (% of male population)",float64,60,0,60,0,5.596,8.494,0.0,0.0,6.88,6.708,0.726,-0.146,0.71
+"Population ages 60-64, female (% of female population)",float64,60,0,60,0,4.461,8.1,0.0,0.0,6.113,6.076,0.893,-0.084,0.371
+"Population ages 60-64, male (% of male population)",float64,60,0,60,0,4.159,7.955,0.0,0.0,5.873,5.9,0.852,-0.211,0.176
+Population ages 65 and above (% of total population),float64,60,0,60,0,11.957,20.912,0.0,0.0,15.146,14.718,2.338,-0.615,0.575
+"Population ages 65 and above, female",float64,60,0,60,0,4357.0,31675306.0,0.0,0.0,9334963.783,2987475.0,11376471.167,-1.205,0.788
+"Population ages 65 and above, female (% of female population)",float64,60,0,60,0,13.854,23.435,0.0,0.0,16.83,16.305,2.4,-0.083,0.798
+"Population ages 65 and above, male",float64,60,0,60,0,3123.0,26706454.0,0.0,0.0,7494353.783,2451687.5,9204411.118,-0.991,0.856
+"Population ages 65 and above, male (% of male population)",float64,60,0,60,0,10.039,18.282,0.0,0.0,13.441,13.077,2.304,-0.935,0.388
+"Population ages 65 and above, total",float64,60,0,60,0,7479.0,58381760.0,0.0,0.0,16829317.583,5439163.0,20572735.341,-1.116,0.816
+"Population ages 65-69, female (% of female population)",float64,60,0,60,0,3.546,7.173,0.0,0.0,5.013,5.095,0.891,-0.73,0.205
+"Population ages 65-69, male (% of male population)",float64,60,0,60,0,3.202,6.416,0.0,0.0,4.635,4.738,0.858,-1.018,0.073
+"Population ages 70-74, female (% of female population)",float64,60,0,60,0,3.079,5.574,0.0,0.0,4.007,3.751,0.696,-0.816,0.569
+"Population ages 70-74, male (% of male population)",float64,60,0,60,0,2.615,4.923,0.0,0.0,3.507,3.287,0.654,-0.99,0.493
+"Population ages 75-79, female (% of female population)",float64,60,0,60,0,2.599,4.475,0.0,0.0,3.119,2.998,0.415,1.52,1.248
+"Population ages 75-79, male (% of male population)",float64,60,0,60,0,1.964,3.506,0.0,0.0,2.501,2.438,0.386,0.125,0.869
+"Population ages 80 and above, female (% of female population)",float64,60,0,60,0,3.385,6.213,0.0,0.0,4.691,4.515,0.579,0.147,0.278
+"Population ages 80 and above, male (% of male population)",float64,60,0,60,0,1.564,3.896,0.0,0.0,2.798,2.767,0.525,-0.165,-0.234
+Population growth (annual %),float64,60,0,60,0,-0.137,2.932,0.0,0.0,0.695,0.73,0.527,4.295,1.202
+"Population, female",float64,60,0,60,0,31447.0,166628596.0,0.0,0.0,58604893.55,17771138.5,71291431.197,-1.504,0.698
+"Population, female (% of total population)",float64,60,0,60,0,49.708,51.035,0.0,0.0,50.285,50.342,0.3,0.484,-0.063
+"Population, male",float64,60,0,60,0,31108.0,168286299.0,0.0,0.0,58622086.067,17486390.5,71540135.231,-1.494,0.703
+"Population, male (% of total population)",float64,60,0,60,0,48.965,50.292,0.0,0.0,49.715,49.658,0.3,0.484,0.063
+"Population, total",float64,60,0,60,0,62555.0,334914895.0,0.0,0.0,117226979.617,35257529.0,142829859.376,-1.499,0.7
+Price level ratio of PPP conversion factor (GDP) to market exchange rate,float64,60,0,41,1,0.843,1.449,0.0,0.0,1.12,1.001,0.176,-1.133,0.513
+"Primary education, duration (years)",float64,60,0,1,1,6.0,6.0,0.0,0.0,6.0,6.0,0.0,0.0,0.0
+Primary school starting age (years),float64,60,0,2,2,5.0,6.0,0.0,0.0,5.667,6.0,0.475,-1.526,-0.725
+Quality of Debt service data according to World Bank,float64,60,0,2,2,0.0,1.0,0.0,60.0,0.4,0.0,0.494,-1.889,0.419
+Regulatory Quality: Estimate,float64,60,0,60,0,0.814,1.88,0.0,0.0,1.416,1.442,0.282,-0.239,-0.791
+Regulatory Quality: Number of Sources,float64,60,0,4,4,1.0,8.0,0.0,0.0,5.233,7.0,3.066,-1.534,-0.629
+Regulatory Quality: Percentile Rank,float64,60,0,51,7,75.238,97.619,0.0,0.0,90.149,91.627,5.923,0.222,-1.119
+"Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,60,0,55,5,53.365,91.429,0.0,0.0,78.193,81.84,11.447,-0.313,-0.978
+"Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,60,0,30,10,91.905,100.0,0.0,0.0,97.911,99.048,2.514,-0.032,-1.116
+Regulatory Quality: Standard Error,float64,60,0,40,20,0.173,0.516,0.0,0.0,0.295,0.231,0.113,-0.802,1.001
+Rule of Law: Estimate,float64,60,0,60,0,0.02,1.886,0.0,0.0,1.356,1.556,0.423,0.066,-0.912
+Rule of Law: Number of Sources,float64,60,0,8,8,1.0,14.0,0.0,0.0,7.967,10.0,5.139,-1.531,-0.523
+Rule of Law: Percentile Rank,float64,60,0,50,8,60.096,96.682,0.0,0.0,87.559,90.738,8.423,0.488,-1.08
+"Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,60,0,48,11,20.673,90.995,0.0,0.0,77.081,87.143,16.914,0.476,-1.156
+"Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,60,0,39,9,77.404,100.0,0.0,0.0,95.51,96.244,4.269,3.776,-1.382
+Rule of Law: Standard Error,float64,60,0,45,15,0.141,0.523,0.0,0.0,0.252,0.165,0.138,-0.992,0.897
+Rural population,float64,60,0,41,1,0.0,59495270.0,0.0,33.333,21740608.767,6629085.0,26383537.732,-1.52,0.692
+Rural population (% of total population),float64,60,0,40,2,0.0,20.243,0.0,33.333,12.496,18.288,8.939,-1.527,-0.705
+Safely Managed Drinking Water,float64,60,0,2,2,0.0,1.0,0.0,55.0,0.45,0.0,0.502,-2.026,0.206
+"Secondary education, duration (years)",float64,60,0,2,2,6.0,7.0,0.0,0.0,6.333,6.0,0.475,-1.526,0.725
+Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100),float64,60,0,7,6,0.0,100.0,0.0,10.0,54.833,40.0,32.754,-1.034,0.113
+Total greenhouse gas emissions excluding LULUCF (% change from 1990),float64,60,0,60,0,-36.077,37.531,0.0,0.0,12.374,14.482,17.848,0.023,-0.762
+Total greenhouse gas emissions excluding LULUCF (Mt CO2e),float64,60,0,60,0,0.18,7123.633,0.0,0.0,2399.373,747.944,2914.731,-1.459,0.711
+Total greenhouse gas emissions per capita excluding LULUCF (t CO2e/capita),float64,60,0,60,0,2.827,24.284,0.0,0.0,15.437,19.174,7.872,-1.475,-0.622
+Urban population,float64,60,0,60,0,62555.0,278977409.0,0.0,0.0,95486370.85,28628444.0,116536080.688,-1.48,0.707
+Urban population (% of total population),float64,60,0,40,2,79.757,100.0,0.0,0.0,87.504,81.712,8.939,-1.527,0.705
+Urban population growth (annual %),float64,60,0,60,0,-0.137,3.067,0.0,0.0,0.81,0.945,0.574,2.71,0.759
+Year,float64,60,0,20,20,2004.0,2023.0,0.0,0.0,2013.5,2013.5,5.815,-1.206,0.0
