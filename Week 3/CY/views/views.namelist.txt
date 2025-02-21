@@ -1,1 +1,13 @@
+use these names to save the views as in sqlitestudio:
 
+eastasiapacific
+europecentralasia
+highincome
+latinamericacaribbean
+lowermiddleincome
+lowincome
+middleeastnorthafrica
+northamerica
+southasia
+subsaharanafrica
+uppermiddleincome
