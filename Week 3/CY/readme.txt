@@ -1,6 +1,6 @@
 this folder contains data sets segregated by income level and region, extracted from our database.
 
-the "20yr dataset" folder contains data extracted from our database, filtered by region or income level
+the "20yr dataset" folder contains data including year 2024 (when possible)
 the "20yr dataset (no Year 2024)" folder contains the same data except for the year 2024, as some country entries don't have 2024 data
   in both folders, there are files prefixed with "basic_stats_" which contain basic stats about the numeric columns in the associated data set
   eg percent of the column that is NaN, mins, maxes, standard deviation, et al.
