@@ -1,153 +1,153 @@
-Feature,Dtype,# Count,# NaN,# Unique,# Dupes,Min,Max,Spread,% NaN,% Zero,Mean,Median,Std Dev,Kurtosis (3),Skew (0)
-Age dependency ratio (% of working-age population),float64,1020,0,1020,0,38.562,99.043,60.48100000000001,0.0,0.0,69.395,68.734,13.968,-1.079,0.04
-"Age dependency ratio, old (% of working-age population)",float64,1020,0,1020,0,3.262,17.813,14.550999999999998,0.0,0.0,6.946,6.534,1.958,4.334,1.498
-"Age dependency ratio, young (% of working-age population)",float64,1020,0,1020,0,29.737,93.413,63.676,0.0,0.0,62.448,62.36,15.193,-1.03,-0.059
-Agriculture census (Availability score over 20 years),float64,1020,0,3,3,0.0,1.0,1.0,0.0,33.627,0.617,1.0,0.462,-1.657,-0.478
-Agriculture survey (Availability score over 10 years),float64,1020,0,4,4,0.0,1.0,1.0,0.0,65.392,0.219,0.0,0.352,0.454,1.399
-Availability of Comparable Poverty headcount ratio at $1.90 a day (5 year moving average),float64,1020,0,3,3,0.0,1.0,1.0,0.0,49.02,0.378,0.5,0.412,-1.366,0.477
-"Availability of Mortality rate, under-5 (per 1,000 live births) data meeting quality standards according to UN IGME  (5 year moving average)",float64,1020,0,2,2,0.0,1.0,1.0,0.0,5.784,0.942,1.0,0.234,12.416,-3.794
-Business/establishment census (Availability score over 20 years),float64,1020,0,3,3,0.0,1.0,1.0,0.0,68.039,0.307,0.0,0.454,-1.263,0.838
-Business/establishment survey (Availability score over 10 years),float64,1020,0,4,4,0.0,1.0,1.0,0.0,65.49,0.227,0.0,0.36,0.176,1.318
-CRVS (WDI),float64,1020,0,3,3,0.0,1.0,1.0,0.0,85.98,0.113,0.0,0.295,4.264,2.424
-Control of Corruption: Estimate,float64,1020,0,1020,0,-1.673,1.618,3.2910000000000004,0.0,0.0,-0.578,-0.657,0.59,0.723,0.851
-Control of Corruption: Number of Sources,float64,1020,0,16,16,1.0,16.0,15.0,0.0,0.0,10.138,11.0,3.511,-0.716,-0.439
-Control of Corruption: Percentile Rank,float64,1020,0,652,200,0.476,93.333,92.857,0.0,0.0,32.996,29.216,20.865,-0.574,0.532
-"Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,1020,0,487,218,0.0,88.571,88.571,0.0,3.725,22.776,18.095,19.159,0.305,0.931
-"Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,1020,0,524,243,3.333,95.755,92.422,0.0,0.0,42.867,42.857,21.219,-0.782,0.316
-Control of Corruption: Standard Error,float64,1020,0,824,117,0.122,0.412,0.29,0.0,0.0,0.18,0.162,0.052,2.496,1.648
-DEC alternative conversion factor (LCU per US$),float64,1020,0,812,36,0.709,85828.0,85827.291,0.0,0.0,1193.265,63.349,4353.839,148.082,9.483
-Dimension 1.5: Data use by international organizations,float64,1020,0,18,15,0.0,1.0,1.0,0.0,1.078,0.521,0.5,0.268,-1.165,0.278
-Dimension 3.1: Social Statistics,float64,1020,0,778,170,0.191,0.937,0.746,0.0,0.0,0.618,0.625,0.127,-0.174,-0.269
-Dimension 3.2: Economic Statistics,float64,1020,0,605,226,0.3,0.949,0.649,0.0,0.0,0.556,0.544,0.144,-0.147,0.624
-Dimension 3.4: Institutional Statistics,float64,1020,0,228,147,0.05,0.969,0.9189999999999999,0.0,0.0,0.601,0.598,0.145,0.262,-0.308
-Dimension 4.1: Censuses and Surveys - Censuses only,float64,1020,0,7,7,0.0,1.0,1.0,0.0,2.157,0.606,0.667,0.253,-0.694,-0.003
-Dimension 4.1: Censuses and Surveys - Surveys only,float64,1020,0,29,28,0.0,1.0,1.0,0.0,0.588,0.496,0.468,0.228,-0.754,-0.011
-Dimension 4.2: Administrative Data,float64,1020,0,3,3,0.0,1.0,1.0,0.0,85.98,0.113,0.0,0.295,4.264,2.424
-GOAL 10: Reduced Inequality (5 year moving average),float64,1020,0,17,16,0.167,0.9,0.733,0.0,0.0,0.511,0.5,0.136,0.819,0.947
-GOAL 11: Sustainable Cities and Communities (5 year moving average),float64,1020,0,19,17,0.0,1.0,1.0,0.0,17.745,0.529,0.6,0.319,-0.892,-0.355
-GOAL 12: Responsible Consumption and Production (5 year moving average),float64,1020,0,6,6,0.333,1.0,0.667,0.0,0.0,0.586,0.5,0.221,-0.595,0.781
-GOAL 15: Life on Land (5 year moving average),float64,1020,0,17,14,0.4,1.0,0.6,0.0,0.0,0.926,0.9,0.083,1.969,-1.094
-GOAL 16: Peace and Justice Strong Institutions (5 year moving average),float64,1020,0,36,27,0.0,1.0,1.0,0.0,4.608,0.491,0.5,0.205,0.133,-0.134
-GOAL 17: Partnerships to achieve the Goal (5 year moving average),float64,1020,0,47,41,0.1,0.938,0.838,0.0,0.0,0.712,0.727,0.139,0.475,-0.612
-GOAL 1: No Poverty (5 year moving average),float64,1020,0,21,20,0.0,1.0,1.0,0.0,0.098,0.681,0.667,0.252,-0.873,-0.348
-GOAL 2: Zero Hunger (5 year moving average),float64,1020,0,29,28,0.143,1.0,0.857,0.0,0.0,0.66,0.7,0.202,-0.25,-0.606
-GOAL 3: Good Health and Well-being (5 year moving average),float64,1020,0,68,61,0.238,1.0,0.762,0.0,0.0,0.72,0.722,0.12,0.328,-0.261
-GOAL 4: Quality Education (5 year moving average),float64,1020,0,30,30,0.0,1.0,1.0,0.0,3.627,0.447,0.444,0.227,0.389,0.546
-GOAL 5: Gender Equality (5 year moving average),float64,1020,0,22,22,0.0,1.0,1.0,0.0,0.98,0.36,0.286,0.192,0.303,0.824
-GOAL 6: Clean Water and Sanitation (5 year moving average),float64,1020,0,19,16,0.0,1.0,1.0,0.0,0.196,0.839,0.833,0.173,0.861,-0.992
-GOAL 7: Affordable and Clean Energy (5 year moving average),float64,1020,0,12,11,0.6,1.0,0.4,0.0,0.0,0.86,0.833,0.079,0.358,-0.45
-GOAL 8: Decent Work and Economic Growth (5 year moving average),float64,1020,0,45,43,0.111,0.889,0.778,0.0,0.0,0.427,0.385,0.21,-0.551,0.645
-"GOAL 9: Industry, Innovation and Infrastructure (5 year moving average)",float64,1020,0,34,32,0.111,1.0,0.889,0.0,0.0,0.426,0.4,0.206,-0.451,0.366
-Government Effectiveness: Estimate,float64,1020,0,1019,1,-2.228,0.711,2.939,0.0,0.0,-0.634,-0.697,0.511,0.16,0.06
-Government Effectiveness: Number of Sources,float64,1020,0,13,12,1.0,13.0,12.0,0.0,0.0,7.864,8.0,2.631,-0.567,-0.507
-Government Effectiveness: Percentile Rank,float64,1020,0,658,205,0.943,74.286,73.343,0.0,0.0,30.616,27.488,17.547,-0.715,0.428
-"Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,1020,0,458,207,0.0,64.878,64.878,0.0,3.333,18.705,13.27,14.966,-0.223,0.88
-"Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,1020,0,553,237,1.429,88.571,87.142,0.0,0.0,43.435,42.307,18.042,-0.484,0.025
-Government Effectiveness: Standard Error,float64,1020,0,627,192,0.162,0.439,0.277,0.0,0.0,0.229,0.213,0.056,2.477,1.629
-Health/Demographic survey (Availability score over 10 years),float64,1020,0,4,4,0.0,1.0,1.0,0.0,7.941,0.765,1.0,0.32,0.175,-1.164
-"Household Survey on income, etc  (Availability score over 10 years)",float64,1020,0,4,4,0.0,1.0,1.0,0.0,2.549,0.783,1.0,0.282,-0.169,-0.994
-"Immunization, DPT (% of children ages 12-23 months)",float64,1020,0,65,60,32.0,99.0,67.0,0.0,0.0,83.112,87.0,14.503,0.821,-1.142
-"Immunization, measles (% of children ages 12-23 months)",float64,1020,0,65,63,21.0,99.0,78.0,0.0,0.0,81.431,85.0,15.463,0.375,-0.963
-"Incidence of tuberculosis (per 100,000 people)",float64,1020,0,473,227,0.35,1590.0,1589.65,0.0,0.0,228.596,176.0,222.11,8.678,2.353
-Labor Force Survey (Availability score over 10 years),float64,1020,0,4,4,0.0,1.0,1.0,0.0,36.373,0.487,0.33,0.431,-1.708,0.064
-Labor force participation rate by sex and age (%),float64,1020,0,3,3,0.0,1.0,1.0,0.0,42.059,0.483,0.5,0.449,-1.76,0.065
-Lower secondary school starting age (years),float64,1020,0,5,5,10.0,14.0,4.0,0.0,0.0,11.823,12.0,0.907,0.417,-0.14
-Net migration,float64,1020,0,958,44,-2290411.0,733500.0,3023911.0,0.0,0.588,-67358.179,-8492.5,249512.202,27.037,-4.491
-Pillar 1  - Data Use - Score,float64,1020,0,18,15,0.0,100.0,100.0,0.0,1.078,52.064,50.0,26.801,-1.165,0.278
-Political Stability and Absence of Violence/Terrorism: Estimate,float64,1020,0,1017,3,-2.81,1.423,4.2330000000000005,0.0,0.0,-0.459,-0.448,0.844,-0.232,0.009
-Political Stability and Absence of Violence/Terrorism: Number of Sources,float64,1020,0,9,9,2.0,10.0,8.0,0.0,0.0,5.726,6.0,1.829,-0.746,-0.319
-Political Stability and Absence of Violence/Terrorism: Percentile Rank,float64,1020,0,612,264,0.474,99.029,98.55499999999999,0.0,0.0,34.756,30.476,23.978,0.071,0.871
-"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,1020,0,445,239,0.0,78.673,78.673,0.0,1.275,23.767,18.945,19.075,0.219,1.043
-"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,1020,0,537,250,1.896,100.0,98.104,0.0,0.0,46.119,44.286,26.384,-0.52,0.497
-Political Stability and Absence of Violence/Terrorism: Standard Error,float64,1020,0,281,186,0.192,0.384,0.192,0.0,0.0,0.251,0.244,0.039,1.419,1.238
-Population & Housing census (Availability score over 20 years),float64,1020,0,3,3,0.0,1.0,1.0,0.0,6.471,0.893,1.0,0.273,4.859,-2.478
-Population ages 0-14 (% of total population),float64,1020,0,1020,0,21.461,47.273,25.812000000000005,0.0,0.0,36.375,36.953,6.08,-0.836,-0.358
-"Population ages 0-14, female",float64,1020,0,1019,1,17560.0,185486061.0,185468501.0,0.0,0.0,8426024.133,1760886.0,25982544.072,36.32,5.91
-"Population ages 0-14, female (% of female population)",float64,1020,0,1020,0,21.262,46.432,25.17,0.0,0.0,35.7,36.179,6.106,-0.82,-0.371
-"Population ages 0-14, male",float64,1020,0,1019,1,18575.0,204250499.0,204231924.0,0.0,0.0,8964834.683,1808016.5,28411660.392,37.18,5.996
-"Population ages 0-14, male (% of male population)",float64,1020,0,1020,0,20.828,48.204,27.376,0.0,0.0,37.073,37.83,6.104,-0.818,-0.334
-"Population ages 0-14, total",float64,1020,0,1020,0,36187.0,389736560.0,389700373.0,0.0,0.0,17390858.812,3558285.0,54392189.473,36.773,5.955
-"Population ages 00-04, female (% of female population)",float64,1020,0,1020,0,6.466,18.263,11.797,0.0,0.0,12.798,12.731,2.87,-0.951,-0.056
-"Population ages 00-04, male (% of male population)",float64,1020,0,1020,0,5.867,18.993,13.125999999999998,0.0,0.0,13.33,13.342,2.906,-0.907,-0.064
-"Population ages 05-09, female (% of female population)",float64,1020,0,1020,0,7.069,15.562,8.492999999999999,0.0,0.0,11.868,12.126,2.027,-0.835,-0.391
-"Population ages 05-09, male (% of male population)",float64,1020,0,1020,0,6.905,16.212,9.306999999999999,0.0,0.0,12.32,12.552,2.02,-0.827,-0.347
-"Population ages 10-14, female (% of female population)",float64,1020,0,1020,0,6.943,13.82,6.877000000000001,0.0,0.0,11.034,11.315,1.453,-0.077,-0.776
-"Population ages 10-14, male (% of male population)",float64,1020,0,1020,0,7.508,14.625,7.117,0.0,0.0,11.422,11.67,1.44,-0.163,-0.63
-"Population ages 15-19, female (% of female population)",float64,1020,0,1020,0,6.523,12.668,6.145,0.0,0.0,10.211,10.367,1.084,1.233,-0.918
-"Population ages 15-19, male (% of male population)",float64,1020,0,1020,0,6.951,13.104,6.153,0.0,0.0,10.48,10.605,1.059,0.928,-0.686
-Population ages 15-64 (% of total population),float64,1020,0,1020,0,50.24,72.17,21.93,0.0,0.0,59.439,59.265,4.932,-0.992,0.194
-"Population ages 15-64, female",float64,1020,0,1020,0,29049.0,471471101.0,471442052.0,0.0,0.0,16170776.552,3123435.0,57265419.26,42.877,6.484
-"Population ages 15-64, female (% of female population)",float64,1020,0,1020,0,51.181,70.926,19.745000000000005,0.0,0.0,59.66,59.557,4.748,-1.03,0.173
-"Population ages 15-64, male",float64,1020,0,1018,2,26811.0,506719577.0,506692766.0,0.0,0.0,16718385.837,3103042.5,61400482.229,43.507,6.548
-"Population ages 15-64, male (% of male population)",float64,1020,0,1020,0,48.478,73.251,24.773000000000003,0.0,0.0,59.2,58.92,5.174,-0.914,0.202
-"Population ages 15-64, total",float64,1020,0,1020,0,55861.0,978190678.0,978134817.0,0.0,0.0,32889162.395,6221830.5,118661134.567,43.21,6.518
-"Population ages 20-24, female (% of female population)",float64,1020,0,1020,0,6.173,12.672,6.4990000000000006,0.0,0.0,9.302,9.332,0.823,1.833,-0.241
-"Population ages 20-24, male (% of male population)",float64,1020,0,1020,0,6.508,11.944,5.436000000000001,0.0,0.0,9.395,9.408,0.833,0.717,0.002
-"Population ages 25-29, female (% of female population)",float64,1020,0,1020,0,6.371,10.566,4.195,0.0,0.0,8.259,8.272,0.705,0.202,0.192
-"Population ages 25-29, male (% of male population)",float64,1020,0,1020,0,5.655,11.345,5.69,0.0,0.0,8.23,8.249,0.817,0.767,0.277
-"Population ages 30-34, female (% of female population)",float64,1020,0,1020,0,5.332,9.967,4.635000000000001,0.0,0.0,7.155,7.107,0.771,-0.278,0.242
-"Population ages 30-34, male (% of male population)",float64,1020,0,1020,0,4.856,10.982,6.1259999999999994,0.0,0.0,7.099,7.042,0.883,0.676,0.388
-"Population ages 35-39, female (% of female population)",float64,1020,0,1020,0,3.837,8.665,4.827999999999999,0.0,0.0,6.116,6.052,0.826,-0.587,0.283
-"Population ages 35-39, male (% of male population)",float64,1020,0,1020,0,3.65,9.423,5.773,0.0,0.0,6.064,6.033,0.891,-0.138,0.264
-"Population ages 40-44, female (% of female population)",float64,1020,0,1020,0,2.699,7.597,4.898000000000001,0.0,0.0,5.194,5.137,0.875,-0.458,0.287
-"Population ages 40-44, male (% of male population)",float64,1020,0,1020,0,2.736,7.76,5.023999999999999,0.0,0.0,5.136,5.094,0.92,-0.447,0.209
-"Population ages 45-49, female (% of female population)",float64,1020,0,1020,0,2.233,6.781,4.548,0.0,0.0,4.406,4.303,0.921,-0.456,0.453
-"Population ages 45-49, male (% of male population)",float64,1020,0,1020,0,2.215,6.518,4.303,0.0,0.0,4.316,4.261,0.952,-0.523,0.328
-"Population ages 50-54, female (% of female population)",float64,1020,0,1020,0,1.833,6.08,4.247,0.0,0.0,3.692,3.504,0.948,-0.198,0.684
-"Population ages 50-54, male (% of male population)",float64,1020,0,1020,0,1.701,6.036,4.334999999999999,0.0,0.0,3.548,3.394,0.952,-0.3,0.593
-"Population ages 55-59, female (% of female population)",float64,1020,0,1020,0,1.287,5.665,4.378,0.0,0.0,2.991,2.791,0.903,0.557,0.983
-"Population ages 55-59, male (% of male population)",float64,1020,0,1020,0,1.219,5.447,4.228,0.0,0.0,2.808,2.601,0.871,0.476,0.946
-"Population ages 60-64, female (% of female population)",float64,1020,0,1020,0,1.02,5.296,4.276,0.0,0.0,2.334,2.143,0.771,1.689,1.26
-"Population ages 60-64, male (% of male population)",float64,1020,0,1020,0,0.888,4.792,3.904,0.0,0.0,2.124,1.942,0.712,1.703,1.274
-Population ages 65 and above (% of total population),float64,1020,0,1020,0,1.738,11.739,10.001000000000001,0.0,0.0,4.187,3.801,1.447,3.237,1.43
-"Population ages 65 and above, female",float64,1020,0,1019,1,1998.0,52259267.0,52257269.0,0.0,0.0,1381667.642,215919.5,5410681.466,50.233,6.954
-"Population ages 65 and above, female (% of female population)",float64,1020,0,1020,0,2.056,13.298,11.242,0.0,0.0,4.64,4.227,1.678,2.765,1.345
-"Population ages 65 and above, male",float64,1020,0,1018,2,1296.0,47281658.0,47280362.0,0.0,0.0,1172888.731,170153.5,4801367.776,51.746,7.05
-"Population ages 65 and above, male (% of male population)",float64,1020,0,1020,0,1.411,10.076,8.665000000000001,0.0,0.0,3.727,3.463,1.273,3.093,1.389
-"Population ages 65 and above, total",float64,1020,0,1020,0,3294.0,99540924.0,99537630.0,0.0,0.0,2554556.373,385151.5,10209760.305,50.975,7.003
-"Population ages 65-69, female (% of female population)",float64,1020,0,1020,0,0.721,4.6,3.8789999999999996,0.0,0.0,1.769,1.635,0.594,3.047,1.396
-"Population ages 65-69, male (% of male population)",float64,1020,0,1020,0,0.62,3.926,3.306,0.0,0.0,1.545,1.415,0.523,3.363,1.524
-"Population ages 70-74, female (% of female population)",float64,1020,0,1020,0,0.45,3.793,3.343,0.0,0.0,1.278,1.186,0.451,3.187,1.264
-"Population ages 70-74, male (% of male population)",float64,1020,0,1020,0,0.398,2.973,2.5749999999999997,0.0,0.0,1.055,0.972,0.36,3.728,1.423
-"Population ages 75-79, female (% of female population)",float64,1020,0,1020,0,0.339,2.595,2.2560000000000002,0.0,0.0,0.846,0.766,0.334,1.563,1.094
-"Population ages 75-79, male (% of male population)",float64,1020,0,1020,0,0.216,1.824,1.608,0.0,0.0,0.646,0.605,0.236,1.443,1.017
-"Population ages 80 and above, female (% of female population)",float64,1020,0,1020,0,0.239,2.351,2.112,0.0,0.0,0.747,0.616,0.391,2.988,1.664
-"Population ages 80 and above, male (% of male population)",float64,1020,0,1020,0,0.126,1.352,1.226,0.0,0.0,0.481,0.415,0.219,1.313,1.207
-Population growth (annual %),float64,1020,0,1020,0,-3.218,9.992,13.21,0.0,0.0,1.831,1.8,1.064,10.58,1.064
-"Population, female",float64,1020,0,1019,1,49191.0,696186332.0,696137141.0,0.0,0.0,25978468.296,5209280.0,88308498.239,40.854,6.324
-"Population, female (% of total population)",float64,1020,0,1020,0,46.148,52.762,6.613999999999997,0.0,0.0,50.07,50.162,1.098,1.667,-0.651
-"Population, male",float64,1020,0,1020,0,46894.0,741883264.0,741836370.0,0.0,0.0,26856109.228,5245831.5,94259477.982,41.379,6.382
-"Population, male (% of total population)",float64,1020,0,1020,0,47.238,53.852,6.613999999999997,0.0,0.0,49.93,49.838,1.098,1.667,0.651
-"Population, total",float64,1020,0,1020,0,96085.0,1438069596.0,1437973511.0,0.0,0.0,52834577.522,10419679.5,182562529.951,41.129,6.354
-"Primary education, duration (years)",float64,1020,0,4,4,4.0,7.0,3.0,0.0,0.0,5.78,6.0,0.754,0.554,-0.758
-Primary school starting age (years),float64,1020,0,3,3,5.0,7.0,2.0,0.0,0.0,6.042,6.0,0.489,1.157,0.103
-Quality of Debt service data according to World Bank,float64,1020,0,4,4,0.0,1.0,1.0,0.0,62.255,0.361,0.0,0.475,-1.635,0.587
-Regulatory Quality: Estimate,float64,1020,0,1020,0,-2.349,0.449,2.798,0.0,0.0,-0.655,-0.631,0.456,0.667,-0.528
-Regulatory Quality: Number of Sources,float64,1020,0,12,11,1.0,12.0,11.0,0.0,0.0,7.972,9.0,2.375,-0.164,-0.775
-Regulatory Quality: Percentile Rank,float64,1020,0,623,226,0.0,65.174,65.174,0.0,0.098,29.474,28.674,14.876,-0.879,0.143
-"Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,1020,0,432,228,0.0,54.412,54.412,0.0,1.176,18.89,17.143,12.196,-0.384,0.576
-"Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,1020,0,500,221,0.995,78.607,77.612,0.0,0.0,40.532,41.429,16.062,-0.553,-0.223
-Regulatory Quality: Standard Error,float64,1020,0,590,209,0.146,0.382,0.23600000000000002,0.0,0.0,0.199,0.191,0.041,3.564,1.806
-Rule of Law: Estimate,float64,1020,0,1018,2,-1.87,1.184,3.0540000000000003,0.0,0.0,-0.588,-0.668,0.594,-0.146,0.583
-Rule of Law: Number of Sources,float64,1020,0,17,17,2.0,18.0,16.0,0.0,0.0,11.619,12.0,3.645,-0.362,-0.565
-Rule of Law: Percentile Rank,float64,1020,0,599,269,0.478,88.517,88.039,0.0,0.0,32.068,28.302,20.016,-0.678,0.514
-"Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,1020,0,462,236,0.0,73.333,73.333,0.0,1.471,23.164,17.856,18.226,-0.675,0.712
-"Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,1020,0,541,259,1.422,94.258,92.836,0.0,0.0,41.121,39.906,20.507,-0.553,0.383
-Rule of Law: Standard Error,float64,1020,0,763,145,0.126,0.373,0.247,0.0,0.0,0.173,0.157,0.047,5.012,2.285
-Rural population,float64,1020,0,1020,0,54257.0,915129968.0,915075711.0,0.0,0.0,33437842.284,5426431.5,122583126.687,41.442,6.418
-Rural population (% of total population),float64,1020,0,1015,5,7.98,87.022,79.042,0.0,0.0,56.788,59.12,18.743,-0.45,-0.568
-Rural population growth (annual %),float64,1020,0,1020,0,-6.81,8.698,15.508,0.0,0.0,0.945,1.066,1.208,8.099,-0.921
-Safely Managed Drinking Water,float64,1020,0,3,3,0.0,1.0,1.0,0.0,55.0,0.438,0.0,0.49,-1.917,0.249
-"Secondary education, duration (years)",float64,1020,0,5,5,4.0,8.0,4.0,0.0,0.0,6.437,7.0,0.801,0.141,-0.421
-Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100),float64,1020,0,18,15,0.0,100.0,100.0,0.0,1.078,52.064,50.0,26.801,-1.165,0.278
-Urban population,float64,1020,0,1020,0,23979.0,522939628.0,522915649.0,0.0,0.0,19396735.238,4394213.5,60538643.853,40.803,6.209
-Urban population (% of total population),float64,1020,0,1015,5,12.978,92.02,79.042,0.0,0.0,43.212,40.88,18.743,-0.45,0.568
-Urban population growth (annual %),float64,1020,0,1020,0,-3.032,10.516,13.548,0.0,0.0,2.815,2.852,1.416,2.801,0.125
-Voice and Accountability: Estimate,float64,1020,0,1019,1,-2.233,1.148,3.3810000000000002,0.0,0.0,-0.486,-0.504,0.732,-0.584,0.122
-Voice and Accountability: Number of Sources,float64,1020,0,19,19,1.0,19.0,18.0,0.0,0.0,11.275,12.0,4.068,-0.271,-0.431
-Voice and Accountability: Percentile Rank,float64,1020,0,630,264,0.0,86.957,86.957,0.0,0.098,34.823,32.29,20.281,-0.483,0.463
-"Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval",float64,1020,0,505,242,0.0,71.981,71.981,0.0,1.667,28.406,27.494,18.261,-0.648,0.411
-"Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval",float64,1020,0,561,250,1.442,99.515,98.07300000000001,0.0,0.0,41.249,37.441,22.27,-0.269,0.558
-Voice and Accountability: Standard Error,float64,1020,0,765,127,0.104,0.295,0.191,0.0,0.0,0.141,0.128,0.035,3.185,1.93
-Women Business and the Law Index Score (scale 1-100),float64,1020,0,76,71,26.25,95.0,68.75,0.0,0.0,63.923,63.75,14.546,-0.398,-0.376
-Year,float64,1020,0,20,20,2004.0,2023.0,19.0,0.0,0.0,2013.5,2013.5,5.769,-1.206,0.0
+Feature,# NaN,% NaN,% Zero,Dtype,# Count,# Unique,# Dupes,Min,Max,Spread,Mean,Median,Std Dev,Kurtosis (3),Skew (0)
+Age dependency ratio (% of working-age population),0,0.0,0.0,float64,1020,1020,0,38.562,99.043,60.48100000000001,69.395,68.734,13.968,-1.079,0.04
+"Age dependency ratio, old (% of working-age population)",0,0.0,0.0,float64,1020,1020,0,3.262,17.813,14.550999999999998,6.946,6.534,1.958,4.334,1.498
+"Age dependency ratio, young (% of working-age population)",0,0.0,0.0,float64,1020,1020,0,29.737,93.413,63.676,62.448,62.36,15.193,-1.03,-0.059
+Agriculture census (Availability score over 20 years),0,0.0,33.627,float64,1020,3,3,0.0,1.0,1.0,0.617,1.0,0.462,-1.657,-0.478
+Agriculture survey (Availability score over 10 years),0,0.0,65.392,float64,1020,4,4,0.0,1.0,1.0,0.219,0.0,0.352,0.454,1.399
+Availability of Comparable Poverty headcount ratio at $1.90 a day (5 year moving average),0,0.0,49.02,float64,1020,3,3,0.0,1.0,1.0,0.378,0.5,0.412,-1.366,0.477
+"Availability of Mortality rate, under-5 (per 1,000 live births) data meeting quality standards according to UN IGME  (5 year moving average)",0,0.0,5.784,float64,1020,2,2,0.0,1.0,1.0,0.942,1.0,0.234,12.416,-3.794
+Business/establishment census (Availability score over 20 years),0,0.0,68.039,float64,1020,3,3,0.0,1.0,1.0,0.307,0.0,0.454,-1.263,0.838
+Business/establishment survey (Availability score over 10 years),0,0.0,65.49,float64,1020,4,4,0.0,1.0,1.0,0.227,0.0,0.36,0.176,1.318
+CRVS (WDI),0,0.0,85.98,float64,1020,3,3,0.0,1.0,1.0,0.113,0.0,0.295,4.264,2.424
+Control of Corruption: Estimate,0,0.0,0.0,float64,1020,1020,0,-1.673,1.618,3.2910000000000004,-0.578,-0.657,0.59,0.723,0.851
+Control of Corruption: Number of Sources,0,0.0,0.0,float64,1020,16,16,1.0,16.0,15.0,10.138,11.0,3.511,-0.716,-0.439
+Control of Corruption: Percentile Rank,0,0.0,0.0,float64,1020,652,200,0.476,93.333,92.857,32.996,29.216,20.865,-0.574,0.532
+"Control of Corruption: Percentile Rank, Lower Bound of 90% Confidence Interval",0,0.0,3.725,float64,1020,487,218,0.0,88.571,88.571,22.776,18.095,19.159,0.305,0.931
+"Control of Corruption: Percentile Rank, Upper Bound of 90% Confidence Interval",0,0.0,0.0,float64,1020,524,243,3.333,95.755,92.422,42.867,42.857,21.219,-0.782,0.316
+Control of Corruption: Standard Error,0,0.0,0.0,float64,1020,824,117,0.122,0.412,0.29,0.18,0.162,0.052,2.496,1.648
+DEC alternative conversion factor (LCU per US$),0,0.0,0.0,float64,1020,812,36,0.709,85828.0,85827.291,1193.265,63.349,4353.839,148.082,9.483
+Dimension 1.5: Data use by international organizations,0,0.0,1.078,float64,1020,18,15,0.0,1.0,1.0,0.521,0.5,0.268,-1.165,0.278
+Dimension 3.1: Social Statistics,0,0.0,0.0,float64,1020,778,170,0.191,0.937,0.746,0.618,0.625,0.127,-0.174,-0.269
+Dimension 3.2: Economic Statistics,0,0.0,0.0,float64,1020,605,226,0.3,0.949,0.649,0.556,0.544,0.144,-0.147,0.624
+Dimension 3.4: Institutional Statistics,0,0.0,0.0,float64,1020,228,147,0.05,0.969,0.9189999999999999,0.601,0.598,0.145,0.262,-0.308
+Dimension 4.1: Censuses and Surveys - Censuses only,0,0.0,2.157,float64,1020,7,7,0.0,1.0,1.0,0.606,0.667,0.253,-0.694,-0.003
+Dimension 4.1: Censuses and Surveys - Surveys only,0,0.0,0.588,float64,1020,29,28,0.0,1.0,1.0,0.496,0.468,0.228,-0.754,-0.011
+Dimension 4.2: Administrative Data,0,0.0,85.98,float64,1020,3,3,0.0,1.0,1.0,0.113,0.0,0.295,4.264,2.424
+GOAL 10: Reduced Inequality (5 year moving average),0,0.0,0.0,float64,1020,17,16,0.167,0.9,0.733,0.511,0.5,0.136,0.819,0.947
+GOAL 11: Sustainable Cities and Communities (5 year moving average),0,0.0,17.745,float64,1020,19,17,0.0,1.0,1.0,0.529,0.6,0.319,-0.892,-0.355
+GOAL 12: Responsible Consumption and Production (5 year moving average),0,0.0,0.0,float64,1020,6,6,0.333,1.0,0.667,0.586,0.5,0.221,-0.595,0.781
+GOAL 15: Life on Land (5 year moving average),0,0.0,0.0,float64,1020,17,14,0.4,1.0,0.6,0.926,0.9,0.083,1.969,-1.094
+GOAL 16: Peace and Justice Strong Institutions (5 year moving average),0,0.0,4.608,float64,1020,36,27,0.0,1.0,1.0,0.491,0.5,0.205,0.133,-0.134
+GOAL 17: Partnerships to achieve the Goal (5 year moving average),0,0.0,0.0,float64,1020,47,41,0.1,0.938,0.838,0.712,0.727,0.139,0.475,-0.612
+GOAL 1: No Poverty (5 year moving average),0,0.0,0.098,float64,1020,21,20,0.0,1.0,1.0,0.681,0.667,0.252,-0.873,-0.348
+GOAL 2: Zero Hunger (5 year moving average),0,0.0,0.0,float64,1020,29,28,0.143,1.0,0.857,0.66,0.7,0.202,-0.25,-0.606
+GOAL 3: Good Health and Well-being (5 year moving average),0,0.0,0.0,float64,1020,68,61,0.238,1.0,0.762,0.72,0.722,0.12,0.328,-0.261
+GOAL 4: Quality Education (5 year moving average),0,0.0,3.627,float64,1020,30,30,0.0,1.0,1.0,0.447,0.444,0.227,0.389,0.546
+GOAL 5: Gender Equality (5 year moving average),0,0.0,0.98,float64,1020,22,22,0.0,1.0,1.0,0.36,0.286,0.192,0.303,0.824
+GOAL 6: Clean Water and Sanitation (5 year moving average),0,0.0,0.196,float64,1020,19,16,0.0,1.0,1.0,0.839,0.833,0.173,0.861,-0.992
+GOAL 7: Affordable and Clean Energy (5 year moving average),0,0.0,0.0,float64,1020,12,11,0.6,1.0,0.4,0.86,0.833,0.079,0.358,-0.45
+GOAL 8: Decent Work and Economic Growth (5 year moving average),0,0.0,0.0,float64,1020,45,43,0.111,0.889,0.778,0.427,0.385,0.21,-0.551,0.645
+"GOAL 9: Industry, Innovation and Infrastructure (5 year moving average)",0,0.0,0.0,float64,1020,34,32,0.111,1.0,0.889,0.426,0.4,0.206,-0.451,0.366
+Government Effectiveness: Estimate,0,0.0,0.0,float64,1020,1019,1,-2.228,0.711,2.939,-0.634,-0.697,0.511,0.16,0.06
+Government Effectiveness: Number of Sources,0,0.0,0.0,float64,1020,13,12,1.0,13.0,12.0,7.864,8.0,2.631,-0.567,-0.507
+Government Effectiveness: Percentile Rank,0,0.0,0.0,float64,1020,658,205,0.943,74.286,73.343,30.616,27.488,17.547,-0.715,0.428
+"Government Effectiveness: Percentile Rank, Lower Bound of 90% Confidence Interval",0,0.0,3.333,float64,1020,458,207,0.0,64.878,64.878,18.705,13.27,14.966,-0.223,0.88
+"Government Effectiveness: Percentile Rank, Upper Bound of 90% Confidence Interval",0,0.0,0.0,float64,1020,553,237,1.429,88.571,87.142,43.435,42.307,18.042,-0.484,0.025
+Government Effectiveness: Standard Error,0,0.0,0.0,float64,1020,627,192,0.162,0.439,0.277,0.229,0.213,0.056,2.477,1.629
+Health/Demographic survey (Availability score over 10 years),0,0.0,7.941,float64,1020,4,4,0.0,1.0,1.0,0.765,1.0,0.32,0.175,-1.164
+"Household Survey on income, etc  (Availability score over 10 years)",0,0.0,2.549,float64,1020,4,4,0.0,1.0,1.0,0.783,1.0,0.282,-0.169,-0.994
+"Immunization, DPT (% of children ages 12-23 months)",0,0.0,0.0,float64,1020,65,60,32.0,99.0,67.0,83.112,87.0,14.503,0.821,-1.142
+"Immunization, measles (% of children ages 12-23 months)",0,0.0,0.0,float64,1020,65,63,21.0,99.0,78.0,81.431,85.0,15.463,0.375,-0.963
+"Incidence of tuberculosis (per 100,000 people)",0,0.0,0.0,float64,1020,473,227,0.35,1590.0,1589.65,228.596,176.0,222.11,8.678,2.353
+Labor Force Survey (Availability score over 10 years),0,0.0,36.373,float64,1020,4,4,0.0,1.0,1.0,0.487,0.33,0.431,-1.708,0.064
+Labor force participation rate by sex and age (%),0,0.0,42.059,float64,1020,3,3,0.0,1.0,1.0,0.483,0.5,0.449,-1.76,0.065
+Lower secondary school starting age (years),0,0.0,0.0,float64,1020,5,5,10.0,14.0,4.0,11.823,12.0,0.907,0.417,-0.14
+Net migration,0,0.0,0.588,float64,1020,958,44,-2290411.0,733500.0,3023911.0,-67358.179,-8492.5,249512.202,27.037,-4.491
+Pillar 1  - Data Use - Score,0,0.0,1.078,float64,1020,18,15,0.0,100.0,100.0,52.064,50.0,26.801,-1.165,0.278
+Political Stability and Absence of Violence/Terrorism: Estimate,0,0.0,0.0,float64,1020,1017,3,-2.81,1.423,4.2330000000000005,-0.459,-0.448,0.844,-0.232,0.009
+Political Stability and Absence of Violence/Terrorism: Number of Sources,0,0.0,0.0,float64,1020,9,9,2.0,10.0,8.0,5.726,6.0,1.829,-0.746,-0.319
+Political Stability and Absence of Violence/Terrorism: Percentile Rank,0,0.0,0.0,float64,1020,612,264,0.474,99.029,98.55499999999999,34.756,30.476,23.978,0.071,0.871
+"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Lower Bound of 90% Confidence Interval",0,0.0,1.275,float64,1020,445,239,0.0,78.673,78.673,23.767,18.945,19.075,0.219,1.043
+"Political Stability and Absence of Violence/Terrorism: Percentile Rank, Upper Bound of 90% Confidence Interval",0,0.0,0.0,float64,1020,537,250,1.896,100.0,98.104,46.119,44.286,26.384,-0.52,0.497
+Political Stability and Absence of Violence/Terrorism: Standard Error,0,0.0,0.0,float64,1020,281,186,0.192,0.384,0.192,0.251,0.244,0.039,1.419,1.238
+Population & Housing census (Availability score over 20 years),0,0.0,6.471,float64,1020,3,3,0.0,1.0,1.0,0.893,1.0,0.273,4.859,-2.478
+Population ages 0-14 (% of total population),0,0.0,0.0,float64,1020,1020,0,21.461,47.273,25.812000000000005,36.375,36.953,6.08,-0.836,-0.358
+"Population ages 0-14, female",0,0.0,0.0,float64,1020,1019,1,17560.0,185486061.0,185468501.0,8426024.133,1760886.0,25982544.072,36.32,5.91
+"Population ages 0-14, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,21.262,46.432,25.17,35.7,36.179,6.106,-0.82,-0.371
+"Population ages 0-14, male",0,0.0,0.0,float64,1020,1019,1,18575.0,204250499.0,204231924.0,8964834.683,1808016.5,28411660.392,37.18,5.996
+"Population ages 0-14, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,20.828,48.204,27.376,37.073,37.83,6.104,-0.818,-0.334
+"Population ages 0-14, total",0,0.0,0.0,float64,1020,1020,0,36187.0,389736560.0,389700373.0,17390858.812,3558285.0,54392189.473,36.773,5.955
+"Population ages 00-04, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,6.466,18.263,11.797,12.798,12.731,2.87,-0.951,-0.056
+"Population ages 00-04, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,5.867,18.993,13.125999999999998,13.33,13.342,2.906,-0.907,-0.064
+"Population ages 05-09, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,7.069,15.562,8.492999999999999,11.868,12.126,2.027,-0.835,-0.391
+"Population ages 05-09, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,6.905,16.212,9.306999999999999,12.32,12.552,2.02,-0.827,-0.347
+"Population ages 10-14, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,6.943,13.82,6.877000000000001,11.034,11.315,1.453,-0.077,-0.776
+"Population ages 10-14, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,7.508,14.625,7.117,11.422,11.67,1.44,-0.163,-0.63
+"Population ages 15-19, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,6.523,12.668,6.145,10.211,10.367,1.084,1.233,-0.918
+"Population ages 15-19, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,6.951,13.104,6.153,10.48,10.605,1.059,0.928,-0.686
+Population ages 15-64 (% of total population),0,0.0,0.0,float64,1020,1020,0,50.24,72.17,21.93,59.439,59.265,4.932,-0.992,0.194
+"Population ages 15-64, female",0,0.0,0.0,float64,1020,1020,0,29049.0,471471101.0,471442052.0,16170776.552,3123435.0,57265419.26,42.877,6.484
+"Population ages 15-64, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,51.181,70.926,19.745000000000005,59.66,59.557,4.748,-1.03,0.173
+"Population ages 15-64, male",0,0.0,0.0,float64,1020,1018,2,26811.0,506719577.0,506692766.0,16718385.837,3103042.5,61400482.229,43.507,6.548
+"Population ages 15-64, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,48.478,73.251,24.773000000000003,59.2,58.92,5.174,-0.914,0.202
+"Population ages 15-64, total",0,0.0,0.0,float64,1020,1020,0,55861.0,978190678.0,978134817.0,32889162.395,6221830.5,118661134.567,43.21,6.518
+"Population ages 20-24, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,6.173,12.672,6.4990000000000006,9.302,9.332,0.823,1.833,-0.241
+"Population ages 20-24, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,6.508,11.944,5.436000000000001,9.395,9.408,0.833,0.717,0.002
+"Population ages 25-29, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,6.371,10.566,4.195,8.259,8.272,0.705,0.202,0.192
+"Population ages 25-29, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,5.655,11.345,5.69,8.23,8.249,0.817,0.767,0.277
+"Population ages 30-34, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,5.332,9.967,4.635000000000001,7.155,7.107,0.771,-0.278,0.242
+"Population ages 30-34, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,4.856,10.982,6.1259999999999994,7.099,7.042,0.883,0.676,0.388
+"Population ages 35-39, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,3.837,8.665,4.827999999999999,6.116,6.052,0.826,-0.587,0.283
+"Population ages 35-39, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,3.65,9.423,5.773,6.064,6.033,0.891,-0.138,0.264
+"Population ages 40-44, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,2.699,7.597,4.898000000000001,5.194,5.137,0.875,-0.458,0.287
+"Population ages 40-44, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,2.736,7.76,5.023999999999999,5.136,5.094,0.92,-0.447,0.209
+"Population ages 45-49, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,2.233,6.781,4.548,4.406,4.303,0.921,-0.456,0.453
+"Population ages 45-49, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,2.215,6.518,4.303,4.316,4.261,0.952,-0.523,0.328
+"Population ages 50-54, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,1.833,6.08,4.247,3.692,3.504,0.948,-0.198,0.684
+"Population ages 50-54, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,1.701,6.036,4.334999999999999,3.548,3.394,0.952,-0.3,0.593
+"Population ages 55-59, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,1.287,5.665,4.378,2.991,2.791,0.903,0.557,0.983
+"Population ages 55-59, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,1.219,5.447,4.228,2.808,2.601,0.871,0.476,0.946
+"Population ages 60-64, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,1.02,5.296,4.276,2.334,2.143,0.771,1.689,1.26
+"Population ages 60-64, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,0.888,4.792,3.904,2.124,1.942,0.712,1.703,1.274
+Population ages 65 and above (% of total population),0,0.0,0.0,float64,1020,1020,0,1.738,11.739,10.001000000000001,4.187,3.801,1.447,3.237,1.43
+"Population ages 65 and above, female",0,0.0,0.0,float64,1020,1019,1,1998.0,52259267.0,52257269.0,1381667.642,215919.5,5410681.466,50.233,6.954
+"Population ages 65 and above, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,2.056,13.298,11.242,4.64,4.227,1.678,2.765,1.345
+"Population ages 65 and above, male",0,0.0,0.0,float64,1020,1018,2,1296.0,47281658.0,47280362.0,1172888.731,170153.5,4801367.776,51.746,7.05
+"Population ages 65 and above, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,1.411,10.076,8.665000000000001,3.727,3.463,1.273,3.093,1.389
+"Population ages 65 and above, total",0,0.0,0.0,float64,1020,1020,0,3294.0,99540924.0,99537630.0,2554556.373,385151.5,10209760.305,50.975,7.003
+"Population ages 65-69, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,0.721,4.6,3.8789999999999996,1.769,1.635,0.594,3.047,1.396
+"Population ages 65-69, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,0.62,3.926,3.306,1.545,1.415,0.523,3.363,1.524
+"Population ages 70-74, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,0.45,3.793,3.343,1.278,1.186,0.451,3.187,1.264
+"Population ages 70-74, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,0.398,2.973,2.5749999999999997,1.055,0.972,0.36,3.728,1.423
+"Population ages 75-79, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,0.339,2.595,2.2560000000000002,0.846,0.766,0.334,1.563,1.094
+"Population ages 75-79, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,0.216,1.824,1.608,0.646,0.605,0.236,1.443,1.017
+"Population ages 80 and above, female (% of female population)",0,0.0,0.0,float64,1020,1020,0,0.239,2.351,2.112,0.747,0.616,0.391,2.988,1.664
+"Population ages 80 and above, male (% of male population)",0,0.0,0.0,float64,1020,1020,0,0.126,1.352,1.226,0.481,0.415,0.219,1.313,1.207
+Population growth (annual %),0,0.0,0.0,float64,1020,1020,0,-3.218,9.992,13.21,1.831,1.8,1.064,10.58,1.064
+"Population, female",0,0.0,0.0,float64,1020,1019,1,49191.0,696186332.0,696137141.0,25978468.296,5209280.0,88308498.239,40.854,6.324
+"Population, female (% of total population)",0,0.0,0.0,float64,1020,1020,0,46.148,52.762,6.613999999999997,50.07,50.162,1.098,1.667,-0.651
+"Population, male",0,0.0,0.0,float64,1020,1020,0,46894.0,741883264.0,741836370.0,26856109.228,5245831.5,94259477.982,41.379,6.382
+"Population, male (% of total population)",0,0.0,0.0,float64,1020,1020,0,47.238,53.852,6.613999999999997,49.93,49.838,1.098,1.667,0.651
+"Population, total",0,0.0,0.0,float64,1020,1020,0,96085.0,1438069596.0,1437973511.0,52834577.522,10419679.5,182562529.951,41.129,6.354
+"Primary education, duration (years)",0,0.0,0.0,float64,1020,4,4,4.0,7.0,3.0,5.78,6.0,0.754,0.554,-0.758
+Primary school starting age (years),0,0.0,0.0,float64,1020,3,3,5.0,7.0,2.0,6.042,6.0,0.489,1.157,0.103
+Quality of Debt service data according to World Bank,0,0.0,62.255,float64,1020,4,4,0.0,1.0,1.0,0.361,0.0,0.475,-1.635,0.587
+Regulatory Quality: Estimate,0,0.0,0.0,float64,1020,1020,0,-2.349,0.449,2.798,-0.655,-0.631,0.456,0.667,-0.528
+Regulatory Quality: Number of Sources,0,0.0,0.0,float64,1020,12,11,1.0,12.0,11.0,7.972,9.0,2.375,-0.164,-0.775
+Regulatory Quality: Percentile Rank,0,0.0,0.098,float64,1020,623,226,0.0,65.174,65.174,29.474,28.674,14.876,-0.879,0.143
+"Regulatory Quality: Percentile Rank, Lower Bound of 90% Confidence Interval",0,0.0,1.176,float64,1020,432,228,0.0,54.412,54.412,18.89,17.143,12.196,-0.384,0.576
+"Regulatory Quality: Percentile Rank, Upper Bound of 90% Confidence Interval",0,0.0,0.0,float64,1020,500,221,0.995,78.607,77.612,40.532,41.429,16.062,-0.553,-0.223
+Regulatory Quality: Standard Error,0,0.0,0.0,float64,1020,590,209,0.146,0.382,0.23600000000000002,0.199,0.191,0.041,3.564,1.806
+Rule of Law: Estimate,0,0.0,0.0,float64,1020,1018,2,-1.87,1.184,3.0540000000000003,-0.588,-0.668,0.594,-0.146,0.583
+Rule of Law: Number of Sources,0,0.0,0.0,float64,1020,17,17,2.0,18.0,16.0,11.619,12.0,3.645,-0.362,-0.565
+Rule of Law: Percentile Rank,0,0.0,0.0,float64,1020,599,269,0.478,88.517,88.039,32.068,28.302,20.016,-0.678,0.514
+"Rule of Law: Percentile Rank, Lower Bound of 90% Confidence Interval",0,0.0,1.471,float64,1020,462,236,0.0,73.333,73.333,23.164,17.856,18.226,-0.675,0.712
+"Rule of Law: Percentile Rank, Upper Bound of 90% Confidence Interval",0,0.0,0.0,float64,1020,541,259,1.422,94.258,92.836,41.121,39.906,20.507,-0.553,0.383
+Rule of Law: Standard Error,0,0.0,0.0,float64,1020,763,145,0.126,0.373,0.247,0.173,0.157,0.047,5.012,2.285
+Rural population,0,0.0,0.0,float64,1020,1020,0,54257.0,915129968.0,915075711.0,33437842.284,5426431.5,122583126.687,41.442,6.418
+Rural population (% of total population),0,0.0,0.0,float64,1020,1015,5,7.98,87.022,79.042,56.788,59.12,18.743,-0.45,-0.568
+Rural population growth (annual %),0,0.0,0.0,float64,1020,1020,0,-6.81,8.698,15.508,0.945,1.066,1.208,8.099,-0.921
+Safely Managed Drinking Water,0,0.0,55.0,float64,1020,3,3,0.0,1.0,1.0,0.438,0.0,0.49,-1.917,0.249
+"Secondary education, duration (years)",0,0.0,0.0,float64,1020,5,5,4.0,8.0,4.0,6.437,7.0,0.801,0.141,-0.421
+Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100),0,0.0,1.078,float64,1020,18,15,0.0,100.0,100.0,52.064,50.0,26.801,-1.165,0.278
+Urban population,0,0.0,0.0,float64,1020,1020,0,23979.0,522939628.0,522915649.0,19396735.238,4394213.5,60538643.853,40.803,6.209
+Urban population (% of total population),0,0.0,0.0,float64,1020,1015,5,12.978,92.02,79.042,43.212,40.88,18.743,-0.45,0.568
+Urban population growth (annual %),0,0.0,0.0,float64,1020,1020,0,-3.032,10.516,13.548,2.815,2.852,1.416,2.801,0.125
+Voice and Accountability: Estimate,0,0.0,0.0,float64,1020,1019,1,-2.233,1.148,3.3810000000000002,-0.486,-0.504,0.732,-0.584,0.122
+Voice and Accountability: Number of Sources,0,0.0,0.0,float64,1020,19,19,1.0,19.0,18.0,11.275,12.0,4.068,-0.271,-0.431
+Voice and Accountability: Percentile Rank,0,0.0,0.098,float64,1020,630,264,0.0,86.957,86.957,34.823,32.29,20.281,-0.483,0.463
+"Voice and Accountability: Percentile Rank, Lower Bound of 90% Confidence Interval",0,0.0,1.667,float64,1020,505,242,0.0,71.981,71.981,28.406,27.494,18.261,-0.648,0.411
+"Voice and Accountability: Percentile Rank, Upper Bound of 90% Confidence Interval",0,0.0,0.0,float64,1020,561,250,1.442,99.515,98.07300000000001,41.249,37.441,22.27,-0.269,0.558
+Voice and Accountability: Standard Error,0,0.0,0.0,float64,1020,765,127,0.104,0.295,0.191,0.141,0.128,0.035,3.185,1.93
+Women Business and the Law Index Score (scale 1-100),0,0.0,0.0,float64,1020,76,71,26.25,95.0,68.75,63.923,63.75,14.546,-0.398,-0.376
+Year,0,0.0,0.0,float64,1020,20,20,2004.0,2023.0,19.0,2013.5,2013.5,5.769,-1.206,0.0
