@@ -12,8 +12,8 @@ the "views" folder contains sql queries that are intended to be used as views in
 
 these three files (copied from "20yr dataset (no Year 2024)") are alternative cleaned datasets, and are not our main data sets
 they have had all columns with at least one NaN removed, while all countries each have a full 20 years' worth of data (20 rows per country)
+	Group1Data_20years_lowermiddleincome.NoNaNColumns.csv (152 indicator features)	
 	Group1Data_20years_northamerica_NoNaNColumns.csv (198 indicator features)
 	Group1Data_20years_southasia_NoNaNColumns.csv (239 indicator features)
-	Group1Data_20years_lowermiddleincome.NoNaNColumns.csv (152 indicator features)
 
 "basic_stats_Group1Dataset.csv" is basic stats about our main cleaned data set, "Group1Dataset.csv", found in culminating-project-group-1/Week 3/JC/
