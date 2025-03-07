@@ -5,10 +5,10 @@ Classification
         Employment in agriculture, female (% of female employment) (modeled ILO estimate) 
         Employment in industry, female (% of female employment) (modeled ILO estimate) 
         Employment in services, female (% of female employment) (modeled ILO estimate) 
-		GDP per capita (current US$) 
+	GDP per capita (current US$) 
         Government Effectiveness: Estimate 
-		Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
-		Regulatory Quality: Estimate 
+	Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+	Regulatory Quality: Estimate 
         Unemployment, female (% of female labor force) (modeled ILO estimate) 
         Wage and salaried workers, female (% of female employment) (modeled ILO estimate) 
     Research Questions:
@@ -21,11 +21,11 @@ Clustering
         Employment in agriculture, female (% of female employment) (modeled ILO estimate) 
         Employment in industry, female (% of female employment) (modeled ILO estimate) 
         Employment in services, female (% of female employment) (modeled ILO estimate) 
-		GDP per capita (current US$) 
+	GDP per capita (current US$) 
         Government Effectiveness: Estimate 
         Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
         Proportion of seats held by women in national parliaments (%)        
-		Regulatory Quality: Estimate 
+	Regulatory Quality: Estimate 
         Unemployment, female (% of female labor force) (modeled ILO estimate)    
     Research Questions:
         Are there clusters of countries with distinct female employment sectoral trends? 
@@ -34,12 +34,12 @@ Clustering
         How do governance-driven labor markets differ in female employment stability? 
 Correlation
     Indicators (maybe just try all):
-		Employment in agriculture, female (% of female employment) (modeled ILO estimate)
-		Employment in industry, female (% of female employment) (modeled ILO estimate)
-		Employment in services, female (% of female employment) (modeled ILO estimate)
-		GDP per capita (current US$) 
+	Employment in agriculture, female (% of female employment) (modeled ILO estimate)
+	Employment in industry, female (% of female employment) (modeled ILO estimate)
+	Employment in services, female (% of female employment) (modeled ILO estimate)
+	GDP per capita (current US$) 
         Government Effectiveness: Estimate 
-		Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+	Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
         Proportion of seats held by women in national parliaments (%) 
         Wage and salaried workers, female (% of female employment) (modeled ILO estimate)         
     Research Questions:
