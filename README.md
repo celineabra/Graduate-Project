@@ -1,8 +1,8 @@
 To view the report and documentation, please use the [repository wiki](https://github.com/Musiik-fn/650-DRAGON-SLAYERS/wiki)
 
-# BANA 698 CULMINATING PROJECT
+# BANA 698 CULMINATING PROJECT (CSUN Fall 2025)
 **Group Members:** Joshua Cabal, Celine Abrahamian, Namrata Patil, Christopher Yeung
-CSUN Fall 2025
+
 
 ## Objective
 Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
