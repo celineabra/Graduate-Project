@@ -35,7 +35,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 Initially, the data from three databases were extracted: World Development Indicators, Quarterly Public Sector Debt, and Statistical Performance Indicators.
 
-The World Development Indicators (WDI) is the primary World Bank collection of development indicators, compiled from officially recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.
+The **World Development Indicators (WDI)** is the primary World Bank collection of development indicators, compiled from officially recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates. The **Statistical Capacity Indicators (SPI)** provides information on various aspects of national statistical systems of developing countries, including an overall country-level statistical capacity indicators. The **Quarterly Public Sector Debt (QPSD)** was jointly  developed by the World Bank and the International Monetary Fund, and the database brings together detailed public sector debt data of selected developing /emerging market countries.
 
 The data for all indicators from all countries, from the years 2004 - 2024 (20 years) were extracted from this database. The metadata of the countries and the indicators were also extracted and stored in the database. The country, indicator, and record value were stored into three respective tables:
 
@@ -46,7 +46,7 @@ The data for all indicators from all countries, from the years 2004 - 2024 (20 y
 Where `DB` is the prefix of the source database.
 
 ![ERD Snippet](<Report Figures/ERD_SNIPPET.png>)
-**ERD Snippet Figure**: Configured one-to-many (1-M) relationship between record, and the country and indicator tables.
+**ERD Snippet Figure**: Configured one-to-many (1-M) relationship between record, and the country and indicator tables. This structure was repeated across all indicators and respective records from the various databases.
 
 Our database, fully populated and configured, is available in the project repository.
 
