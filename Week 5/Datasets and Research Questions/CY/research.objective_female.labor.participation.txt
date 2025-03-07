@@ -1,0 +1,86 @@
+Research Objective: To investigate female labor participation to determine if there are any actionable insights to recommend to world leaders
+
+Classification
+    Indicators:
+        Employment in agriculture, female (% of female employment) (modeled ILO estimate) 
+        Employment in industry, female (% of female employment) (modeled ILO estimate) 
+        Employment in services, female (% of female employment) (modeled ILO estimate) 
+		GDP per capita (current US$) 
+        Government Effectiveness: Estimate 
+		Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+		Regulatory Quality: Estimate 
+        Unemployment, female (% of female labor force) (modeled ILO estimate) 
+        Wage and salaried workers, female (% of female employment) (modeled ILO estimate) 
+    Research Questions:
+        Can countries be classified into economic structures based on female employment distribution across agriculture, industry, and services? 
+        Do more developed economies show higher female participation in services rather than industry or agriculture? 
+        Can countries be categorized based on governance quality and female labor force inclusion? 
+        Do stronger governance frameworks lead to lower female unemployment rates? 
+Clustering
+    Indicators:
+        Employment in agriculture, female (% of female employment) (modeled ILO estimate) 
+        Employment in industry, female (% of female employment) (modeled ILO estimate) 
+        Employment in services, female (% of female employment) (modeled ILO estimate) 
+		GDP per capita (current US$) 
+        Government Effectiveness: Estimate 
+        Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+        Proportion of seats held by women in national parliaments (%)        
+		Regulatory Quality: Estimate 
+        Unemployment, female (% of female labor force) (modeled ILO estimate)    
+    Research Questions:
+        Are there clusters of countries with distinct female employment sectoral trends? 
+        How do economic diversification and sectoral employment shifts impact female employment? 
+        Are there clusters of countries where high governance effectiveness aligns with higher female workforce participation? 
+        How do governance-driven labor markets differ in female employment stability? 
+Correlation
+    Indicators (maybe just try all):
+		Employment in agriculture, female (% of female employment) (modeled ILO estimate)
+		Employment in industry, female (% of female employment) (modeled ILO estimate)
+		Employment in services, female (% of female employment) (modeled ILO estimate)
+		GDP per capita (current US$) 
+        Government Effectiveness: Estimate 
+		Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+        Proportion of seats held by women in national parliaments (%) 
+        Wage and salaried workers, female (% of female employment) (modeled ILO estimate)         
+    Research Questions:
+        Is higher GDP per capita correlated with a shift from agriculture to services in female employment? 
+        Does economic growth impact female labor force transitions across sectors? 
+        Is stronger governance effectiveness correlated with higher female labor force participation? 
+        Does political representation of women impact female wage employment levels? 
+Linear Regression
+    Dependent Variable: Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+    Independent Variables:
+        Government Effectiveness: Estimate 
+        Proportion of seats held by women in national parliaments (%) 
+        Wage and salaried workers, female (% of female employment) (modeled ILO estimate) 
+    Research Questions:
+        How does governance effectiveness impact female labor force participation? 
+        Does increasing women’s political representation drive female employment? 
+		
+    Dependent Variable: Employment in services, female (% of female employment) (modeled ILO estimate)
+    Independent Variables:
+        GDP per capita (current US$) 
+        Employment in agriculture, female (% of female employment) (modeled ILO estimate) 
+        Employment in industry, female (% of female employment) (modeled ILO estimate) 
+    Research Questions:
+        Does economic growth predict female employment shifts toward services? 
+        How do industry and agriculture employment influence service sector employment for women? 
+Time Series
+    Indicators:
+        Government Effectiveness: Estimate 
+        Labor force participation rate, female (% of female population ages 15+) 
+        Unemployment, female (% of female labor force) (modeled ILO estimate) 
+        Proportion of seats held by women in national parliaments (%) 
+    Research Questions:
+        How has governance effectiveness influenced female labor force participation over time? 
+        Is there a lag between political representation gains and improved labor force participation? 
+    
+	Indicators:
+        Employment in agriculture, female (% of female employment) (modeled ILO estimate) 
+        Employment in industry, female (% of female employment) (modeled ILO estimate) 
+        Employment in services, female (% of female employment) (modeled ILO estimate) 
+    Research Questions:
+        How have female employment patterns across economic sectors evolved over time? 
+        Are there economic cycles that drive shifts in female employment between sectors? 
+
+

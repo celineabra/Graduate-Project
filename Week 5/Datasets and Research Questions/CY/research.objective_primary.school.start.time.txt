@@ -1,0 +1,74 @@
+Research Objective: To investigate if the age at which children begin primary school influences various aspects of the labor market. Segregating results by male/female is optional. A variation of this objective could focus on primary school duration.
+
+Classification:
+	Indicators: 
+		Employment in agriculture (% of total employment) (modeled ILO estimate)
+		Employment in agriculture, female (% of female employment) (modeled ILO estimate)
+		Employment in agriculture, male (% of male employment) (modeled ILO estimate)
+		Employment in industry (% of total employment) (modeled ILO estimate)
+		Employment in industry, female (% of female employment) (modeled ILO estimate)
+		Employment in industry, male (% of male employment) (modeled ILO estimate)
+		Employment in services (% of total employment) (modeled ILO estimate)
+		Employment in services, female (% of female employment) (modeled ILO estimate)
+		Employment in services, male (% of male employment) (modeled ILO estimate)
+		Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+		Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)
+		Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)
+		Primary school starting age (years)
+		Vulnerable employment, female (% of female employment) (modeled ILO estimate)
+		Vulnerable employment, male (% of male employment) (modeled ILO estimate)
+		Vulnerable employment, total (% of total employment) (modeled ILO estimate)
+	Research Questions: 
+		Can countries be classified into distinct groups based on their primary school starting age and the structure of their labor markets (e.g., agricultural vs. industrial vs. service-based)? 
+		Does a later primary school starting age correlate with a higher likelihood of a country being classified as having a more developed and less vulnerable labor market? 
+Clustering:
+	Indicators: 
+		GDP per capita (current US$) 
+		Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+		Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)
+		Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate) 
+		Primary school starting age (years) 
+		Ratio of female to male labor force participation rate (%) (modeled ILO estimate)
+		Unemployment, total (% of total labor force) (modeled ILO estimate)
+		Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)
+	Research Questions: 
+		Do countries with similar primary school starting ages cluster together in terms of unemployment rates, female labor force participation, and economic development? 
+		Are there identifiable clusters where a later starting age correlates with lower unemployment, greater gender parity in the workforce, and higher GDP per capita? 
+Correlation:
+	Indicators (maybe just try all): 
+		Contributing family workers, female (% of female employment) (modeled ILO estimate)
+		Contributing family workers, male (% of male employment) (modeled ILO estimate)
+		Contributing family workers, total (% of total employment) (modeled ILO estimate)
+		Employment to population ratio, 15+, total (%) (modeled ILO estimate) 
+		Primary school starting age (years) 
+		Wage and salaried workers, female (% of female employment) (modeled ILO estimate)
+		Wage and salaried workers, male (% of male employment) (modeled ILO estimate)
+		Wage and salaried workers, total (% of total employment) (modeled ILO estimate)
+	Research Questions: 
+		Is there a significant correlation between primary school starting age and the overall employment-to-population ratio? 
+		How does primary school starting age correlate with the prevalence of wage and salaried employment versus contributing family work, which may indicate the quality of employment? 
+Linear Regression:
+	Indicators: 
+		Dependent: Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate) 
+		Independent: Primary school starting age (years), Secondary education, duration (years), GDP per capita (constant 2015 US$) 
+	Research Questions: 
+		Does primary school starting age significantly predict youth unemployment rates, controlling for secondary education duration and GDP per capita? 
+		How much of the variance in youth unemployment can be explained by primary school starting age, considering the length of secondary education and economic development? 
+Time Series:
+	Indicators: 
+		Employment in agriculture (% of total employment) (modeled ILO estimate)
+		Employment in agriculture, female (% of female employment) (modeled ILO estimate)
+		Employment in agriculture, male (% of male employment) (modeled ILO estimate)
+		Employment in industry (% of total employment) (modeled ILO estimate)
+		Employment in industry, female (% of female employment) (modeled ILO estimate)
+		Employment in industry, male (% of male employment) (modeled ILO estimate)
+		Employment in services (% of total employment) (modeled ILO estimate)
+		Employment in services, female (% of female employment) (modeled ILO estimate)
+		Employment in services, male (% of male employment) (modeled ILO estimate)
+		Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)
+		Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)
+		Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate) 
+		Primary school starting age (years) 
+	Research Questions: 
+		How has the relationship between primary school starting age and the sectoral composition of the labor market (agriculture, industry, services) evolved over time within specific countries? 
+		Are there time lags between changes in primary school starting age and observable shifts in labor force participation and the distribution of employment across different sectors? 
