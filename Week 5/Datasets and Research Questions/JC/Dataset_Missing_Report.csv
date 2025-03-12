@@ -1,0 +1,310 @@
+Column,missing_count,missing_percent,Source Table
+CountryShortName,0,0.0,
+Year,0,0.0,Unknown Source
+GOAL 13: Climate Action (5 year moving average),144,4.98960498960499,SPIIndicator
+Pillar 3 - Data Products - Score,144,4.98960498960499,SPIIndicator
+GOAL 10: Reduced Inequality (5 year moving average),0,0.0,SPIIndicator
+GOAL 11: Sustainable Cities and Communities (5 year moving average),0,0.0,SPIIndicator
+GOAL 12: Responsible Consumption and Production (5 year moving average),0,0.0,SPIIndicator
+GOAL 15: Life on Land (5 year moving average),0,0.0,SPIIndicator
+GOAL 16: Peace and Justice Strong Institutions (5 year moving average),0,0.0,SPIIndicator
+GOAL 17: Partnerships to achieve the Goal (5 year moving average),0,0.0,SPIIndicator
+GOAL 1: No Poverty (5 year moving average),0,0.0,SPIIndicator
+Health/Demographic survey (Availability score over 10 years),0,0.0,SPIIndicator
+Labor Force Survey (Availability score over 10 years),0,0.0,SPIIndicator
+General government final consumption expenditure (constant 2015 US$),399,13.825363825363826,WDIEconomicIndicator
+General government final consumption expenditure (annual % growth),396,13.721413721413722,WDIEconomicIndicator
+Final consumption expenditure (constant 2015 US$),357,12.37006237006237,WDIEconomicIndicator
+Final consumption expenditure (annual % growth),349,12.092862092862093,WDIEconomicIndicator
+Exports of goods and services (% of GDP),217,7.519057519057519,WDIEconomicIndicator
+External balance on goods and services (% of GDP),217,7.519057519057519,WDIEconomicIndicator
+"Communications, computer, etc. (% of service imports, BoP)",119,4.123354123354123,WDIEconomicIndicator
+"Communications, computer, etc. (% of service exports, BoP)",114,3.9501039501039505,WDIEconomicIndicator
+"Exports of goods, services and primary income (BoP, current US$)",74,2.564102564102564,WDIEconomicIndicator
+Adjusted net national income (current US$),49,1.6978516978516978,WDIEconomicIndicator
+Adjusted net national income per capita (current US$),49,1.6978516978516978,WDIEconomicIndicator
+"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)",41,1.4206514206514207,WDIEconomicIndicator
+Adjusted savings: education expenditure (% of GNI),29,1.0048510048510049,WDIEconomicIndicator
+"GDP per capita, PPP (constant 2021 international $)",21,0.7276507276507277,WDIEconomicIndicator
+"GDP, PPP (constant 2021 international $)",21,0.7276507276507277,WDIEconomicIndicator
+"GNI per capita, PPP (current international $)",15,0.5197505197505198,WDIEconomicIndicator
+"GNI, PPP (current international $)",15,0.5197505197505198,WDIEconomicIndicator
+Adjusted savings: energy depletion (% of GNI),13,0.45045045045045046,WDIEconomicIndicator
+"Agriculture, forestry, and fishing, value added (% of GDP)",12,0.4158004158004158,WDIEconomicIndicator
+"GDP per capita, PPP (current international $)",12,0.4158004158004158,WDIEconomicIndicator
+"GDP, PPP (current international $)",12,0.4158004158004158,WDIEconomicIndicator
+GDP (constant 2015 US$),9,0.31185031185031187,WDIEconomicIndicator
+GDP per capita (constant 2015 US$),9,0.31185031185031187,WDIEconomicIndicator
+"GNI per capita, Atlas method (current US$)",5,0.17325017325017325,WDIEconomicIndicator
+"GNI, Atlas method (current US$)",5,0.17325017325017325,WDIEconomicIndicator
+Adjusted savings: carbon dioxide damage (% of GNI),4,0.1386001386001386,WDIEconomicIndicator
+GNI (current US$),3,0.10395010395010396,WDIEconomicIndicator
+GDP growth (annual %),1,0.03465003465003465,WDIEconomicIndicator
+GDP per capita growth (annual %),1,0.03465003465003465,WDIEconomicIndicator
+GDP (current US$),0,0.0,WDIEconomicIndicator
+GDP per capita (current US$),0,0.0,WDIEconomicIndicator
+"Preprimary education, duration (years)",410,14.206514206514207,WDIEducationIndicator
+"School enrollment, primary, female (% gross)",340,11.781011781011781,WDIEducationIndicator
+"School enrollment, primary, male (% gross)",340,11.781011781011781,WDIEducationIndicator
+"School enrollment, primary (% gross)",335,11.607761607761608,WDIEducationIndicator
+"Primary education, pupils",281,9.736659736659735,WDIEducationIndicator
+"Compulsory education, duration (years)",216,7.484407484407485,WDIEducationIndicator
+Broad money (% of GDP),462,16.008316008316008,WDIFinancialSectorIndicator
+"Automated teller machines (ATMs) (per 100,000 adults)",298,10.325710325710325,WDIFinancialSectorIndicator
+Domestic credit to private sector (% of GDP),264,9.147609147609149,WDIFinancialSectorIndicator
+"Commercial bank branches (per 100,000 adults)",110,3.8115038115038113,WDIFinancialSectorIndicator
+"Claims on central government, etc. (% GDP)",101,3.4996534996535,WDIFinancialSectorIndicator
+Monetary Sector credit to private sector (% GDP),101,3.4996534996535,WDIFinancialSectorIndicator
+Domestic credit to private sector by banks (% of GDP),100,3.465003465003465,WDIFinancialSectorIndicator
+"Official exchange rate (LCU per US$, period average)",19,0.6583506583506583,WDIFinancialSectorIndicator
+"Inflation, GDP deflator (annual %)",1,0.03465003465003465,WDIFinancialSectorIndicator
+"Inflation, GDP deflator: linked series (annual %)",1,0.03465003465003465,WDIFinancialSectorIndicator
+Proportion of seats held by women in national parliaments (%),55,1.9057519057519057,WDIGenderIndicator
+Women Business and the Law Index Score (scale 1-100),0,0.0,WDIGenderIndicator
+Insurance and financial services (% of commercial service exports),254,8.8011088011088,WDIPrivateSectorIndicator
+Ores and metals imports (% of merchandise imports),241,8.350658350658351,WDIPrivateSectorIndicator
+Fuel imports (% of merchandise imports),239,8.281358281358282,WDIPrivateSectorIndicator
+"International tourism, expenditures for travel items (current US$)",210,7.276507276507277,WDIPrivateSectorIndicator
+"International tourism, receipts for travel items (current US$)",210,7.276507276507277,WDIPrivateSectorIndicator
+Transport services (% of commercial service exports),137,4.747054747054747,WDIPrivateSectorIndicator
+Insurance and financial services (% of commercial service imports),130,4.504504504504505,WDIPrivateSectorIndicator
+Travel services (% of commercial service exports),122,4.227304227304227,WDIPrivateSectorIndicator
+Transport services (% of commercial service imports),119,4.123354123354123,WDIPrivateSectorIndicator
+Travel services (% of commercial service imports),113,3.9154539154539156,WDIPrivateSectorIndicator
+"Computer, communications and other services (% of commercial service exports)",111,3.8461538461538463,WDIPrivateSectorIndicator
+"Computer, communications and other services (% of commercial service imports)",110,3.8115038115038113,WDIPrivateSectorIndicator
+Export unit value index (2015 = 100),22,0.7623007623007623,WDIPrivateSectorIndicator
+Import unit value index (2015 = 100),22,0.7623007623007623,WDIPrivateSectorIndicator
+Refugee population by country or territory of asylum,369,12.785862785862786,WDISocialIndicator
+"Share of youth not in education, employment or training, female (% of female youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
+"Share of youth not in education, employment or training, male (% of male youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
+"Share of youth not in education, employment or training, total (% of youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
+Refugee population by country or territory of origin,110,3.8115038115038113,WDISocialIndicator
+GDP per person employed (constant 2021 PPP $),21,0.7276507276507277,WDISocialIndicator
+Fuel exports (% of merchandise exports),299,10.36036036036036,WDIPrivateSectorIndicator
+"International tourism, number of arrivals",370,12.82051282051282,WDIPrivateSectorIndicator
+"Employment to population ratio, 15+, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, 15+, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, 15+, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+Fluorinated greenhouse gases (F-gases) emissions from Industrial Processes (Mt CO2e),419,14.518364518364518,WDIEnvironmentIndicator
+Total greenhouse gas emissions including LULUCF (Mt CO2e),243,8.419958419958421,WDIEnvironmentIndicator
+Carbon dioxide (CO2) net fluxes from LULUCF - Deforestation (Mt CO2e),218,7.553707553707553,WDIEnvironmentIndicator
+Carbon dioxide (CO2) net fluxes from LULUCF - Forest Land (Mt CO2e),218,7.553707553707553,WDIEnvironmentIndicator
+Carbon dioxide (CO2) net fluxes from LULUCF - Total excluding non-tropical fires (Mt CO2e),218,7.553707553707553,WDIEnvironmentIndicator
+"Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal)",135,4.677754677754678,WDIEnvironmentIndicator
+"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",112,3.8808038808038807,WDIEnvironmentIndicator
+Aquaculture production (metric tons),104,3.6036036036036037,WDIEnvironmentIndicator
+Total fisheries production (metric tons),104,3.6036036036036037,WDIEnvironmentIndicator
+Cereal production (metric tons),94,3.2571032571032568,WDIEnvironmentIndicator
+Land under cereal production (hectares),94,3.2571032571032568,WDIEnvironmentIndicator
+"Access to electricity, rural (% of rural population)",92,3.187803187803188,WDIEnvironmentIndicator
+Fertilizer consumption (kilograms per hectare of arable land),84,2.9106029106029108,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions from Fugitive Emissions (Energy) (Mt CO2e),79,2.7373527373527375,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Fugitive Emissions (Energy) (Mt CO2e),61,2.1136521136521136,WDIEnvironmentIndicator
+Renewable internal freshwater resources per capita (cubic meters),52,1.8018018018018018,WDIEnvironmentIndicator
+"Renewable internal freshwater resources, total (billion cubic meters)",52,1.8018018018018018,WDIEnvironmentIndicator
+"Access to clean fuels and technologies for cooking, rural (% of rural population)",48,1.6632016632016633,WDIEnvironmentIndicator
+"Access to clean fuels and technologies for cooking, urban (% of urban population)",48,1.6632016632016633,WDIEnvironmentIndicator
+Carbon intensity of GDP (kg CO2e per 2021 PPP $),46,1.593901593901594,WDIEnvironmentIndicator
+Carbon intensity of GDP (kg CO2e per constant 2021 US$ of GDP),34,1.178101178101178,WDIEnvironmentIndicator
+Rural population growth (annual %),34,1.178101178101178,WDIEnvironmentIndicator
+Natural gas rents (% of GDP),29,1.0048510048510049,WDIEnvironmentIndicator
+Permanent cropland (% of land area),26,0.9009009009009009,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions (total) excluding LULUCF (% change from 1990),25,0.8662508662508662,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita),25,0.8662508662508662,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions from Building (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions from Industrial Combustion (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions from Industrial Processes (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions from Power Industry (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Carbon dioxide (CO2) emissions from Transport (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions (total) excluding LULUCF (% change from 1990),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions from Agriculture (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions from Building (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions from Fugitive Emissions (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions from Industrial Combustion (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions from Power Industry (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions from Transport (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Methane (CH4) emissions from Waste (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions (total) excluding LULUCF (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Agriculture (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Building (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Industrial Combustion (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Industrial Processes (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Power Industry (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Transport (Energy) (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Nitrous oxide (N2O) emissions from Waste (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Total greenhouse gas emissions excluding LULUCF (% change from 1990),25,0.8662508662508662,WDIEnvironmentIndicator
+Total greenhouse gas emissions excluding LULUCF (Mt CO2e),25,0.8662508662508662,WDIEnvironmentIndicator
+Total greenhouse gas emissions per capita excluding LULUCF (t CO2e/capita),25,0.8662508662508662,WDIEnvironmentIndicator
+Oil rents (% of GDP),20,0.693000693000693,WDIEnvironmentIndicator
+Coal rents (% of GDP),17,0.589050589050589,WDIEnvironmentIndicator
+Total natural resources rents (% of GDP),9,0.31185031185031187,WDIEnvironmentIndicator
+Agricultural land (% of land area),8,0.2772002772002772,WDIEnvironmentIndicator
+Arable land (% of land area),8,0.2772002772002772,WDIEnvironmentIndicator
+Crop production index (2014-2016 = 100),8,0.2772002772002772,WDIEnvironmentIndicator
+Food production index (2014-2016 = 100),8,0.2772002772002772,WDIEnvironmentIndicator
+Forest area (% of land area),8,0.2772002772002772,WDIEnvironmentIndicator
+Forest area (sq. km),8,0.2772002772002772,WDIEnvironmentIndicator
+Land area (sq. km),8,0.2772002772002772,WDIEnvironmentIndicator
+Livestock production index (2014-2016 = 100),8,0.2772002772002772,WDIEnvironmentIndicator
+Population density (people per sq. km of land area),8,0.2772002772002772,WDIEnvironmentIndicator
+Energy intensity level of primary energy (MJ/$2017 PPP GDP),7,0.24255024255024255,WDIEnvironmentIndicator
+Access to electricity (% of population),0,0.0,WDIEnvironmentIndicator
+"Access to electricity, urban (% of urban population)",0,0.0,WDIEnvironmentIndicator
+Arable land (hectares per person),0,0.0,WDIEnvironmentIndicator
+Capture fisheries production (metric tons),0,0.0,WDIEnvironmentIndicator
+Forest rents (% of GDP),0,0.0,WDIEnvironmentIndicator
+Mineral rents (% of GDP),0,0.0,WDIEnvironmentIndicator
+Renewable energy consumption (% of total final energy consumption),0,0.0,WDIEnvironmentIndicator
+Rural population,0,0.0,WDIEnvironmentIndicator
+Rural population (% of total population),0,0.0,WDIEnvironmentIndicator
+Surface area (sq. km),0,0.0,WDIEnvironmentIndicator
+Urban population,0,0.0,WDIEnvironmentIndicator
+Urban population (% of total population),0,0.0,WDIEnvironmentIndicator
+Urban population growth (annual %),0,0.0,WDIEnvironmentIndicator
+"Prevalence of stunting, height for age (modeled estimate, % of children under 5)",461,15.973665973665973,WDIHealthIndicator
+"Prevalence of overweight (modeled estimate, % of children under 5)",443,15.34996534996535,WDIHealthIndicator
+Prevalence of anemia among children (% of children ages 6-59 months),304,10.533610533610533,WDIHealthIndicator
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),304,10.533610533610533,WDIHealthIndicator
+Prevalence of anemia among pregnant women (%),304,10.533610533610533,WDIHealthIndicator
+Prevalence of anemia among women of reproductive age (% of women ages 15-49),304,10.533610533610533,WDIHealthIndicator
+"People using at least basic sanitation services, rural (% of rural population)",254,8.8011088011088,WDIHealthIndicator
+"People using at least basic drinking water services, urban (% of urban population)",218,7.553707553707553,WDIHealthIndicator
+"People using at least basic sanitation services, urban (% of urban population)",207,7.172557172557173,WDIHealthIndicator
+Prevalence of undernourishment (% of population),187,6.4795564795564795,WDIHealthIndicator
+Tuberculosis treatment success rate (% of new cases),160,5.544005544005544,WDIHealthIndicator
+"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",131,4.53915453915454,WDIHealthIndicator
+"Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, female 15+ years of age)",131,4.53915453915454,WDIHealthIndicator
+"Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age)",131,4.53915453915454,WDIHealthIndicator
+Lifetime risk of maternal death (%),112,3.8808038808038807,WDIHealthIndicator
+Lifetime risk of maternal death (1 in: rate varies by country),112,3.8808038808038807,WDIHealthIndicator
+"Maternal mortality ratio (modeled estimate, per 100,000 live births)",112,3.8808038808038807,WDIHealthIndicator
+Number of maternal deaths,112,3.8808038808038807,WDIHealthIndicator
+People using at least basic drinking water services (% of population),37,1.282051282051282,WDIHealthIndicator
+People practicing open defecation (% of population),36,1.2474012474012475,WDIHealthIndicator
+"Mortality rate, adult, female (per 1,000 female adults)",33,1.1434511434511436,WDIHealthIndicator
+"Mortality rate, adult, male (per 1,000 male adults)",33,1.1434511434511436,WDIHealthIndicator
+"Tuberculosis case detection rate (%, all forms)",21,0.7276507276507277,WDIHealthIndicator
+Out-of-pocket expenditure (% of current health expenditure),19,0.6583506583506583,WDIHealthIndicator
+Out-of-pocket expenditure per capita (current US$),19,0.6583506583506583,WDIHealthIndicator
+Current health expenditure (% of GDP),18,0.6237006237006237,WDIHealthIndicator
+Current health expenditure per capita (current US$),18,0.6237006237006237,WDIHealthIndicator
+"Current health expenditure per capita, PPP (current international $)",18,0.6237006237006237,WDIHealthIndicator
+Domestic general government health expenditure (% of GDP),18,0.6237006237006237,WDIHealthIndicator
+Domestic general government health expenditure (% of current health expenditure),18,0.6237006237006237,WDIHealthIndicator
+Domestic general government health expenditure per capita (current US$),18,0.6237006237006237,WDIHealthIndicator
+"Domestic general government health expenditure per capita, PPP (current international $)",18,0.6237006237006237,WDIHealthIndicator
+Domestic private health expenditure (% of current health expenditure),18,0.6237006237006237,WDIHealthIndicator
+Domestic private health expenditure per capita (current US$),18,0.6237006237006237,WDIHealthIndicator
+"Domestic private health expenditure per capita, PPP (current international $)",18,0.6237006237006237,WDIHealthIndicator
+"Out-of-pocket expenditure per capita, PPP (current international $)",18,0.6237006237006237,WDIHealthIndicator
+People using at least basic sanitation services (% of population),18,0.6237006237006237,WDIHealthIndicator
+"Adolescent fertility rate (births per 1,000 women ages 15-19)",0,0.0,WDIHealthIndicator
+"Birth rate, crude (per 1,000 people)",0,0.0,WDIHealthIndicator
+"Death rate, crude (per 1,000 people)",0,0.0,WDIHealthIndicator
+"Immunization, DPT (% of children ages 12-23 months)",0,0.0,WDIHealthIndicator
+"Immunization, measles (% of children ages 12-23 months)",0,0.0,WDIHealthIndicator
+"Incidence of tuberculosis (per 100,000 people)",0,0.0,WDIHealthIndicator
+"Mortality rate, infant (per 1,000 live births)",0,0.0,WDIHealthIndicator
+"Mortality rate, infant, female (per 1,000 live births)",0,0.0,WDIHealthIndicator
+"Mortality rate, infant, male (per 1,000 live births)",0,0.0,WDIHealthIndicator
+"Mortality rate, neonatal (per 1,000 live births)",0,0.0,WDIHealthIndicator
+"Mortality rate, under-5 (per 1,000 live births)",0,0.0,WDIHealthIndicator
+"Mortality rate, under-5, female (per 1,000 live births)",0,0.0,WDIHealthIndicator
+"Mortality rate, under-5, male (per 1,000 live births)",0,0.0,WDIHealthIndicator
+Number of deaths ages 10-14 years,0,0.0,WDIHealthIndicator
+Number of deaths ages 15-19 years,0,0.0,WDIHealthIndicator
+Number of deaths ages 20-24 years,0,0.0,WDIHealthIndicator
+Number of deaths ages 5-9 years,0,0.0,WDIHealthIndicator
+Number of infant deaths,0,0.0,WDIHealthIndicator
+Number of neonatal deaths,0,0.0,WDIHealthIndicator
+Number of under-five deaths,0,0.0,WDIHealthIndicator
+Population ages 0-14 (% of total population),0,0.0,WDIHealthIndicator
+"Population ages 0-14, female",0,0.0,WDIHealthIndicator
+"Population ages 0-14, female (% of female population)",0,0.0,WDIHealthIndicator
+"Population ages 0-14, male",0,0.0,WDIHealthIndicator
+"Population ages 0-14, male (% of male population)",0,0.0,WDIHealthIndicator
+"Population ages 0-14, total",0,0.0,WDIHealthIndicator
+"Population ages 10-14, female (% of female population)",0,0.0,WDIHealthIndicator
+"Population ages 10-14, male (% of male population)",0,0.0,WDIHealthIndicator
+"Population ages 15-19, female (% of female population)",0,0.0,WDIHealthIndicator
+"Population ages 15-19, male (% of male population)",0,0.0,WDIHealthIndicator
+Population ages 15-64 (% of total population),0,0.0,WDIHealthIndicator
+"Probability of dying among adolescents ages 10-14 years (per 1,000)",0,0.0,WDIHealthIndicator
+"Probability of dying among adolescents ages 15-19 years (per 1,000)",0,0.0,WDIHealthIndicator
+"Probability of dying among children ages 5-9 years (per 1,000)",0,0.0,WDIHealthIndicator
+"Probability of dying among youth ages 20-24 years (per 1,000)",0,0.0,WDIHealthIndicator
+"International tourism, number of arrivals",370,12.82051282051282,WDIPrivateSectorIndicator
+Fuel exports (% of merchandise exports),299,10.36036036036036,WDIPrivateSectorIndicator
+Insurance and financial services (% of commercial service exports),254,8.8011088011088,WDIPrivateSectorIndicator
+Ores and metals imports (% of merchandise imports),241,8.350658350658351,WDIPrivateSectorIndicator
+Fuel imports (% of merchandise imports),239,8.281358281358282,WDIPrivateSectorIndicator
+"International tourism, expenditures for travel items (current US$)",210,7.276507276507277,WDIPrivateSectorIndicator
+"International tourism, receipts for travel items (current US$)",210,7.276507276507277,WDIPrivateSectorIndicator
+Transport services (% of commercial service exports),137,4.747054747054747,WDIPrivateSectorIndicator
+Insurance and financial services (% of commercial service imports),130,4.504504504504505,WDIPrivateSectorIndicator
+Travel services (% of commercial service exports),122,4.227304227304227,WDIPrivateSectorIndicator
+Transport services (% of commercial service imports),119,4.123354123354123,WDIPrivateSectorIndicator
+Travel services (% of commercial service imports),113,3.9154539154539156,WDIPrivateSectorIndicator
+"Computer, communications and other services (% of commercial service exports)",111,3.8461538461538463,WDIPrivateSectorIndicator
+"Computer, communications and other services (% of commercial service imports)",110,3.8115038115038113,WDIPrivateSectorIndicator
+Export unit value index (2015 = 100),22,0.7623007623007623,WDIPrivateSectorIndicator
+Import unit value index (2015 = 100),22,0.7623007623007623,WDIPrivateSectorIndicator
+Refugee population by country or territory of asylum,369,12.785862785862786,WDISocialIndicator
+"Share of youth not in education, employment or training, female (% of female youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
+"Share of youth not in education, employment or training, male (% of male youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
+"Share of youth not in education, employment or training, total (% of youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
+Refugee population by country or territory of origin,110,3.8115038115038113,WDISocialIndicator
+GDP per person employed (constant 2021 PPP $),21,0.7276507276507277,WDISocialIndicator
+"Employment to population ratio, 15+, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, 15+, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, 15+, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Labor force, female (% of total labor force)",0,0.0,WDISocialIndicator
+"Labor force, total",0,0.0,WDISocialIndicator
+Net migration,0,0.0,WDISocialIndicator
+Ratio of female to male labor force participation rate (%) (modeled ILO estimate),0,0.0,WDISocialIndicator
+"Self-employed, female (% of female employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Self-employed, male (% of male employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Self-employed, total (% of total employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, female (% of female labor force) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, male (% of male labor force) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, total (% of total labor force) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Vulnerable employment, female (% of female employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Vulnerable employment, male (% of male employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Vulnerable employment, total (% of total employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Wage and salaried workers, female (% of female employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Wage and salaried workers, male (% of male employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
+"Wage and salaried workers, total (% of total employment) (modeled ILO estimate)",0,0.0,WDISocialIndicator
