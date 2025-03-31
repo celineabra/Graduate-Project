@@ -33,10 +33,8 @@ GOAL 7: Affordable and Clean Energy (5 year moving average),0,0.0,SPIIndicator
 GOAL 8: Decent Work and Economic Growth (5 year moving average),0,0.0,SPIIndicator
 "GOAL 9: Industry, Innovation and Infrastructure (5 year moving average)",0,0.0,SPIIndicator
 Health/Demographic survey (Availability score over 10 years),0,0.0,SPIIndicator
-"Household Survey on income, etc  (Availability score over 10 years)",0,0.0,SPIIndicator
 Labor Force Survey (Availability score over 10 years),0,0.0,SPIIndicator
 Labor force participation rate by sex and age (%),0,0.0,SPIIndicator
-Pillar 1  - Data Use - Score,0,0.0,SPIIndicator
 Pillar 3 - Data Products - Score,144,4.98960498960499,SPIIndicator
 Population & Housing census (Availability score over 20 years),0,0.0,SPIIndicator
 Quality of Debt service data according to World Bank,0,0.0,SPIIndicator
@@ -170,7 +168,6 @@ Primary school starting age (years),0,0.0,WDIEducationIndicator
 "School enrollment, secondary (% gross)",692,23.977823977823977,WDIEducationIndicator
 "Secondary education, duration (years)",2,0.0693000693000693,WDIEducationIndicator
 "Secondary education, pupils",628,21.76022176022176,WDIEducationIndicator
-Access to clean fuels and technologies for cooking  (% of population),48,1.6632016632016633,WDIEnvironmentIndicator
 "Access to clean fuels and technologies for cooking, rural (% of rural population)",48,1.6632016632016633,WDIEnvironmentIndicator
 "Access to clean fuels and technologies for cooking, urban (% of urban population)",48,1.6632016632016633,WDIEnvironmentIndicator
 Access to electricity (% of population),0,0.0,WDIEnvironmentIndicator

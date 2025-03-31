@@ -1,6 +1,9 @@
 Column,missing_count,missing_percent,Source Table
 CountryShortName,0,0.0,
 Year,0,0.0,Unknown Source
+"Life expectancy at birth, female (years)",0,0.0,WDIHealthIndicator
+"Life expectancy at birth, male (years)",0,0.0,WDIHealthIndicator
+"Life expectancy at birth, total (years)",0,0.0,WDIHealthIndicator
 GOAL 13: Climate Action (5 year moving average),144,4.98960498960499,SPIIndicator
 Pillar 3 - Data Products - Score,144,4.98960498960499,SPIIndicator
 GOAL 10: Reduced Inequality (5 year moving average),0,0.0,SPIIndicator
@@ -11,7 +14,9 @@ GOAL 16: Peace and Justice Strong Institutions (5 year moving average),0,0.0,SPI
 GOAL 17: Partnerships to achieve the Goal (5 year moving average),0,0.0,SPIIndicator
 GOAL 1: No Poverty (5 year moving average),0,0.0,SPIIndicator
 Health/Demographic survey (Availability score over 10 years),0,0.0,SPIIndicator
+"Household Survey on income, etc (Availability score over 10 years)",0,0.0,
 Labor Force Survey (Availability score over 10 years),0,0.0,SPIIndicator
+Pillar 1 - Data Use - Score,0,0.0,
 General government final consumption expenditure (constant 2015 US$),399,13.825363825363826,WDIEconomicIndicator
 General government final consumption expenditure (annual % growth),396,13.721413721413722,WDIEconomicIndicator
 Final consumption expenditure (constant 2015 US$),357,12.37006237006237,WDIEconomicIndicator
@@ -61,46 +66,6 @@ Domestic credit to private sector by banks (% of GDP),100,3.465003465003465,WDIF
 "Inflation, GDP deflator: linked series (annual %)",1,0.03465003465003465,WDIFinancialSectorIndicator
 Proportion of seats held by women in national parliaments (%),55,1.9057519057519057,WDIGenderIndicator
 Women Business and the Law Index Score (scale 1-100),0,0.0,WDIGenderIndicator
-Insurance and financial services (% of commercial service exports),254,8.8011088011088,WDIPrivateSectorIndicator
-Ores and metals imports (% of merchandise imports),241,8.350658350658351,WDIPrivateSectorIndicator
-Fuel imports (% of merchandise imports),239,8.281358281358282,WDIPrivateSectorIndicator
-"International tourism, expenditures for travel items (current US$)",210,7.276507276507277,WDIPrivateSectorIndicator
-"International tourism, receipts for travel items (current US$)",210,7.276507276507277,WDIPrivateSectorIndicator
-Transport services (% of commercial service exports),137,4.747054747054747,WDIPrivateSectorIndicator
-Insurance and financial services (% of commercial service imports),130,4.504504504504505,WDIPrivateSectorIndicator
-Travel services (% of commercial service exports),122,4.227304227304227,WDIPrivateSectorIndicator
-Transport services (% of commercial service imports),119,4.123354123354123,WDIPrivateSectorIndicator
-Travel services (% of commercial service imports),113,3.9154539154539156,WDIPrivateSectorIndicator
-"Computer, communications and other services (% of commercial service exports)",111,3.8461538461538463,WDIPrivateSectorIndicator
-"Computer, communications and other services (% of commercial service imports)",110,3.8115038115038113,WDIPrivateSectorIndicator
-Export unit value index (2015 = 100),22,0.7623007623007623,WDIPrivateSectorIndicator
-Import unit value index (2015 = 100),22,0.7623007623007623,WDIPrivateSectorIndicator
-Refugee population by country or territory of asylum,369,12.785862785862786,WDISocialIndicator
-"Share of youth not in education, employment or training, female (% of female youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
-"Share of youth not in education, employment or training, male (% of male youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
-"Share of youth not in education, employment or training, total (% of youth population) (modeled ILO estimate)",144,4.98960498960499,WDISocialIndicator
-Refugee population by country or territory of origin,110,3.8115038115038113,WDISocialIndicator
-GDP per person employed (constant 2021 PPP $),21,0.7276507276507277,WDISocialIndicator
-Fuel exports (% of merchandise exports),299,10.36036036036036,WDIPrivateSectorIndicator
-"International tourism, number of arrivals",370,12.82051282051282,WDIPrivateSectorIndicator
-"Employment to population ratio, 15+, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Employment to population ratio, 15+, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Employment to population ratio, 15+, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate for ages 15-24, total (%) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate, female (% of female population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate, male (% of male population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate, total (% of total population ages 15+) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
-"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",0,0.0,WDISocialIndicator
 Fluorinated greenhouse gases (F-gases) emissions from Industrial Processes (Mt CO2e),419,14.518364518364518,WDIEnvironmentIndicator
 Total greenhouse gas emissions including LULUCF (Mt CO2e),243,8.419958419958421,WDIEnvironmentIndicator
 Carbon dioxide (CO2) net fluxes from LULUCF - Deforestation (Mt CO2e),218,7.553707553707553,WDIEnvironmentIndicator
@@ -118,6 +83,7 @@ Carbon dioxide (CO2) emissions from Fugitive Emissions (Energy) (Mt CO2e),79,2.7
 Nitrous oxide (N2O) emissions from Fugitive Emissions (Energy) (Mt CO2e),61,2.1136521136521136,WDIEnvironmentIndicator
 Renewable internal freshwater resources per capita (cubic meters),52,1.8018018018018018,WDIEnvironmentIndicator
 "Renewable internal freshwater resources, total (billion cubic meters)",52,1.8018018018018018,WDIEnvironmentIndicator
+Access to clean fuels and technologies for cooking (% of population),48,1.6632016632016633,
 "Access to clean fuels and technologies for cooking, rural (% of rural population)",48,1.6632016632016633,WDIEnvironmentIndicator
 "Access to clean fuels and technologies for cooking, urban (% of urban population)",48,1.6632016632016633,WDIEnvironmentIndicator
 Carbon intensity of GDP (kg CO2e per 2021 PPP $),46,1.593901593901594,WDIEnvironmentIndicator

@@ -20,10 +20,8 @@ GOAL 7: Affordable and Clean Energy (5 year moving average),0,0.0,SPIIndicator
 GOAL 8: Decent Work and Economic Growth (5 year moving average),0,0.0,SPIIndicator
 "GOAL 9: Industry, Innovation and Infrastructure (5 year moving average)",0,0.0,SPIIndicator
 Health/Demographic survey (Availability score over 10 years),0,0.0,SPIIndicator
-"Household Survey on income, etc  (Availability score over 10 years)",0,0.0,SPIIndicator
 Labor Force Survey (Availability score over 10 years),0,0.0,SPIIndicator
 Labor force participation rate by sex and age (%),0,0.0,SPIIndicator
-Pillar 1  - Data Use - Score,0,0.0,SPIIndicator
 Population & Housing census (Availability score over 20 years),0,0.0,SPIIndicator
 Quality of Debt service data according to World Bank,0,0.0,SPIIndicator
 Safely Managed Drinking Water,0,0.0,SPIIndicator
@@ -94,7 +92,6 @@ Carbon dioxide (CO2) emissions from Fugitive Emissions (Energy) (Mt CO2e),79,2.7
 Nitrous oxide (N2O) emissions from Fugitive Emissions (Energy) (Mt CO2e),61,2.1136521136521136,WDIEnvironmentIndicator
 Renewable internal freshwater resources per capita (cubic meters),52,1.8018018018018018,WDIEnvironmentIndicator
 "Renewable internal freshwater resources, total (billion cubic meters)",52,1.8018018018018018,WDIEnvironmentIndicator
-Access to clean fuels and technologies for cooking  (% of population),48,1.6632016632016633,WDIEnvironmentIndicator
 "Access to clean fuels and technologies for cooking, rural (% of rural population)",48,1.6632016632016633,WDIEnvironmentIndicator
 "Access to clean fuels and technologies for cooking, urban (% of urban population)",48,1.6632016632016633,WDIEnvironmentIndicator
 Carbon intensity of GDP (kg CO2e per 2021 PPP $),46,1.593901593901594,WDIEnvironmentIndicator
