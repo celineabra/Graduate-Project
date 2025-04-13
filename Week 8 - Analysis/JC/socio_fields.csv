@@ -1,25 +1,26 @@
 ,0
-0,"Inflation, GDP deflator (annual %)"
-1,Adjusted savings: energy depletion (% of GNI)
-2,Ores and metals imports (% of merchandise imports)
+0,"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)"
+1,Region_South Asia
+2,"International tourism, number of arrivals"
 3,Final consumption expenditure (annual % growth)
-4,"Claims on central government, etc. (% GDP)"
-5,"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)"
-6,Region_Sub-Saharan Africa
-7,"International tourism, expenditures for travel items (current US$)"
-8,GOAL 11: Sustainable Cities and Communities (5 year moving average)
-9,Refugee population by country or territory of asylum
-10,Region_South Asia
-11,Insurance and financial services (% of commercial service exports)
-12,"Communications, computer, etc. (% of service exports, BoP)"
-13,Travel services (% of commercial service imports)
-14,Income Group_Low income
-15,"International tourism, number of arrivals"
-16,External balance on goods and services (% of GDP)
-17,Region_Middle East & North Africa
-18,Income Group_Upper middle income
-19,"Primary education, pupils"
-20,"Commercial bank branches (per 100,000 adults)"
-21,Transport services (% of commercial service exports)
-22,Region_Latin America & Caribbean
+4,Adjusted savings: energy depletion (% of GNI)
+5,Income Group_Upper middle income
+6,"International tourism, expenditures for travel items (current US$)"
+7,Travel services (% of commercial service imports)
+8,Insurance and financial services (% of commercial service exports)
+9,GOAL 11: Sustainable Cities and Communities (5 year moving average)
+10,"Primary education, pupils"
+11,Region_East Asia & Pacific
+12,Ores and metals imports (% of merchandise imports)
+13,Region_Middle East & North Africa
+14,"Commercial bank branches (per 100,000 adults)"
+15,Income Group_Low income
+16,"Claims on central government, etc. (% GDP)"
+17,Region_Latin America & Caribbean
+18,"Communications, computer, etc. (% of service exports, BoP)"
+19,Region_Sub-Saharan Africa
+20,Refugee population by country or territory of asylum
+21,External balance on goods and services (% of GDP)
+22,"Inflation, GDP deflator (annual %)"
 23,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)"
+24,Transport services (% of commercial service exports)
