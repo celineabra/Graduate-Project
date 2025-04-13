@@ -1,24 +1,25 @@
 ,0
-0,Transport services (% of commercial service exports)
-1,Refugee population by country or territory of asylum
-2,External balance on goods and services (% of GDP)
-3,"Claims on central government, etc. (% GDP)"
-4,"Commercial bank branches (per 100,000 adults)"
-5,Adjusted savings: energy depletion (% of GNI)
-6,Insurance and financial services (% of commercial service exports)
-7,Region_South Asia
-8,Income Group_Upper middle income
-9,"Primary education, pupils"
-10,Travel services (% of commercial service imports)
-11,"International tourism, number of arrivals"
-12,Region_Middle East & North Africa
-13,Region_Latin America & Caribbean
+0,"Inflation, GDP deflator (annual %)"
+1,Adjusted savings: energy depletion (% of GNI)
+2,Ores and metals imports (% of merchandise imports)
+3,Final consumption expenditure (annual % growth)
+4,"Claims on central government, etc. (% GDP)"
+5,"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)"
+6,Region_Sub-Saharan Africa
+7,"International tourism, expenditures for travel items (current US$)"
+8,GOAL 11: Sustainable Cities and Communities (5 year moving average)
+9,Refugee population by country or territory of asylum
+10,Region_South Asia
+11,Insurance and financial services (% of commercial service exports)
+12,"Communications, computer, etc. (% of service exports, BoP)"
+13,Travel services (% of commercial service imports)
 14,Income Group_Low income
-15,Region_East Asia & Pacific
-16,"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)"
-17,Ores and metals imports (% of merchandise imports)
-18,"Inflation, GDP deflator (annual %)"
-19,GOAL 11: Sustainable Cities and Communities (5 year moving average)
-20,Final consumption expenditure (annual % growth)
-21,"Communications, computer, etc. (% of service exports, BoP)"
-22,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)"
+15,"International tourism, number of arrivals"
+16,External balance on goods and services (% of GDP)
+17,Region_Middle East & North Africa
+18,Income Group_Upper middle income
+19,"Primary education, pupils"
+20,"Commercial bank branches (per 100,000 adults)"
+21,Transport services (% of commercial service exports)
+22,Region_Latin America & Caribbean
+23,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)"

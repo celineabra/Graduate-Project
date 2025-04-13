@@ -1,0 +1,57 @@
+Dropping 'Total greenhouse gas emissions excluding LULUCF (Mt CO2e)' with VIF = 9110.19
+Dropping 'Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)' with VIF = 3555.11
+Dropping 'Nitrous oxide (N2O) emissions (total) excluding LULUCF (Mt CO2e)' with VIF = 2076.63
+Dropping 'Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)' with VIF = 745.30
+Dropping 'Total fisheries production (metric tons)' with VIF = 598.41
+Dropping 'Nitrous oxide (N2O) emissions from Industrial Combustion (Energy) (Mt CO2e)' with VIF = 525.32
+Dropping 'Surface area (sq. km)' with VIF = 306.90
+Dropping 'Access to clean fuels and technologies for cooking (% of population)' with VIF = 154.68
+Dropping 'Carbon dioxide (CO2) emissions from Industrial Combustion (Energy) (Mt CO2e)' with VIF = 138.48
+Dropping 'Total greenhouse gas emissions including LULUCF (Mt CO2e)' with VIF = 133.17
+Dropping 'Carbon dioxide (CO2) emissions from Transport (Energy) (Mt CO2e)' with VIF = 122.25
+Dropping 'Urban population (% of total population)' with VIF = 120.23
+Dropping 'Food production index (2014-2016 = 100)' with VIF = 469.66
+Dropping 'Access to electricity (% of population)' with VIF = 292.87
+Dropping 'Access to electricity, urban (% of urban population)' with VIF = 134.90
+Dropping 'Nitrous oxide (N2O) emissions from Waste (Mt CO2e)' with VIF = 125.00
+Dropping 'Nitrous oxide (N2O) emissions from Agriculture (Mt CO2e)' with VIF = 111.35
+Dropping 'Total greenhouse gas emissions per capita excluding LULUCF (t CO2e/capita)' with VIF = 84.72
+Dropping 'Nitrous oxide (N2O) emissions from Transport (Energy) (Mt CO2e)' with VIF = 74.64
+Dropping 'Urban population' with VIF = 69.34
+Dropping 'Access to clean fuels and technologies for cooking, urban (% of urban population)' with VIF = 56.76
+Dropping 'Land under cereal production (hectares)' with VIF = 54.89
+Dropping 'Carbon dioxide (CO2) emissions from Power Industry (Energy) (Mt CO2e)' with VIF = 52.43
+Dropping 'Total natural resources rents (% of GDP)' with VIF = 48.17
+Dropping 'Livestock production index (2014-2016 = 100)' with VIF = 42.70
+Dropping 'Carbon dioxide (CO2) emissions from Industrial Processes (Mt CO2e)' with VIF = 40.38
+Dropping 'Nitrous oxide (N2O) emissions from Building (Energy) (Mt CO2e)' with VIF = 37.56
+Dropping 'Carbon intensity of GDP (kg CO2e per 2021 PPP $)' with VIF = 34.43
+Dropping 'Forest area (sq. km)' with VIF = 31.37
+Dropping 'Cereal production (metric tons)' with VIF = 28.82
+Dropping 'Crop production index (2014-2016 = 100)' with VIF = 27.44
+Dropping 'Rural population' with VIF = 26.92
+Dropping 'Carbon dioxide (CO2) emissions from Fugitive Emissions (Energy) (Mt CO2e)' with VIF = 24.80
+Dropping 'Access to electricity, rural (% of rural population)' with VIF = 23.83
+Dropping 'Methane (CH4) emissions from Waste (Mt CO2e)' with VIF = 19.43
+Dropping 'Methane (CH4) emissions from Industrial Combustion (Energy) (Mt CO2e)' with VIF = 17.27
+Dropping 'Nitrous oxide (N2O) emissions from Industrial Processes (Mt CO2e)' with VIF = 15.60
+Dropping 'Energy intensity level of primary energy (MJ/$2017 PPP GDP)' with VIF = 15.35
+Dropping 'Land area (sq. km)' with VIF = 13.33
+Dropping 'Carbon dioxide (CO2) net fluxes from LULUCF - Deforestation (Mt CO2e)' with VIF = 13.16
+Dropping 'Fluorinated greenhouse gases (F-gases) emissions from Industrial Processes (Mt CO2e)' with VIF = 12.79
+Dropping 'Rural population (% of total population)' with VIF = 11.69
+Dropping 'Carbon dioxide (CO2) emissions from Building (Energy) (Mt CO2e)' with VIF = 11.53
+Dropping 'Agricultural land (% of land area)' with VIF = 9.86
+Dropping 'Methane (CH4) emissions from Agriculture (Mt CO2e)' with VIF = 8.70
+Dropping 'Renewable energy consumption (% of total final energy consumption)' with VIF = 8.21
+Dropping 'Total greenhouse gas emissions excluding LULUCF (% change from 1990)' with VIF = 7.87
+Dropping 'Methane (CH4) emissions from Power Industry (Energy) (Mt CO2e)' with VIF = 7.75
+Dropping 'Access to clean fuels and technologies for cooking, rural (% of rural population)' with VIF = 7.02
+Dropping 'Methane (CH4) emissions from Transport (Energy) (Mt CO2e)' with VIF = 6.29
+Dropping 'PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)' with VIF = 5.87
+Dropping 'Methane (CH4) emissions from Fugitive Emissions (Energy) (Mt CO2e)' with VIF = 5.63
+Dropping 'Nitrous oxide (N2O) emissions from Power Industry (Energy) (Mt CO2e)' with VIF = 5.03
+Dropping 'Urban population growth (annual %)' with VIF = 4.88
+Dropping 'Carbon intensity of GDP (kg CO2e per constant 2021 US$ of GDP)' with VIF = 4.57
+Dropping 'Renewable internal freshwater resources, total (billion cubic meters)' with VIF = 4.45
+Remaining features: Mineral rents (% of GDP), Natural gas rents (% of GDP), Forest area (% of land area), Carbon dioxide (CO2) emissions (total) excluding LULUCF (% change from 1990), Rural population growth (annual %), Forest rents (% of GDP), Arable land (hectares per person), Fertilizer consumption (kilograms per hectare of arable land), Methane (CH4) emissions from Building (Energy) (Mt CO2e), Renewable internal freshwater resources per capita (cubic meters), Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990), Carbon dioxide (CO2) net fluxes from LULUCF - Forest Land (Mt CO2e), Methane (CH4) emissions (total) excluding LULUCF (% change from 1990), Carbon dioxide (CO2) net fluxes from LULUCF - Total excluding non-tropical fires (Mt CO2e), Population density (people per sq. km of land area), Arable land (% of land area), Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita), Permanent cropland (% of land area), Coal rents (% of GDP), Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal), Capture fisheries production (metric tons), GOAL 13: Climate Action (5 year moving average), Oil rents (% of GDP), Nitrous oxide (N2O) emissions from Fugitive Emissions (Energy) (Mt CO2e), Aquaculture production (metric tons)
