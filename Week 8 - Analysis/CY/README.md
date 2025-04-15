@@ -16,19 +16,25 @@
 > Uses BaggingRegressor and cross-validation to model the data and create a list of features sorted by importance.
 
 ### feature_importance_bagging.crossval.2.ipynb
-> Alt version of BaggingRegressor that excludes more features
+> Alt version of BaggingRegressor that uses groups of features (health, environment, socioeconomic) instead of all, to see if performance improves.
 
 ### feature_importance_lightgbm.crossval.ipynb
 > Uses LightGBMRegressor and cross-validation to model the data and create a list of features sorted by importance.
 
 ### feature_importance_lightgbm.crossval.2.ipynb
-> Alt version of LightGBMRegressor that excludes more features
-> 
+> Alt version of LightGBMRegressor that uses groups of features (health, environment, socioeconomic) instead of all, to see if performance improves.
+
 ### onehot_the_raw_file.ipynb
 > Simple code to one-hot the two object columns in our raw dataset
 
+### vif_autoremover.ipynb
+> Successively calculates vif for all features, remove the feature with the highest vif, recalculates vif, until a vif threshold is reached.
+
+### vif_compare_cv_onepass.ipynb
+> Calculates average vif during a cross-validation and also vif with a single-pass, then compares the results.
+
 ---
-#### Last update: 04.10.25
+#### Last update: 04.14.25
 
 	
 
