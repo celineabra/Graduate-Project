@@ -1,11 +1,11 @@
 ,0
-0,Prevalence of undernourishment (% of population)
-1,"Incidence of tuberculosis (per 100,000 people)"
-2,Number of maternal deaths
-3,Lifetime risk of maternal death (%)
-4,"Prevalence of overweight (modeled estimate, % of children under 5)"
-5,Lifetime risk of maternal death (1 in: rate varies by country)
-6,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)"
-7,Domestic private health expenditure per capita (current US$)
-8,People practicing open defecation (% of population)
+0,Lifetime risk of maternal death (%)
+1,Domestic private health expenditure per capita (current US$)
+2,"Prevalence of overweight (modeled estimate, % of children under 5)"
+3,"Incidence of tuberculosis (per 100,000 people)"
+4,Prevalence of undernourishment (% of population)
+5,Number of maternal deaths
+6,People practicing open defecation (% of population)
+7,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)"
+8,Lifetime risk of maternal death (1 in: rate varies by country)
 9,"Population ages 0-14, total"

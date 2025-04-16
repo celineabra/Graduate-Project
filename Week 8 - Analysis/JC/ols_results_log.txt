@@ -491,3 +491,375 @@ Kurtosis:                       3.326   Cond. No.                         4.90
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.665
+Model:                                                 OLS   Adj. R-squared:                  0.662
+Method:                                      Least Squares   F-statistic:                     252.4
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:39:42   Log-Likelihood:                -6912.8
+No. Observations:                                     2308   AIC:                         1.386e+04
+Df Residuals:                                         2289   BIC:                         1.397e+04
+Df Model:                                               18                                         
+Covariance Type:                                 nonrobust                                         
+====================================================================================================================================================================
+                                                                                                       coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                               70.9735      0.101    702.074      0.000      70.775      71.172
+Fertilizer consumption (kilograms per hectare of arable land)                                        1.4113      0.118     11.939      0.000       1.180       1.643
+Aquaculture production (metric tons)                                                                 0.3306      0.153      2.154      0.031       0.030       0.632
+Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990)                         -0.5000      0.123     -4.050      0.000      -0.742      -0.258
+Capture fisheries production (metric tons)                                                           0.5837      0.147      3.978      0.000       0.296       0.871
+Methane (CH4) emissions from Building (Energy) (Mt CO2e)                                            -1.1526      0.144     -8.005      0.000      -1.435      -0.870
+Coal rents (% of GDP)                                                                               -0.2533      0.109     -2.317      0.021      -0.468      -0.039
+Oil rents (% of GDP)                                                                                -1.0938      0.123     -8.915      0.000      -1.334      -0.853
+Arable land (% of land area)                                                                         0.3142      0.128      2.450      0.014       0.063       0.566
+Renewable internal freshwater resources per capita (cubic meters)                                    0.8305      0.122      6.788      0.000       0.591       1.070
+Forest rents (% of GDP)                                                                             -3.0727      0.124    -24.788      0.000      -3.316      -2.830
+Forest area (% of land area)                                                                         0.3494      0.124      2.829      0.005       0.107       0.592
+Population density (people per sq. km of land area)                                                  0.5699      0.122      4.653      0.000       0.330       0.810
+GOAL 13: Climate Action (5 year moving average)                                                      0.5918      0.109      5.415      0.000       0.377       0.806
+Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)                           2.7249      0.143     19.106      0.000       2.445       3.005
+Mineral rents (% of GDP)                                                                            -0.4826      0.115     -4.211      0.000      -0.707      -0.258
+Natural gas rents (% of GDP)                                                                        -0.6795      0.118     -5.761      0.000      -0.911      -0.448
+Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal)     1.0815      0.122      8.884      0.000       0.843       1.320
+Rural population growth (annual %)                                                                  -1.2344      0.122    -10.091      0.000      -1.474      -0.995
+==============================================================================
+Omnibus:                      485.913   Durbin-Watson:                   1.963
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1340.073
+Skew:                          -1.101   Prob(JB):                    1.02e-291
+Kurtosis:                       6.014   Cond. No.                         3.11
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.806
+Model:                                                 OLS   Adj. R-squared:                  0.805
+Method:                                      Least Squares   F-statistic:                     453.3
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:39:43   Log-Likelihood:                -6280.1
+No. Observations:                                     2308   AIC:                         1.260e+04
+Df Residuals:                                         2286   BIC:                         1.273e+04
+Df Model:                                               21                                         
+Covariance Type:                                 nonrobust                                         
+========================================================================================================================================================
+                                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                   70.9735      0.077    922.895      0.000      70.823      71.124
+Travel services (% of commercial service imports)                                       -0.1723      0.083     -2.064      0.039      -0.336      -0.009
+Commercial bank branches (per 100,000 adults)                                            1.1148      0.099     11.313      0.000       0.922       1.308
+Inflation, GDP deflator (annual %)                                                      -0.7417      0.081     -9.205      0.000      -0.900      -0.584
+Income Group_Low income                                                                 -0.4992      0.097     -5.153      0.000      -0.689      -0.309
+Claims on central government, etc. (% GDP)                                               0.9090      0.087     10.433      0.000       0.738       1.080
+Region_Latin America & Caribbean                                                        -0.4484      0.100     -4.503      0.000      -0.644      -0.253
+Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)    -0.2127      0.090     -2.355      0.019      -0.390      -0.036
+Adjusted savings: energy depletion (% of GNI)                                           -0.3507      0.095     -3.695      0.000      -0.537      -0.165
+Final consumption expenditure (annual % growth)                                         -0.2576      0.081     -3.169      0.002      -0.417      -0.098
+Ores and metals imports (% of merchandise imports)                                       0.3954      0.090      4.412      0.000       0.220       0.571
+International tourism, expenditures for travel items (current US$)                       0.7047      0.115      6.148      0.000       0.480       0.930
+External balance on goods and services (% of GDP)                                        1.2373      0.094     13.139      0.000       1.053       1.422
+International tourism, number of arrivals                                                0.3202      0.108      2.964      0.003       0.108       0.532
+Communications, computer, etc. (% of service exports, BoP)                              -0.2219      0.084     -2.630      0.009      -0.387      -0.056
+Region_Sub-Saharan Africa                                                               -4.6515      0.118    -39.512      0.000      -4.882      -4.421
+Income Group_Upper middle income                                                         0.3141      0.091      3.456      0.001       0.136       0.492
+Region_East Asia & Pacific                                                              -0.4308      0.093     -4.639      0.000      -0.613      -0.249
+GOAL 11: Sustainable Cities and Communities (5 year moving average)                      0.5353      0.082      6.494      0.000       0.374       0.697
+Region_South Asia                                                                       -0.3778      0.092     -4.122      0.000      -0.557      -0.198
+Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)           1.6917      0.097     17.463      0.000       1.502       1.882
+Primary education, pupils                                                               -0.9490      0.104     -9.154      0.000      -1.152      -0.746
+==============================================================================
+Omnibus:                      128.372   Durbin-Watson:                   1.978
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              267.848
+Skew:                          -0.371   Prob(JB):                     6.88e-59
+Kurtosis:                       4.494   Cond. No.                         3.69
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.881
+Model:                                                 OLS   Adj. R-squared:                  0.881
+Method:                                      Least Squares   F-statistic:                     1704.
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:39:43   Log-Likelihood:                -5716.3
+No. Observations:                                     2308   AIC:                         1.145e+04
+Df Residuals:                                         2297   BIC:                         1.152e+04
+Df Model:                                               10                                         
+Covariance Type:                                 nonrobust                                         
+========================================================================================================================================================================
+                                                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                                   70.9735      0.060   1181.082      0.000      70.856      71.091
+Lifetime risk of maternal death (%)                                                                     -4.1798      0.095    -44.107      0.000      -4.366      -3.994
+Domestic private health expenditure per capita (current US$)                                             1.8903      0.077     24.432      0.000       1.739       2.042
+Prevalence of overweight (modeled estimate, % of children under 5)                                      -0.3456      0.069     -5.004      0.000      -0.481      -0.210
+Incidence of tuberculosis (per 100,000 people)                                                          -2.2119      0.077    -28.904      0.000      -2.362      -2.062
+Prevalence of undernourishment (% of population)                                                        -0.8234      0.085     -9.702      0.000      -0.990      -0.657
+Number of maternal deaths                                                                                0.5333      0.108      4.952      0.000       0.322       0.744
+People practicing open defecation (% of population)                                                     -0.7328      0.082     -8.893      0.000      -0.894      -0.571
+Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)    -0.7015      0.073     -9.653      0.000      -0.844      -0.559
+Lifetime risk of maternal death (1 in: rate varies by country)                                           1.3455      0.081     16.662      0.000       1.187       1.504
+Population ages 0-14, total                                                                             -0.2172      0.096     -2.257      0.024      -0.406      -0.028
+==============================================================================
+Omnibus:                       44.358   Durbin-Watson:                   2.003
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               47.913
+Skew:                          -0.313   Prob(JB):                     3.94e-11
+Kurtosis:                       3.326   Cond. No.                         4.90
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.665
+Model:                                                 OLS   Adj. R-squared:                  0.662
+Method:                                      Least Squares   F-statistic:                     252.4
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:42:53   Log-Likelihood:                -6912.8
+No. Observations:                                     2308   AIC:                         1.386e+04
+Df Residuals:                                         2289   BIC:                         1.397e+04
+Df Model:                                               18                                         
+Covariance Type:                                 nonrobust                                         
+====================================================================================================================================================================
+                                                                                                       coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                               70.9735      0.101    702.074      0.000      70.775      71.172
+Fertilizer consumption (kilograms per hectare of arable land)                                        1.4113      0.118     11.939      0.000       1.180       1.643
+Aquaculture production (metric tons)                                                                 0.3306      0.153      2.154      0.031       0.030       0.632
+Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990)                         -0.5000      0.123     -4.050      0.000      -0.742      -0.258
+Capture fisheries production (metric tons)                                                           0.5837      0.147      3.978      0.000       0.296       0.871
+Methane (CH4) emissions from Building (Energy) (Mt CO2e)                                            -1.1526      0.144     -8.005      0.000      -1.435      -0.870
+Coal rents (% of GDP)                                                                               -0.2533      0.109     -2.317      0.021      -0.468      -0.039
+Oil rents (% of GDP)                                                                                -1.0938      0.123     -8.915      0.000      -1.334      -0.853
+Arable land (% of land area)                                                                         0.3142      0.128      2.450      0.014       0.063       0.566
+Renewable internal freshwater resources per capita (cubic meters)                                    0.8305      0.122      6.788      0.000       0.591       1.070
+Forest rents (% of GDP)                                                                             -3.0727      0.124    -24.788      0.000      -3.316      -2.830
+Forest area (% of land area)                                                                         0.3494      0.124      2.829      0.005       0.107       0.592
+Population density (people per sq. km of land area)                                                  0.5699      0.122      4.653      0.000       0.330       0.810
+GOAL 13: Climate Action (5 year moving average)                                                      0.5918      0.109      5.415      0.000       0.377       0.806
+Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)                           2.7249      0.143     19.106      0.000       2.445       3.005
+Mineral rents (% of GDP)                                                                            -0.4826      0.115     -4.211      0.000      -0.707      -0.258
+Natural gas rents (% of GDP)                                                                        -0.6795      0.118     -5.761      0.000      -0.911      -0.448
+Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal)     1.0815      0.122      8.884      0.000       0.843       1.320
+Rural population growth (annual %)                                                                  -1.2344      0.122    -10.091      0.000      -1.474      -0.995
+==============================================================================
+Omnibus:                      485.913   Durbin-Watson:                   1.963
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1340.073
+Skew:                          -1.101   Prob(JB):                    1.02e-291
+Kurtosis:                       6.014   Cond. No.                         3.11
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.806
+Model:                                                 OLS   Adj. R-squared:                  0.805
+Method:                                      Least Squares   F-statistic:                     453.3
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:42:54   Log-Likelihood:                -6280.1
+No. Observations:                                     2308   AIC:                         1.260e+04
+Df Residuals:                                         2286   BIC:                         1.273e+04
+Df Model:                                               21                                         
+Covariance Type:                                 nonrobust                                         
+========================================================================================================================================================
+                                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                   70.9735      0.077    922.895      0.000      70.823      71.124
+Travel services (% of commercial service imports)                                       -0.1723      0.083     -2.064      0.039      -0.336      -0.009
+Commercial bank branches (per 100,000 adults)                                            1.1148      0.099     11.313      0.000       0.922       1.308
+Inflation, GDP deflator (annual %)                                                      -0.7417      0.081     -9.205      0.000      -0.900      -0.584
+Income Group_Low income                                                                 -0.4992      0.097     -5.153      0.000      -0.689      -0.309
+Claims on central government, etc. (% GDP)                                               0.9090      0.087     10.433      0.000       0.738       1.080
+Region_Latin America & Caribbean                                                        -0.4484      0.100     -4.503      0.000      -0.644      -0.253
+Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)    -0.2127      0.090     -2.355      0.019      -0.390      -0.036
+Adjusted savings: energy depletion (% of GNI)                                           -0.3507      0.095     -3.695      0.000      -0.537      -0.165
+Final consumption expenditure (annual % growth)                                         -0.2576      0.081     -3.169      0.002      -0.417      -0.098
+Ores and metals imports (% of merchandise imports)                                       0.3954      0.090      4.412      0.000       0.220       0.571
+International tourism, expenditures for travel items (current US$)                       0.7047      0.115      6.148      0.000       0.480       0.930
+External balance on goods and services (% of GDP)                                        1.2373      0.094     13.139      0.000       1.053       1.422
+International tourism, number of arrivals                                                0.3202      0.108      2.964      0.003       0.108       0.532
+Communications, computer, etc. (% of service exports, BoP)                              -0.2219      0.084     -2.630      0.009      -0.387      -0.056
+Region_Sub-Saharan Africa                                                               -4.6515      0.118    -39.512      0.000      -4.882      -4.421
+Income Group_Upper middle income                                                         0.3141      0.091      3.456      0.001       0.136       0.492
+Region_East Asia & Pacific                                                              -0.4308      0.093     -4.639      0.000      -0.613      -0.249
+GOAL 11: Sustainable Cities and Communities (5 year moving average)                      0.5353      0.082      6.494      0.000       0.374       0.697
+Region_South Asia                                                                       -0.3778      0.092     -4.122      0.000      -0.557      -0.198
+Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)           1.6917      0.097     17.463      0.000       1.502       1.882
+Primary education, pupils                                                               -0.9490      0.104     -9.154      0.000      -1.152      -0.746
+==============================================================================
+Omnibus:                      128.372   Durbin-Watson:                   1.978
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              267.848
+Skew:                          -0.371   Prob(JB):                     6.88e-59
+Kurtosis:                       4.494   Cond. No.                         3.69
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.881
+Model:                                                 OLS   Adj. R-squared:                  0.881
+Method:                                      Least Squares   F-statistic:                     1704.
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:42:54   Log-Likelihood:                -5716.3
+No. Observations:                                     2308   AIC:                         1.145e+04
+Df Residuals:                                         2297   BIC:                         1.152e+04
+Df Model:                                               10                                         
+Covariance Type:                                 nonrobust                                         
+========================================================================================================================================================================
+                                                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                                   70.9735      0.060   1181.082      0.000      70.856      71.091
+Lifetime risk of maternal death (%)                                                                     -4.1798      0.095    -44.107      0.000      -4.366      -3.994
+Domestic private health expenditure per capita (current US$)                                             1.8903      0.077     24.432      0.000       1.739       2.042
+Prevalence of overweight (modeled estimate, % of children under 5)                                      -0.3456      0.069     -5.004      0.000      -0.481      -0.210
+Incidence of tuberculosis (per 100,000 people)                                                          -2.2119      0.077    -28.904      0.000      -2.362      -2.062
+Prevalence of undernourishment (% of population)                                                        -0.8234      0.085     -9.702      0.000      -0.990      -0.657
+Number of maternal deaths                                                                                0.5333      0.108      4.952      0.000       0.322       0.744
+People practicing open defecation (% of population)                                                     -0.7328      0.082     -8.893      0.000      -0.894      -0.571
+Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)    -0.7015      0.073     -9.653      0.000      -0.844      -0.559
+Lifetime risk of maternal death (1 in: rate varies by country)                                           1.3455      0.081     16.662      0.000       1.187       1.504
+Population ages 0-14, total                                                                             -0.2172      0.096     -2.257      0.024      -0.406      -0.028
+==============================================================================
+Omnibus:                       44.358   Durbin-Watson:                   2.003
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               47.913
+Skew:                          -0.313   Prob(JB):                     3.94e-11
+Kurtosis:                       3.326   Cond. No.                         4.90
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.665
+Model:                                                 OLS   Adj. R-squared:                  0.662
+Method:                                      Least Squares   F-statistic:                     252.4
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:46:08   Log-Likelihood:                -6912.8
+No. Observations:                                     2308   AIC:                         1.386e+04
+Df Residuals:                                         2289   BIC:                         1.397e+04
+Df Model:                                               18                                         
+Covariance Type:                                 nonrobust                                         
+====================================================================================================================================================================
+                                                                                                       coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                               70.9735      0.101    702.074      0.000      70.775      71.172
+Fertilizer consumption (kilograms per hectare of arable land)                                        1.4113      0.118     11.939      0.000       1.180       1.643
+Aquaculture production (metric tons)                                                                 0.3306      0.153      2.154      0.031       0.030       0.632
+Nitrous oxide (N2O) emissions (total) excluding LULUCF (% change from 1990)                         -0.5000      0.123     -4.050      0.000      -0.742      -0.258
+Capture fisheries production (metric tons)                                                           0.5837      0.147      3.978      0.000       0.296       0.871
+Methane (CH4) emissions from Building (Energy) (Mt CO2e)                                            -1.1526      0.144     -8.005      0.000      -1.435      -0.870
+Coal rents (% of GDP)                                                                               -0.2533      0.109     -2.317      0.021      -0.468      -0.039
+Oil rents (% of GDP)                                                                                -1.0938      0.123     -8.915      0.000      -1.334      -0.853
+Arable land (% of land area)                                                                         0.3142      0.128      2.450      0.014       0.063       0.566
+Renewable internal freshwater resources per capita (cubic meters)                                    0.8305      0.122      6.788      0.000       0.591       1.070
+Forest rents (% of GDP)                                                                             -3.0727      0.124    -24.788      0.000      -3.316      -2.830
+Forest area (% of land area)                                                                         0.3494      0.124      2.829      0.005       0.107       0.592
+Population density (people per sq. km of land area)                                                  0.5699      0.122      4.653      0.000       0.330       0.810
+GOAL 13: Climate Action (5 year moving average)                                                      0.5918      0.109      5.415      0.000       0.377       0.806
+Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)                           2.7249      0.143     19.106      0.000       2.445       3.005
+Mineral rents (% of GDP)                                                                            -0.4826      0.115     -4.211      0.000      -0.707      -0.258
+Natural gas rents (% of GDP)                                                                        -0.6795      0.118     -5.761      0.000      -0.911      -0.448
+Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal)     1.0815      0.122      8.884      0.000       0.843       1.320
+Rural population growth (annual %)                                                                  -1.2344      0.122    -10.091      0.000      -1.474      -0.995
+==============================================================================
+Omnibus:                      485.913   Durbin-Watson:                   1.963
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1340.073
+Skew:                          -1.101   Prob(JB):                    1.02e-291
+Kurtosis:                       6.014   Cond. No.                         3.11
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.806
+Model:                                                 OLS   Adj. R-squared:                  0.805
+Method:                                      Least Squares   F-statistic:                     453.3
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:46:08   Log-Likelihood:                -6280.1
+No. Observations:                                     2308   AIC:                         1.260e+04
+Df Residuals:                                         2286   BIC:                         1.273e+04
+Df Model:                                               21                                         
+Covariance Type:                                 nonrobust                                         
+========================================================================================================================================================
+                                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                   70.9735      0.077    922.895      0.000      70.823      71.124
+Travel services (% of commercial service imports)                                       -0.1723      0.083     -2.064      0.039      -0.336      -0.009
+Commercial bank branches (per 100,000 adults)                                            1.1148      0.099     11.313      0.000       0.922       1.308
+Inflation, GDP deflator (annual %)                                                      -0.7417      0.081     -9.205      0.000      -0.900      -0.584
+Income Group_Low income                                                                 -0.4992      0.097     -5.153      0.000      -0.689      -0.309
+Claims on central government, etc. (% GDP)                                               0.9090      0.087     10.433      0.000       0.738       1.080
+Region_Latin America & Caribbean                                                        -0.4484      0.100     -4.503      0.000      -0.644      -0.253
+Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)    -0.2127      0.090     -2.355      0.019      -0.390      -0.036
+Adjusted savings: energy depletion (% of GNI)                                           -0.3507      0.095     -3.695      0.000      -0.537      -0.165
+Final consumption expenditure (annual % growth)                                         -0.2576      0.081     -3.169      0.002      -0.417      -0.098
+Ores and metals imports (% of merchandise imports)                                       0.3954      0.090      4.412      0.000       0.220       0.571
+International tourism, expenditures for travel items (current US$)                       0.7047      0.115      6.148      0.000       0.480       0.930
+External balance on goods and services (% of GDP)                                        1.2373      0.094     13.139      0.000       1.053       1.422
+International tourism, number of arrivals                                                0.3202      0.108      2.964      0.003       0.108       0.532
+Communications, computer, etc. (% of service exports, BoP)                              -0.2219      0.084     -2.630      0.009      -0.387      -0.056
+Region_Sub-Saharan Africa                                                               -4.6515      0.118    -39.512      0.000      -4.882      -4.421
+Income Group_Upper middle income                                                         0.3141      0.091      3.456      0.001       0.136       0.492
+Region_East Asia & Pacific                                                              -0.4308      0.093     -4.639      0.000      -0.613      -0.249
+GOAL 11: Sustainable Cities and Communities (5 year moving average)                      0.5353      0.082      6.494      0.000       0.374       0.697
+Region_South Asia                                                                       -0.3778      0.092     -4.122      0.000      -0.557      -0.198
+Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)           1.6917      0.097     17.463      0.000       1.502       1.882
+Primary education, pupils                                                               -0.9490      0.104     -9.154      0.000      -1.152      -0.746
+==============================================================================
+Omnibus:                      128.372   Durbin-Watson:                   1.978
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              267.848
+Skew:                          -0.371   Prob(JB):                     6.88e-59
+Kurtosis:                       4.494   Cond. No.                         3.69
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                                       OLS Regression Results                                      
+===================================================================================================
+Dep. Variable:     Life expectancy at birth, total (years)   R-squared:                       0.881
+Model:                                                 OLS   Adj. R-squared:                  0.881
+Method:                                      Least Squares   F-statistic:                     1704.
+Date:                                     Tue, 15 Apr 2025   Prob (F-statistic):               0.00
+Time:                                             23:46:08   Log-Likelihood:                -5716.3
+No. Observations:                                     2308   AIC:                         1.145e+04
+Df Residuals:                                         2297   BIC:                         1.152e+04
+Df Model:                                               10                                         
+Covariance Type:                                 nonrobust                                         
+========================================================================================================================================================================
+                                                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                                                   70.9735      0.060   1181.082      0.000      70.856      71.091
+Lifetime risk of maternal death (%)                                                                     -4.1798      0.095    -44.107      0.000      -4.366      -3.994
+Domestic private health expenditure per capita (current US$)                                             1.8903      0.077     24.432      0.000       1.739       2.042
+Prevalence of overweight (modeled estimate, % of children under 5)                                      -0.3456      0.069     -5.004      0.000      -0.481      -0.210
+Incidence of tuberculosis (per 100,000 people)                                                          -2.2119      0.077    -28.904      0.000      -2.362      -2.062
+Prevalence of undernourishment (% of population)                                                        -0.8234      0.085     -9.702      0.000      -0.990      -0.657
+Number of maternal deaths                                                                                0.5333      0.108      4.952      0.000       0.322       0.744
+People practicing open defecation (% of population)                                                     -0.7328      0.082     -8.893      0.000      -0.894      -0.571
+Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)    -0.7015      0.073     -9.653      0.000      -0.844      -0.559
+Lifetime risk of maternal death (1 in: rate varies by country)                                           1.3455      0.081     16.662      0.000       1.187       1.504
+Population ages 0-14, total                                                                             -0.2172      0.096     -2.257      0.024      -0.406      -0.028
+==============================================================================
+Omnibus:                       44.358   Durbin-Watson:                   2.003
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               47.913
+Skew:                          -0.313   Prob(JB):                     3.94e-11
+Kurtosis:                       3.326   Cond. No.                         4.90
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
