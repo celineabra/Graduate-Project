@@ -1,22 +1,22 @@
 ,0
-0,Travel services (% of commercial service imports)
-1,"Commercial bank branches (per 100,000 adults)"
-2,"Inflation, GDP deflator (annual %)"
-3,Income Group_Low income
-4,"Claims on central government, etc. (% GDP)"
-5,Region_Latin America & Caribbean
-6,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)"
+0,"International tourism, number of arrivals"
+1,Region_Latin America & Caribbean
+2,Ores and metals imports (% of merchandise imports)
+3,"Commercial bank branches (per 100,000 adults)"
+4,External balance on goods and services (% of GDP)
+5,"Inflation, GDP deflator (annual %)"
+6,Travel services (% of commercial service imports)
 7,Adjusted savings: energy depletion (% of GNI)
-8,Final consumption expenditure (annual % growth)
-9,Ores and metals imports (% of merchandise imports)
-10,"International tourism, expenditures for travel items (current US$)"
-11,External balance on goods and services (% of GDP)
-12,"International tourism, number of arrivals"
+8,"Primary education, pupils"
+9,"Claims on central government, etc. (% GDP)"
+10,Region_South Asia
+11,Income Group_Low income
+12,GOAL 11: Sustainable Cities and Communities (5 year moving average)
 13,"Communications, computer, etc. (% of service exports, BoP)"
-14,Region_Sub-Saharan Africa
-15,Income Group_Upper middle income
-16,Region_East Asia & Pacific
-17,GOAL 11: Sustainable Cities and Communities (5 year moving average)
-18,Region_South Asia
-19,"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)"
-20,"Primary education, pupils"
+14,"International tourism, expenditures for travel items (current US$)"
+15,Final consumption expenditure (annual % growth)
+16,"Agriculture, forestry, and fishing, value added per worker (constant 2015 US$)"
+17,Region_Sub-Saharan Africa
+18,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)"
+19,Income Group_Upper middle income
+20,Region_East Asia & Pacific
