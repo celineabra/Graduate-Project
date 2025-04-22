@@ -8,7 +8,8 @@ cells = []
 cells.append(nbf.v4.new_markdown_cell(
     "# Interactive Life Expectancy Simulator\n\n"
     "Adjust health predictors to see how the predicted life expectancy changes and "
-    "view the distribution of the predictor you just changed."
+    "view the distribution of the predictor you just changed.\n\n"
+    "Use the dropdown to select a 2020 country to auto-populate sliders with its values."
 ))
 
 # 2. Imports & data load
@@ -47,8 +48,16 @@ cells.append(nbf.v4.new_code_cell(
     "    return intercept + sum(slopes[var] * vals[var] for var in predictors)"
 ))
 
-# 5. Create sliders with actual data ranges
+# 5. Country selector + Create sliders with actual data ranges
 cells.append(nbf.v4.new_code_cell(
+    "# Country dropdown for 2020\n"
+    "countries_2020 = sorted(data_df.loc[data_df['Year']==2020, 'CountryShortName'].unique())\n"
+    "country_dd = widgets.Dropdown(\n"
+    "    options=countries_2020,\n"
+    "    description='Use 2020 Country:',\n"
+    "    layout=widgets.Layout(width='400px')\n"
+    ")\n\n"
+    "# Create sliders\n"
     "sliders = {}\n"
     "for var in predictors:\n"
     "    col = data_df[var].dropna()\n"
@@ -65,17 +74,18 @@ cells.append(nbf.v4.new_code_cell(
     "        layout=widgets.Layout(width='1200px'),\n"
     "        style={'description_width': '600px'}\n"
     "    )\n"
-    "ui = widgets.VBox(list(sliders.values()))\n"
+    "\n"
+    "# Display all controls\n"
+    "ui = widgets.VBox([country_dd] + list(sliders.values()))\n"
     "display(ui)"
 ))
 
-# 6. Output area & update logic
+# 6. Output area & update logic including country observer
 cells.append(nbf.v4.new_code_cell(
     "out = widgets.Output()\n"
     "display(out)\n\n"
     "def update(var):\n"
     "    out.clear_output()\n"
-    "    # current slider values\n"
     "    vals = {v: sliders[v].value for v in predictors}\n"
     "    pred = predict_le(vals)\n"
     "    with out:\n"
@@ -87,12 +97,20 @@ cells.append(nbf.v4.new_code_cell(
     "        plt.xlabel(var)\n"
     "        plt.tight_layout()\n"
     "        plt.show()\n\n"
-    "# Remove old observers then attach fresh ones\n"
+    "def on_country_change(change):\n"
+    "    country = change['new']\n"
+    "    row = data_df[(data_df['Year']==2020) & (data_df['CountryShortName']==country)].iloc[0]\n"
+    "    for v in predictors:\n"
+    "        sliders[v].value = float(row[v])\n"
+    "    # refresh using the first predictor\n"
+    "    update(predictors[0])\n\n"
+    "# Attach observers\n"
     "for w in sliders.values():\n"
     "    w.unobserve_all()\n"
-    "for v, w in sliders.items():\n"
-    "    w.observe(lambda change, var=v: update(var), names='value')\n\n"
-    "# initial update\n"
+    "for var, w in sliders.items():\n"
+    "    w.observe(lambda change, var=var: update(var), names='value')\n"
+    "country_dd.observe(on_country_change, names='value')\n\n"
+    "# initial draw\n"
     "update(predictors[0])"
 ))
 
