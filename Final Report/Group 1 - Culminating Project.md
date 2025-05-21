@@ -1,92 +1,164 @@
-# 698 Culminating Project - Project Title / Research Objective
 
-**Authors**: Joshua Cabal, Celine Abrahamian, Namrata Patil, Christopher Yeung
+# 698 Culminating Project – Determining the Trends and Most Important World Development Indicators for Life Expectancy at Birth Using World Bank Data
 
-California State University, Northridge
+**Authors**: Celine Abrahamian, Joshua Cabal, Namrata Patil, Christopher Yeung  
+California State University, Northridge  
+May 2025
 
-April 21, 2025
-- [698 Culminating Project - Project Title / Research Objective](#698-culminating-project---project-title--research-objective)
-  - [Abstract](#abstract)
-  - [Introduction](#introduction)
-  - [Methodology](#methodology)
-    - [Data Source and Extraction](#data-source-and-extraction)
-    - [Models](#models)
-  - [Results](#results)
-    - [Exploratory Data Analysis](#exploratory-data-analysis)
-    - [Modeling](#modeling)
-    - [Model Evaluation](#model-evaluation)
-  - [Conclusion](#conclusion)
-  - [Appendix](#appendix)
-  - [References](#references)
+---
+
+## Table of Contents
+
+- [Abstract](#abstract)  
+- [Introduction](#introduction)  
+- [Research Objective](#research-objective)  
+- [Methodology](#methodology)  
+  - [Data Source and Extraction](#data-source-and-extraction)  
+  - [Dataset Preparation](#dataset-preparation)  
+  - [Dataset Splitting and Feature Selection](#dataset-splitting-and-feature-selection)  
+  - [Analysis Methods](#analysis-methods)  
+- [Results](#results)  
+  - [Exploratory Data Analysis](#exploratory-data-analysis)  
+  - [OLS Regression Results](#ols-regression-results)  
+  - [K-Means Clustering](#k-means-clustering)  
+- [Discussion](#discussion)  
+  - [Interpretation](#interpretation)  
+  - [Limitations](#limitations)  
+- [Conclusion](#conclusion)  
+- [References](#references)
+
+---
 
 ## Abstract
 
-The primary objective of this paper is to analyze global trends and identify the most influential development indicators affecting life expectancy at birth. Life expectancy at birth, as defined by the World Health Organization, represents the average number of years a newborn is expected to live if current age- and sex-specific mortality rates persist. This research examines these trends across various countries, territories, and geographic areas. This study utilizes seventeen years of data from the World Development Indicators (WDI) Databank (**N** = 2886, **Years**: 2004 - 2021, **Countries** = 171). The WDI Databank is the World Bank’s comprehensive collection of global development statistics, compiled from officially recognized international sources. The methodology begins with exploratory data analysis to investigate temporal trends and complex patterns in life expectancy. Following this, several traditional prediction models are applied to forecast and predict life expectancy at birth, and the performance and utility of these models will be evaluated. The anticipated outcome is the discovery of complex relationships between life expectancy and key world development indicators. Additionally, the research aims to pinpoint the best-performing prediction model and articulate its practical utility. Ultimately, the findings are expected to provide valuable insights for policymakers and stakeholders, thereby facilitating informed decisions for public health improvements and optimal resource allocation.
+Life expectancy at birth, as defined by the World Health Organization, represents the average number of years a newborn is expected to live if current mortality trends persist. This paper analyzes global development indicators that influence life expectancy, using data from the World Bank’s WDI database (2004–2024, 171 countries, N = 2886). The dataset was processed using KNN imputation, winsorization, and standardization. Indicators were grouped into three domains: environmental, socioeconomic, and health. Ordinary Least Squares (OLS) regression and K-means clustering were applied to evaluate predictive power and cluster similarities.
 
+Health indicators had the strongest relationship to life expectancy (R² = 0.881), followed by socioeconomic (0.806) and environmental (0.665). Clustering further illustrated how country profiles shift over time. These findings support the development of targeted, evidence-based health and development policies.
+
+---
 
 ## Introduction
 
-Life expectancy reflects a nation’s health and overall development. Socioeconomic conditions, environmental quality, and health infrastructure are all critical influences. This paper explores how these domains interact to shape life expectancy, and whether prediction and grouping techniques can uncover meaningful insights for decision-makers.
+Life expectancy is a critical health metric and an aggregate measure of a population’s well-being, economic conditions, and environmental exposures. This study seeks to determine how different domains of development indicators influence life expectancy at birth and whether these indicators can reliably predict changes over time.
 
+---
+
+## Research Objective
+
+The primary objective is to evaluate whether life expectancy at birth can be predicted using categorized development indicators. Specifically:
+- Identify which indicators (from environmental, socioeconomic, and health categories) are most predictive.
+- Compare the explanatory power of each group.
+- Use clustering to group countries based on development profiles and assess similarities in life expectancy.
+
+---
 
 ## Methodology
 
-Data was sourced from:
-World Development Indicators (WDI)
-Quarterly Public Sector Debt (QPSD)
-Statistical Performance Indicators (SPI)
-
-20 years of country-level indicator values were normalized into three table types:
-Country
-DB.TopicIndicator
-DB.Record
-
-
 ### Data Source and Extraction
 
-Initially, the data from three databases were extracted: World Development Indicators, Quarterly Public Sector Debt, and Statistical Performance Indicators.
+Data was extracted from:
+- **World Development Indicators (WDI)**
+- **Quarterly Public Sector Debt (QPSD)**
+- **Statistical Performance Indicators (SPI)**
 
-The **World Development Indicators (WDI)** is the primary World Bank collection of development indicators, compiled from officially recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates. The **Statistical Capacity Indicators (SPI)** provides information on various aspects of national statistical systems of developing countries, including an overall country-level statistical capacity indicators. The **Quarterly Public Sector Debt (QPSD)** was jointly  developed by the World Bank and the International Monetary Fund, and the database brings together detailed public sector debt data of selected developing /emerging market countries.
+These datasets were merged into a relational database with tables for countries, topic indicators, and records. Filtering removed indicators and rows with excessive missingness (>70% for columns, >90% for rows).
 
-The data for all indicators from all countries, from the years 2004 - 2024 (20 years) were extracted from this database. The metadata of the countries and the indicators were also extracted and stored in the database. The country, indicator, and record value were stored into three respective tables:
+---
 
-1. `Country` (1 table)
-2. `DB.TopicIndicator` (18 tables)
-3. `DB.Record` (18 tables)
+### Dataset Preparation
 
-Where `DB` is the prefix of the source database.
+- **Imputation**: K-Nearest Neighbors (KNN)
+- **Outlier Handling**: Winsorization (3.5 standard deviations)
+- **Scaling**: Standardization to zero mean and unit variance
 
-![ERD Snippet](<Report Figures/ERD_SNIPPET.png>)
-**ERD Snippet Figure**: Configured one-to-many (1-M) relationship between record, and the country and indicator tables. This structure was repeated across all indicators and respective records from the various databases.
+---
 
-Our database, fully populated and configured, is available in the project repository.
+### Dataset Splitting and Feature Selection
 
-### Models
+Indicators were split into three domains:
+- **Environmental** (81 indicators)
+- **Socioeconomic** (129 indicators)
+- **Health** (76 indicators)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+Feature selection was done via:
+- Variance Inflation Factor (VIF) threshold of 4
+- Removal of predictors with p-values > 0.05
+
+---
+
+### Analysis Methods
+
+#### Ordinary Least Squares Regression
+
+OLS models were fit separately to each indicator group to measure predictive power on life expectancy. Metrics include:
+- R² and adjusted R²
+- Root Mean Squared Error (RMSE)
+- AIC and BIC
+
+#### K-Means Clustering
+
+K-means was applied to each domain at five-year intervals (2005, 2010, 2015, 2020) to group countries by similar development patterns and observe how these groups evolved over time.
+
+---
 
 ## Results
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-
 ### Exploratory Data Analysis
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+- **Global average life expectancy**: ~71 years
+- **Highest gains**: Sub-Saharan Africa (>15%)
+- **Sharpest decline**: Mexico (~6%)
+- **LEB correlates with health expenditure** across regions and income levels
 
-### Modeling
+---
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+### OLS Regression Results
 
-### Model Evaluation
+| Model           | R²    | Top Predictors |
+|----------------|-------|----------------|
+| Environmental  | 0.665 | CO₂ Emissions, Fertilizer, Forest Area |
+| Socioeconomic  | 0.806 | Bank Branches, Agriculture, Tourism |
+| Health         | 0.881 | Maternal Mortality, TB, Undernourishment |
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+The health model outperformed others due to close alignment between health indicators and period life table methodology.
+
+---
+
+### K-Means Clustering
+
+- **Environmental Clusters**: Countries diverged on climate action and emissions
+- **Socioeconomic Clusters**: Divided by banking access, income group, youth unemployment
+- **Health Clusters**: Strong divide between high and low maternal mortality, TB rates
+
+Cluster movement from 2005 to 2020 showed gradual improvement in most countries’ development indicators and corresponding gains in life expectancy.
+
+---
+
+## Discussion
+
+### Interpretation
+
+All three indicator domains were predictive of life expectancy, with health indicators showing the strongest influence. The clustering analysis illustrated how different groups of countries follow shared development trajectories and health outcomes.
+
+---
+
+### Limitations
+
+- Counterintuitive results (e.g., maternal deaths showing positive correlation with LEB) suggest multicollinearity or data transformation effects.
+- Some variables, while statistically significant, require domain-specific follow-up for validation.
+
+---
 
 ## Conclusion
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+This study offers a predictive and descriptive understanding of life expectancy using global development indicators. Health indicators were the strongest drivers, but socioeconomic and environmental factors also play key roles. These results provide a foundation for policymakers to allocate resources and monitor progress more effectively.
 
-## Appendix
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+---
 
 ## References
+
+- Group 1. *BANA 698 Culminating Project (CSUN Fall 2025)*. GitHub. <https://github.com/CSUN-MS-BANA/culminating-project-group-1>  
+- World Bank. *World Development Indicators*, *QPSD*, *SPI*  
+- WHO. *World Health Statistics 2022*  
+- Office of Disease Prevention and Health Promotion. *Social Determinants of Health*  
+- MLA Handbook Plus. *Internal Headings and Subheadings*
